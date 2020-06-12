@@ -1,0 +1,192 @@
+newmtl dash
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka dash.png
+map_Kd dash.png
+map_d dash.png
+newmtl lambert283
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert283.png
+map_Kd lambert283.png
+map_d lambert283.png
+newmtl lambert319
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert319.png
+map_Kd lambert319.png
+map_d lambert319.png
+newmtl lambert323
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert323.png
+map_Kd lambert323.png
+map_d lambert323.png
+newmtl lambert331
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert331.png
+map_Kd lambert331.png
+map_d lambert331.png
+newmtl lambert332
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert332.png
+map_Kd lambert332.png
+map_d lambert332.png
+newmtl lambert335
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert335.png
+map_Kd lambert335.png
+map_d lambert335.png
+newmtl lambert341
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert341.png
+map_Kd lambert341.png
+map_d lambert341.png
+newmtl lambert344
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert344.png
+map_Kd lambert344.png
+map_d lambert344.png
+newmtl lambert348
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert348.png
+map_Kd lambert348.png
+map_d lambert348.png
+newmtl lambert349
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert349.png
+map_Kd lambert349.png
+map_d lambert349.png
+newmtl lambert351
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert351.png
+map_Kd lambert351.png
+map_d lambert351.png
+newmtl lambert352
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert352.png
+map_Kd lambert352.png
+map_d lambert352.png
+newmtl lambert356
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert356.png
+map_Kd lambert356.png
+map_d lambert356.png
+newmtl lambert359
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert359.png
+map_Kd lambert359.png
+map_d lambert359.png
+newmtl lambert360
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert360.png
+map_Kd lambert360.png
+map_d lambert360.png
+newmtl lambert361
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert361.png
+map_Kd lambert361.png
+map_d lambert361.png
+newmtl lambert362
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert362.png
+map_Kd lambert362.png
+map_d lambert362.png
+newmtl lambert363
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert363.png
+map_Kd lambert363.png
+map_d lambert363.png
+newmtl lambert372
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert372.png
+map_Kd lambert372.png
+map_d lambert372.png
+newmtl lambert374
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert374.png
+map_Kd lambert374.png
+map_d lambert374.png
+newmtl lambert375
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert375.png
+map_Kd lambert375.png
+map_d lambert375.png
+newmtl lambert376
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert376.png
+map_Kd lambert376.png
+map_d lambert376.png
+newmtl lambert377
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert377.png
+map_Kd lambert377.png
+map_d lambert377.png

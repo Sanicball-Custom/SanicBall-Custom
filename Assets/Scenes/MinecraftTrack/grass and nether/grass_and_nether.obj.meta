@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 49c2e8aa5d5a989488bfcb24cd9c7b89
+timeCreated: 1572790871
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Coal_Ore
+    100002: Dirt
+    100004: Double_Oak_Slab
+    100006: Fence
+    100008: Gold_Ore
+    100010: //RootNode
+    100012: Grass_Block
+    100014: Iron_Ore
+    100016: Magenta_Wool
+    100018: Netherrack
+    100020: Oak_Planks
+    100022: Oak_Stairs
+    100024: Obsidian
+    100026: Podzol
+    100028: Stationary_Lava
+    100030: Stone
+    100032: Torch
+    100034: Wool
+    100036: Nether_Portal
+    400000: Coal_Ore
+    400002: Dirt
+    400004: Double_Oak_Slab
+    400006: Fence
+    400008: Gold_Ore
+    400010: //RootNode
+    400012: Grass_Block
+    400014: Iron_Ore
+    400016: Magenta_Wool
+    400018: Netherrack
+    400020: Oak_Planks
+    400022: Oak_Stairs
+    400024: Obsidian
+    400026: Podzol
+    400028: Stationary_Lava
+    400030: Stone
+    400032: Torch
+    400034: Wool
+    400036: Nether_Portal
+    2300000: Coal_Ore
+    2300002: Dirt
+    2300004: Double_Oak_Slab
+    2300006: Fence
+    2300008: Gold_Ore
+    2300010: Grass_Block
+    2300012: Iron_Ore
+    2300014: Magenta_Wool
+    2300016: Netherrack
+    2300018: Oak_Planks
+    2300020: Oak_Stairs
+    2300022: Obsidian
+    2300024: Podzol
+    2300026: Stationary_Lava
+    2300028: Stone
+    2300030: Torch
+    2300032: Wool
+    2300034: Nether_Portal
+    3300000: Coal_Ore
+    3300002: Dirt
+    3300004: Double_Oak_Slab
+    3300006: Fence
+    3300008: Gold_Ore
+    3300010: Grass_Block
+    3300012: Iron_Ore
+    3300014: Magenta_Wool
+    3300016: Netherrack
+    3300018: Oak_Planks
+    3300020: Oak_Stairs
+    3300022: Obsidian
+    3300024: Podzol
+    3300026: Stationary_Lava
+    3300028: Stone
+    3300030: Torch
+    3300032: Wool
+    3300034: Nether_Portal
+    4300000: Coal_Ore
+    4300002: Dirt
+    4300004: Double_Oak_Slab
+    4300006: Fence
+    4300008: Gold_Ore
+    4300010: Grass_Block
+    4300012: Iron_Ore
+    4300014: Magenta_Wool
+    4300016: Netherrack
+    4300018: Oak_Planks
+    4300020: Oak_Stairs
+    4300022: Obsidian
+    4300024: Podzol
+    4300026: Stationary_Lava
+    4300028: Stone
+    4300030: Torch
+    4300032: Wool
+    4300034: Nether_Portal
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

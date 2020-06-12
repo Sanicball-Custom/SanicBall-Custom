@@ -1,0 +1,913 @@
+# Blender MTL File: 'None'
+# Material Count: 83
+
+newmtl CausticsArea9
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 1
+
+newmtl CmnStartGrid2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd CmnStartGrid1_Alb.png
+map_d CmnStartGrid1_Alb.png
+
+newmtl PanelFlame
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd PanelFlame_Alb.png
+map_d PanelFlame_Alb.png
+
+newmtl PanelFlameW
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd PanelFlame_Alb.png
+map_d PanelFlame_Alb.png
+
+newmtl dsws_ry_signboard03
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_signboard03_Alb.png
+map_d dsws_ry_signboard03_Alb.png
+
+newmtl ef_dashboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_dashboard02_Alb.png
+map_d ef_dashboard02_Alb.png
+
+newmtl ef_glideboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_glideboard02_Alb.png
+map_d ef_glideboard02_Alb.png
+
+newmtl ef_gravityboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_GravityPanell_Alb2.png
+map_d ef_GravityPanell_Alb2.png
+
+newmtl ef_sea
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_water_Nrm.png
+map_d ef_water_Nrm.png
+
+newmtl ef_waterB
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_water_Nrm.png
+map_d ef_water_Nrm.png
+
+newmtl ef_waterF
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_water_Nrm.png
+map_d ef_water_Nrm.png
+
+newmtl ef_waterline
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_waterlineA_Alb.png
+map_d ef_waterlineA_Alb.png
+
+newmtl otsuka_working_ws_NSE_TV00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd Screen_Dummy.png
+map_d Screen_Dummy.png
+
+newmtl tc_mktv
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd MKTV.0.png
+map_d MKTV.0.png
+
+newmtl ufc_tent
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ufc_tent_Alb.png
+map_d ufc_tent_Alb.png
+
+newmtl ws_Gate
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ot_CupLogo_Alb.png
+map_d dsws_ot_CupLogo_Alb.png
+
+newmtl ws_NS2_Gallery_00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_Gallery_00_Alb.0.png
+map_d dsws_ry_Gallery_00_Alb.0.png
+
+newmtl ws_NS2_fream02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_fream02_Alb.png
+map_d dsws_ry_fream02_Alb.png
+
+newmtl ws_NS2_fream03
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_fream03_Alb.png
+map_d dsws_ry_fream03_Alb.png
+
+newmtl ws_NS2_net_01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_net_01_Alb.png
+map_d dsws_ry_net_01_Alb.png
+
+newmtl ws_NS2_net_02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_net_01_Alb.png
+map_d dsws_ry_net_01_Alb.png
+
+newmtl ws_NS2_wirenet01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wirenet00_Alb.png
+map_d dsws_ry_wirenet00_Alb.png
+
+newmtl ws_NS2_wirenet01G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wirenet00_Alb.png
+map_d dsws_ry_wirenet00_Alb.png
+
+newmtl ws_NSE_fream00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_fream00_Alb.png
+map_d dsws_ry_fream00_Alb.png
+
+newmtl ws_NSE_fream00IN
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_fream00_Alb.png
+map_d dsws_ry_fream00_Alb.png
+
+newmtl ws_NSE_fream00_RO
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_fream00_Alb.png
+map_d dsws_ry_fream00_Alb.png
+
+newmtl ws_NSTE_roof00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_roof00_Alb.png
+map_d dsws_ry_roof00_Alb.png
+
+newmtl ws_NS_Brigeroad00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_Brigeroad00_Alb.png
+map_d dsws_ry_Brigeroad00_Alb.png
+
+newmtl ws_NS_Brigeroad00G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_Brigeroad00_Alb.png
+map_d dsws_ry_Brigeroad00_Alb.png
+
+newmtl ws_NS_Door00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_Door00_Alb.png
+map_d dsws_ry_Door00_Alb.png
+
+newmtl ws_NS_ESboard00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_ESboard00_Alb.png
+map_d dsws_ry_ESboard00_Alb.png
+
+newmtl ws_NS_ESboard00W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_ESboard00_Alb.png
+map_d dsws_ry_ESboard00_Alb.png
+
+newmtl ws_NS_ESboardGate
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ot_ESboard00_Alb.png
+map_d dsws_ot_ESboard00_Alb.png
+
+newmtl ws_NS_Epipe00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_Epipe00_Alb.png
+map_d dsws_ry_Epipe00_Alb.png
+
+newmtl ws_NS_StartGlide
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_StartGlide_Alb.png
+map_d dsws_StartGlide_Alb.png
+
+newmtl ws_NS_StartGlide2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_StartGlide2_Alb.png
+map_d dsws_StartGlide2_Alb.png
+
+newmtl ws_NS_concrete00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete00_Alb.png
+map_d dsws_ry_concrete00_Alb.png
+
+newmtl ws_NS_concrete00W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete00_Alb.png
+map_d dsws_ry_concrete00_Alb.png
+
+newmtl ws_NS_concrete01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete01_Alb.png
+map_d dsws_ry_concrete01_Alb.png
+
+newmtl ws_NS_concrete01W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete01_Alb.png
+map_d dsws_ry_concrete01_Alb.png
+
+newmtl ws_NS_concrete02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete02_Alb.png
+map_d dsws_ry_concrete02_Alb.png
+
+newmtl ws_NS_concrete02W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete02_Alb.png
+map_d dsws_ry_concrete02_Alb.png
+
+newmtl ws_NS_concrete03
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete03_Alb.png
+map_d dsws_ry_concrete03_Alb.png
+
+newmtl ws_NS_concrete03W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_concrete03_Alb.png
+map_d dsws_ry_concrete03_Alb.png
+
+newmtl ws_NS_dirt00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_dirt00_Alb.png
+map_d dsws_ry_dirt00_Alb.png
+
+newmtl ws_NS_dirt00Out
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_dirt00_Alb.png
+map_d dsws_ry_dirt00_Alb.png
+
+newmtl ws_NS_flag01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_flag01_Alb.png
+map_d dsws_ry_flag01_Alb.png
+
+newmtl ws_NS_fream02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_fream02_Alb.png
+map_d dsws_ry_fream02_Alb.png
+
+newmtl ws_NS_iron00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron00_Alb.png
+map_d dsws_ry_iron00_Alb.png
+
+newmtl ws_NS_iron00G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron00_Alb.png
+map_d dsws_ry_iron00_Alb.png
+
+newmtl ws_NS_iron00IN
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron00_Alb.png
+map_d dsws_ry_iron00_Alb.png
+
+newmtl ws_NS_iron00Out
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron00_Alb.png
+map_d dsws_ry_iron00_Alb.png
+
+newmtl ws_NS_iron00W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron00_Alb.png
+map_d dsws_ry_iron00_Alb.png
+
+newmtl ws_NS_iron01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron01_Alb.png
+map_d dsws_ry_iron01_Alb.png
+
+newmtl ws_NS_iron01IN
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron01_Alb.png
+map_d dsws_ry_iron01_Alb.png
+
+newmtl ws_NS_iron02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron02_Alb.png
+map_d dsws_ry_iron02_Alb.png
+
+newmtl ws_NS_iron03
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_iron03_Alb.png
+map_d dsws_ry_iron03_Alb.png
+
+newmtl ws_NS_jump00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_jump00_Alb.png
+map_d dsws_ry_jump00_Alb.png
+
+newmtl ws_NS_jump00G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_jump00_Alb.png
+map_d dsws_ry_jump00_Alb.png
+
+newmtl ws_NS_jump00W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_jump00_Alb.png
+map_d dsws_ry_jump00_Alb.png
+
+newmtl ws_NS_mud00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_mud00_Alb.png
+map_d dsws_ry_mud00_Alb.png
+
+newmtl ws_NS_mud00W
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_mud00_Alb.png
+map_d dsws_ry_mud00_Alb.png
+
+newmtl ws_NS_road00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_road00_Alb.png
+map_d dsws_ry_road00_Alb.png
+
+newmtl ws_NS_roadBelt00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_road00_Alb.png
+map_d dsws_ry_road00_Alb.png
+
+newmtl ws_NS_roadBelt01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_road00_Alb.png
+map_d dsws_ry_road00_Alb.png
+
+newmtl ws_NS_roadBelt02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wall00_Nrm.png
+map_d dsws_ry_wall00_Nrm.png
+
+newmtl ws_NS_seat00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_seat00_Alb.png
+map_d dsws_ry_seat00_Alb.png
+
+newmtl ws_NS_signboard00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_signboard00_Alb.png
+map_d dsws_ry_signboard00_Alb.png
+
+newmtl ws_NS_signboard00Out
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_signboard00_Alb.png
+map_d dsws_ry_signboard00_Alb.png
+
+newmtl ws_NS_signboard01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_signboard01_Alb.png
+map_d dsws_ry_signboard01_Alb.png
+
+newmtl ws_NS_signboard02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_signboard02_Alb.png
+map_d dsws_ry_signboard02_Alb.png
+
+newmtl ws_NS_stand00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_stand00_Alb.png
+map_d dsws_ry_stand00_Alb.png
+
+newmtl ws_NS_step00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_step00_Alb.png
+map_d dsws_ry_step00_Alb.png
+
+newmtl ws_NS_warioboard00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_warioboard00_Alb.png
+map_d dsws_ry_warioboard00_Alb.png
+
+newmtl ws_NS_wariobody00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wariobody00_Alb.png
+map_d dsws_ry_wariobody00_Alb.png
+
+newmtl ws_NS_warioface00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_warioface00_Alb.png
+map_d dsws_ry_warioface00_Alb.png
+
+newmtl ws_NS_wind01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wind01_Alb.png
+map_d dsws_ry_wind01_Alb.png
+
+newmtl ws_NS_wind02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wind02_Alb.png
+map_d dsws_ry_wind02_Alb.png
+
+newmtl ws_NS_wind04
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ry_wind04_Alb.png
+map_d dsws_ry_wind04_Alb.png
+
+newmtl ws_SG_StartGate
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_StaertGate_Trm.png
+map_d dsws_StaertGate_Trm.png
+
+newmtl ws_SG_StartGateBalloon
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_StaertGateBalloon_Alb.png
+map_d dsws_StaertGateBalloon_Alb.png
+
+newmtl ws_projecter_light
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ot_projecter_Light_Alb.png
+map_d dsws_ot_projecter_Light_Alb.png
+
+newmtl ws_projecter_lightOut
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd dsws_ot_projecter_Light_Alb.png
+map_d dsws_ot_projecter_Light_Alb.png

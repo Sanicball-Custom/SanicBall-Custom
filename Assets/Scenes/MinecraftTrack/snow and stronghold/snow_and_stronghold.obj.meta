@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 0c0ce52834e986549b0f9bff64edfae8
+timeCreated: 1572790867
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Black_Wool
+    100002: Dirt
+    100004: End_Portal
+    100006: End_Portal_Frame
+    100008: Grass_Block
+    100010: Magenta_Wool
+    100012: Mossy_Stone_Brick_Stairs
+    100014: Mossy_Stone_Bricks
+    100016: Obsidian
+    100018: Podzol
+    100020: Snow
+    100022: //RootNode
+    100024: Snow_Block
+    100026: Spruce_Leaves
+    100028: Spruce_Log
+    100030: Stone
+    100032: Stone_Brick_Stairs
+    100034: Stone_Bricks
+    400000: Black_Wool
+    400002: Dirt
+    400004: End_Portal
+    400006: End_Portal_Frame
+    400008: Grass_Block
+    400010: Magenta_Wool
+    400012: Mossy_Stone_Brick_Stairs
+    400014: Mossy_Stone_Bricks
+    400016: Obsidian
+    400018: Podzol
+    400020: Snow
+    400022: //RootNode
+    400024: Snow_Block
+    400026: Spruce_Leaves
+    400028: Spruce_Log
+    400030: Stone
+    400032: Stone_Brick_Stairs
+    400034: Stone_Bricks
+    2300000: Black_Wool
+    2300002: Dirt
+    2300004: End_Portal
+    2300006: End_Portal_Frame
+    2300008: Grass_Block
+    2300010: Magenta_Wool
+    2300012: Mossy_Stone_Brick_Stairs
+    2300014: Mossy_Stone_Bricks
+    2300016: Obsidian
+    2300018: Podzol
+    2300020: Snow
+    2300022: Snow_Block
+    2300024: Spruce_Leaves
+    2300026: Spruce_Log
+    2300028: Stone
+    2300030: Stone_Brick_Stairs
+    2300032: Stone_Bricks
+    3300000: Black_Wool
+    3300002: Dirt
+    3300004: End_Portal
+    3300006: End_Portal_Frame
+    3300008: Grass_Block
+    3300010: Magenta_Wool
+    3300012: Mossy_Stone_Brick_Stairs
+    3300014: Mossy_Stone_Bricks
+    3300016: Obsidian
+    3300018: Podzol
+    3300020: Snow
+    3300022: Snow_Block
+    3300024: Spruce_Leaves
+    3300026: Spruce_Log
+    3300028: Stone
+    3300030: Stone_Brick_Stairs
+    3300032: Stone_Bricks
+    4300000: Black_Wool
+    4300002: Dirt
+    4300004: End_Portal
+    4300006: End_Portal_Frame
+    4300008: Grass_Block
+    4300010: Magenta_Wool
+    4300012: Mossy_Stone_Brick_Stairs
+    4300014: Mossy_Stone_Bricks
+    4300016: Obsidian
+    4300018: Podzol
+    4300020: Snow
+    4300022: Snow_Block
+    4300024: Spruce_Leaves
+    4300026: Spruce_Log
+    4300028: Stone
+    4300030: Stone_Brick_Stairs
+    4300032: Stone_Bricks
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

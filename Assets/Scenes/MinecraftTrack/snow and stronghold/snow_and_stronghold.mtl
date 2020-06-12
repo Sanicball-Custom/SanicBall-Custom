@@ -1,0 +1,213 @@
+Wavefront OBJ material file
+# Contains 16 materials
+
+newmtl Stone
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Grass_Block
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Dirt
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Podzol
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Spruce_Log
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Spruce_Leaves
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGBA.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGBA.png
+map_d snow_and_stronghold-Alpha.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Magenta_Wool
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Obsidian
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Snow
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Snow_Block
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Bricks
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Mossy_Stone_Bricks
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Brick_Stairs
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl Mossy_Stone_Brick_Stairs
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0
+
+newmtl End_Portal
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.03 0.03 0.03
+# map_Ka snow_and_stronghold-RGBA.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGBA.png
+map_d snow_and_stronghold-Alpha.png
+# illum 4
+# d 0.7
+# Tr 0.3
+# Tf 0.3 0.3 0.3
+
+newmtl End_Portal_Frame
+# Ns 0
+# Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+# map_Ka snow_and_stronghold-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd snow_and_stronghold-RGB.png
+# illum 2
+# d 1
+# Tr 0

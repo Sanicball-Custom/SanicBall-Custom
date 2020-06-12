@@ -1,0 +1,266 @@
+# Blender MTL File: 'MKDSRender.blend'
+# Material Count: 22
+
+newmtl material_0
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures//Textures/itimatu2.png
+map_d /Textures/itimatu2.png
+
+newmtl material_1
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.972549 0.972549 0.972549
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/kp_jump.png
+map_d /Textures/kp_jump.png
+
+newmtl material_10
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/wall_2.png
+map_d /Textures/wall_2.png
+
+newmtl material_11
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/ami.png
+map_d /Textures/ami.png
+
+newmtl material_12
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/ya.png
+map_d /Textures/ya.png
+
+newmtl material_13
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/ami_as.png
+map_d /Textures/ami_as.png
+
+newmtl material_14
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/toge.png
+map_d /Textures/toge.png
+
+newmtl material_15
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/wall.png
+map_d /Textures/wall.png
+
+newmtl material_16
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.972549 0.972549 0.972549
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/kp_danger.png
+map_d /Textures/kp_danger.png
+
+newmtl material_17
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/yuka2.png
+map_d /Textures/yuka2.png
+
+newmtl material_18
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/poal.png
+map_d /Textures/poal.png
+
+newmtl material_19
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/koopazo.png
+map_d /Textures/koopazo.png
+
+newmtl material_2
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/itimatu.png
+map_d /Textures/itimatu.png
+
+newmtl material_20
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/heri.png
+map_d /Textures/heri.png
+
+newmtl material_21
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/wall_out.png
+map_d /Textures/wall_out.png
+
+newmtl material_3
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/slope.png
+map_d /Textures/slope.png
+
+newmtl material_4
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/start.png
+map_d /Textures/start.png
+
+newmtl material_5
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/jyutan.png
+map_d /Textures/jyutan.png
+
+newmtl material_6
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/yougan2.png
+map_d /Textures/yougan2.png
+
+newmtl material_7
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/ger2.png
+map_d /Textures/ger2.png
+
+newmtl material_8
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/back1_2.png
+map_d /Textures/back1_2.png
+
+newmtl material_9
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.776471 0.776471 0.776471
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Textures/grass.png
+map_d /Textures/grass.png
