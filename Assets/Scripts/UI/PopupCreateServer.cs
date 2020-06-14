@@ -56,7 +56,7 @@ namespace Sanicball.UI
             serverStarter.GetComponent<LocalServerStarter>().InitServer(port, maxPlayers, nameInput.text);
 
             if(popupHandler != null){
-                popupHandler.OpenPopup(connectingPopupPrefab);
+                popupHandler.OpenSecondaryPopup(connectingPopupPrefab);
                 FindObjectOfType<UI.PopupConnecting>().ShowMessage("   Creating Server...", true);
             }
 

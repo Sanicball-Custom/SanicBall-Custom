@@ -48,12 +48,6 @@ namespace Sanicball.UI
             {
                 alpha = Mathf.Max(alpha - Time.deltaTime / fadeTime, 0f);
                 cg.alpha = alpha;
-                if (alpha <= 0f)
-                {
-                    if(gameObject.GetComponent<PopupCreateServer>() == null){
-                        Destroy(gameObject);
-                    }
-                }
             }
         }
     }
