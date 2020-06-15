@@ -1488,6 +1488,8 @@ MonoBehaviour:
     type: 2}
   serverStarterPrefab: {fileID: 1138839708247958, guid: cde801ba504d0ca47bd98dba024fedd2,
     type: 2}
+  serverConnectorPrefab: {fileID: 1289729925296786, guid: a69670877b0d66a4e9978320898838ea,
+    type: 2}
   popupHandler: {fileID: 0}
 --- !u!222 &222036620288610290
 CanvasRenderer:
