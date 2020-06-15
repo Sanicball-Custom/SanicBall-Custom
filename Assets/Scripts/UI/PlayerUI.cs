@@ -312,7 +312,7 @@ namespace Sanicball.UI
 			//Powerup Section
 			if(TargetPlayer.ball.changeUIPowerups) {
 				if(leftPowerupImageGO != null){
-					Image leftPowerup = leftPowerupImageGO.GetComponent(typeof(Image)) as Image;
+                    Image leftPowerup = leftPowerupImageGO.GetComponent<Image>();//(typeof(Image)) as Image;
 					if(TargetPlayer.Powerups[0] != null) {
 						leftPowerupImageGO.SetActive(true);
 						leftPowerup.sprite = TargetPlayer.Powerups[0].image;
@@ -322,7 +322,7 @@ namespace Sanicball.UI
 				}
 				
 				if(rightPowerupImageGO != null){
-					Image rightPowerup = rightPowerupImageGO.GetComponent(typeof(Image)) as Image;
+                    Image rightPowerup = rightPowerupImageGO.GetComponent<Image>();//(typeof(Image)) as Image;
 					if(TargetPlayer.Powerups[1] != null) {
 						rightPowerupImageGO.SetActive(true);
 						rightPowerup.sprite = TargetPlayer.Powerups[1].image;

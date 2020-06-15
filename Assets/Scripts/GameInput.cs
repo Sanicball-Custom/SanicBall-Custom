@@ -211,7 +211,7 @@ namespace Sanicball
                     return Input.GetAxis(joystick4DpadY) == 1f;
 
                 case ControlType.Mobile:
-                    return GameObject.FindObjectOfType<MobileSelectCharacter>().up;
+                    return GameObject.FindObjectOfType<MobileSelectCharacter>() && GameObject.FindObjectOfType<MobileSelectCharacter>().up;
             }
             return false;
         }
@@ -236,7 +236,7 @@ namespace Sanicball
                     return Input.GetAxis(joystick4DpadY) == -1f;
 
                 case ControlType.Mobile:
-                    return GameObject.FindObjectOfType<MobileSelectCharacter>().right;
+                    return GameObject.FindObjectOfType<MobileSelectCharacter>() && GameObject.FindObjectOfType<MobileSelectCharacter>().down;
             }
             return false;
         }
@@ -261,7 +261,7 @@ namespace Sanicball
                     return Input.GetAxis(joystick4DpadX) == -1f;
 
                 case ControlType.Mobile:
-                    return GameObject.FindObjectOfType<MobileSelectCharacter>().left;
+                    return GameObject.FindObjectOfType<MobileSelectCharacter>() && GameObject.FindObjectOfType<MobileSelectCharacter>().left;
             }
             return false;
         }
@@ -286,7 +286,7 @@ namespace Sanicball
                     return Input.GetAxis(joystick4DpadX) == 1f;
 
                 case ControlType.Mobile:
-                    return GameObject.FindObjectOfType<MobileSelectCharacter>().right;
+                    return GameObject.FindObjectOfType<MobileSelectCharacter>() && GameObject.FindObjectOfType<MobileSelectCharacter>().right;
             }
             return false;
         }
@@ -311,7 +311,7 @@ namespace Sanicball
                     return Input.GetKey(KeyCode.Joystick4Button1);
 
                 case ControlType.Mobile:
-                    return GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().brake;
+                    return GameObject.FindObjectOfType<mobileMovementManager>() && GameObject.FindObjectOfType<mobileMovementManager>().brake;
             }
             return false;
         }
@@ -341,8 +341,9 @@ namespace Sanicball
                     else return Input.GetKeyDown(KeyCode.Joystick4Button0);
 
                 case ControlType.Mobile:
-                    if(holding) return GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().jumping;
-                    else return GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().jumped;
+                    if(holding) return GameObject.FindObjectOfType<mobileMovementManager>() && GameObject.FindObjectOfType<mobileMovementManager>().jumping;
+                    else return GameObject.FindObjectOfType<mobileMovementManager>() && GameObject.FindObjectOfType<mobileMovementManager>().jumped;
+
             }
             return false;
         }
@@ -367,10 +368,13 @@ namespace Sanicball
                     return Input.GetKeyDown(KeyCode.Joystick4Button3);
 
                 case ControlType.Mobile:
-                    return GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().respawn;
+
+                    return (GameObject.FindObjectOfType<mobileReady>() && GameObject.FindObjectOfType<mobileReady>().ready) || (GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>() && GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().respawn);
             }
             return false;
         }
+
+        public static bool MobilePause = GameObject.FindObjectOfType<mobileMovementManager>() && GameObject.FindObjectOfType<mobileMovementManager>().pause;
 
         public static bool IsOpeningMenu(ControlType ctrlType)
         {
@@ -417,7 +421,7 @@ namespace Sanicball
                     return Input.GetKey(KeyCode.Joystick4Button4);
 
                 case ControlType.Mobile:
-                    return GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().leftpu;
+                    return GameObject.FindObjectOfType<mobileMovementManager>() && GameObject.FindObjectOfType<mobileMovementManager>().leftpu;
             }
             return false;
         }
@@ -442,7 +446,7 @@ namespace Sanicball
                     return Input.GetKey(KeyCode.Joystick4Button5);
 
                 case ControlType.Mobile:
-                    return GameObject.FindGameObjectWithTag("mobile").GetComponent<mobileMovementManager>().rightpu;
+                    return GameObject.FindObjectOfType<mobileMovementManager>() && GameObject.FindObjectOfType<mobileMovementManager>().rightpu;
             }
             return false;
         }

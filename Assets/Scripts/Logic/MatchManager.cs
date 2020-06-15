@@ -93,6 +93,8 @@ namespace Sanicball.Logic
         private float netUpdateTimer = 0;
         private const int NET_UPDATES_PER_SECOND = 40;
 
+        public bool mobilePause;
+
         #region Properties
 
         /// <summary>
@@ -420,8 +422,9 @@ namespace Sanicball.Logic
             messenger.UpdateListeners();
 
             //Pausing/unpausing
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.JoystickButton7))
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.JoystickButton7) || mobilePause)
             {
+                mobilePause = false;
                 if (!UI.PauseMenu.GamePaused)
                 {
                     UI.PauseMenu menu = Instantiate(pauseMenuPrefab);

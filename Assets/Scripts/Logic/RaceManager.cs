@@ -373,7 +373,7 @@ namespace Sanicball.Logic
         private void Update()
         {
             //In offline mode, send a RaceStartMessage once Space (Or A on any joystick) is pressed
-            if (!matchManager.OnlineMode && CurrentState == RaceState.Waiting && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton0)))
+            if ((!matchManager.OnlineMode && CurrentState == RaceState.Waiting) && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton0) || Input.GetMouseButtonDown(0)))
             {
                 messenger.SendMessage(new StartRaceMessage());
             }

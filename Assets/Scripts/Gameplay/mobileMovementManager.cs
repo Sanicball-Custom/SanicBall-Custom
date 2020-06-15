@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Sanicball.Gameplay;
+using Sanicball.Logic;
 
 public class mobileMovementManager : MonoBehaviour{
 
@@ -70,6 +71,9 @@ public class mobileMovementManager : MonoBehaviour{
 
     public void Pause()
     {
-        pause = true;
+        //pause = true;
+        MatchManager matchM = GameObject.FindObjectOfType<MatchManager>();
+        if (matchM)
+            matchM.mobilePause = true;
     }
 }

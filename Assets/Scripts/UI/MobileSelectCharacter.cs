@@ -23,12 +23,12 @@ public class MobileSelectCharacter : MonoBehaviour {
     
     public void Up()
     {
-        down = true;
+        up = true;
     }
 
     public void Down()
     {
-        up = true;
+        down = true;
 
     }
 
