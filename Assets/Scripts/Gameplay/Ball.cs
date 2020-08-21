@@ -408,6 +408,9 @@ namespace Sanicball.Gameplay
 
         private void FixedUpdate()
         {
+            if (!rb.useGravity)
+                rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude, ForceMode.Acceleration);
+
             if (CanMove)
             {   //movement 2
                 //If grounded use torque
@@ -456,8 +459,6 @@ namespace Sanicball.Gameplay
 
         private void Update()
         {
-            if (!rb.useGravity)
-                rb.AddForce(gravDir * rb.mass * 9.8f, ForceMode.Acceleration);
             //Rolling sounds
             if (grounded)
             {
