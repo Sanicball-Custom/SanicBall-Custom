@@ -17,7 +17,7 @@ public class DiscordController : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		discord = new Discord.Discord(691584667219918911, (UInt64)Discord.CreateFlags.Default);
+		discord = new Discord.Discord(691584667219918911, (UInt64)Discord.CreateFlags.NoRequireDiscord);
 		activityManager = discord.GetActivityManager();
 		Sanicball.Extra.DiscordUtils.RemoveActivityIcons();
 	}
