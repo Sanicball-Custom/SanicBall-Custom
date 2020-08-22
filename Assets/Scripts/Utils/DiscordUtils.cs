@@ -10,11 +10,13 @@ namespace Sanicball.Extra {
 		public static void RemoveActivityIcons(){
 			//Execute the Discord Activity Update
 			GameObject discordGO = GameObject.Find("DiscordController");
-			if(discordGO != null){
+			if(discordGO != null && discordGO.GetComponent<DiscordController>()){
 				DiscordController discord = (DiscordController)discordGO.GetComponent(typeof(DiscordController));
 				var sceneIndex = SceneManager.GetActiveScene().buildIndex;
 				var stage = "";
-				if(sceneIndex == 2){
+				if(sceneIndex == 1){
+					stage = "Main Menu";
+				}else if(sceneIndex == 2){
 					stage = "Lobby";
 				}else if(sceneIndex == 3){
 					stage = "Green Hill Zone";
@@ -73,7 +75,7 @@ namespace Sanicball.Extra {
 		public static void GenericActivity(string state, string details){
 			//Execute the Discord Activity Update
 			GameObject discordGO = GameObject.Find("DiscordController");
-			if(discordGO != null){
+			if(discordGO != null && discordGO.GetComponent<DiscordController>()){
 				DiscordController discord = (DiscordController)discordGO.GetComponent(typeof(DiscordController));
 				var activity = new Discord.Activity
 				{
@@ -101,11 +103,13 @@ namespace Sanicball.Extra {
 		public static void UpdateActivity(string characterName){
 			//Execute the Discord Activity Update
 			GameObject discordGO = GameObject.Find("DiscordController");
-			if(discordGO != null){
+			if(discordGO != null && discordGO.GetComponent<DiscordController>()){
 				DiscordController discord = (DiscordController)discordGO.GetComponent(typeof(DiscordController));
 				var sceneIndex = SceneManager.GetActiveScene().buildIndex;
 				var stage = "";
-				if(sceneIndex == 2){
+				if(sceneIndex == 1){
+					stage = "Main Menu";
+				}else if(sceneIndex == 2){
 					stage = "Lobby";
 				}else if(sceneIndex == 3){
 					stage = "Green Hill Zone";
