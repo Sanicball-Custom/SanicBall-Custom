@@ -9,9 +9,9 @@ namespace Sanicball.Extra {
 
 		public static void RemoveActivityIcons(){
 			//Execute the Discord Activity Update
-			GameObject discordGO = GameObject.Find("DiscordController");
-			if(discordGO != null && discordGO.GetComponent<DiscordController>()){
-				DiscordController discord = (DiscordController)discordGO.GetComponent(typeof(DiscordController));
+			DiscordController discordGO = GameObject.Find("DiscordController").GetComponent<DiscordController>();
+			
+			if(discordGO && discordGO.discord != null){
 				var sceneIndex = SceneManager.GetActiveScene().buildIndex;
 				var stage = "";
 				if(sceneIndex == 1){
@@ -62,7 +62,7 @@ namespace Sanicball.Extra {
 					},
 					Instance = true,
 				};
-				discord.activityManager.UpdateActivity(activity, (result) => {
+				discordGO.activityManager.UpdateActivity(activity, (result) => {
 					if (result == Discord.Result.Ok){
 						Console.WriteLine("DISCORD ACTIVITY: Update! Current Stage: "+sceneIndex+" / "+stage);
 					}else{
@@ -74,9 +74,10 @@ namespace Sanicball.Extra {
 
 		public static void GenericActivity(string state, string details){
 			//Execute the Discord Activity Update
-			GameObject discordGO = GameObject.Find("DiscordController");
-			if(discordGO != null && discordGO.GetComponent<DiscordController>()){
-				DiscordController discord = (DiscordController)discordGO.GetComponent(typeof(DiscordController));
+			DiscordController discordGO = GameObject.Find("DiscordController").GetComponent<DiscordController>();
+
+			if (discordGO && discordGO.discord != null)
+			{
 				var activity = new Discord.Activity
 				{
 					State = state,
@@ -90,7 +91,7 @@ namespace Sanicball.Extra {
 					},
 					Instance = true,
 				};
-				discord.activityManager.UpdateActivity(activity, (result) => {
+				discordGO.activityManager.UpdateActivity(activity, (result) => {
 					if (result == Discord.Result.Ok){
 						Console.WriteLine("DISCORD ACTIVITY: Update!");
 					}else{
@@ -102,8 +103,10 @@ namespace Sanicball.Extra {
 
 		public static void UpdateActivity(string characterName){
 			//Execute the Discord Activity Update
-			GameObject discordGO = GameObject.Find("DiscordController");
-			if(discordGO != null && discordGO.GetComponent<DiscordController>()){
+			DiscordController discordGO = GameObject.Find("DiscordController").GetComponent<DiscordController>();
+
+			if (discordGO && discordGO.discord != null)
+			{
 				DiscordController discord = (DiscordController)discordGO.GetComponent(typeof(DiscordController));
 				var sceneIndex = SceneManager.GetActiveScene().buildIndex;
 				var stage = "";
