@@ -5,6 +5,8 @@ using Sanicball.Logic;
 using SanicballCore;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using Sanicball.Extra;
 
 namespace Sanicball.Gameplay
 {
@@ -141,6 +143,9 @@ namespace Sanicball.Gameplay
 		public int extraJumps = 0;
 		private int jumpsRemaining = 0;
 
+        private Vector3 slowFallInitialSpeed = new Vector3();
+        private bool usedSlowFall = false;
+
         public GameObject joystickCanvas;
         public bl_Joystick joystick;
         public mobileMovementManager mmm;
@@ -178,9 +183,22 @@ namespace Sanicball.Gameplay
                     }
                     grounded = false;
                 }
-                if(characterStats.slowFall && hold) {
-                    if(rb.velocity.y < -1.5) rb.velocity = new Vector3(rb.velocity.x, -1.5f, rb.velocity.z);
-                }
+                /*if (characterStats.slowFall && hold) {
+                    canMove = false;
+                    usedSlowFall = true;
+                    if (slowFallInitialSpeed.sqrMagnitude == 0) slowFallInitialSpeed = rb.velocity;
+                    var rotatedVelocity = (Quaternion.Euler(gravDir) * rb.velocity);
+                    //if (rotatedVelocity.magnitude > gravDir.magnitude && Vector3.Dot(rotatedVelocity.normalized, gravDir) > 0 && !rb.useGravity) {
+                    if (Vector3.Scale(rotatedVelocity, gravDir).magnitude > gravDir.magnitude && !rb.useGravity) { 
+                        var slowFallVelocity = new Vector3();
+                        slowFallVelocity.x = -gravDir.x * slowFallInitialSpeed.x;
+                        slowFallVelocity.y = -gravDir.y * slowFallInitialSpeed.y;
+                        slowFallVelocity.z = -gravDir.z * slowFallInitialSpeed.z;
+                        rb.velocity = slowFallVelocity;
+                        //rb.velocity = gravDir * slowFallInitialSpeed.magnitude;
+                    } else if (rb.velocity.y < -1.5f && rb.useGravity)
+                        rb.velocity = new Vector3(rb.velocity.x, -1.5f, rb.velocity.z);
+                }*/
             }
         }
 
@@ -454,7 +472,11 @@ namespace Sanicball.Gameplay
                 //Debug.Log(stats.grip * Mathf.Pow(rigidbody.velocity.magnitude/100,2));
             }
 
-
+            if (characterStats.slowFall && !GameInput.IsJumping(ctrlType, false)) {
+                canMove = true;
+                slowFallInitialSpeed = Vector3.zero;
+            }
+            if (grounded && usedSlowFall) usedSlowFall = false;
         }
 
         private void Update()

@@ -26,13 +26,14 @@ public class customGravity : MonoBehaviour
 
 	public void manageGrav(Ball ball)
 	{
-        if (gravityType == GravityType.Custom)
-        {
+        if (gravityType == GravityType.Custom) {
             ball.rb.useGravity = false;
             ball.gravDir = transform.TransformDirection(Vector3.down);
-        }
-        else
+            Debug.Log(ball.gravDir);
+        } else {
             ball.rb.useGravity = true;
+            ball.gravDir = Vector3.down;
+        }
 	}
     /*
     public void OnCollisionEnter(Collision collision)
