@@ -22,6 +22,7 @@ namespace Sanicball.UI
             {
                 onClose();
             }
+            Destroy(gameObject);
         }
 
         private void Start()
