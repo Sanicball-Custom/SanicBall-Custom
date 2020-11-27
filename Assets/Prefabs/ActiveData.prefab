@@ -3,9 +3,10 @@
 --- !u!1 &153034
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 449212}
   - component: {fileID: 11452216}
@@ -18,9 +19,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &449212
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -31,9 +33,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11452216
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153034}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -46,37 +49,27 @@ MonoBehaviour:
     id: 0
     sceneName: Track_GreenHillZone
     picture: {fileID: 21300000, guid: dc57cdcc46adee64d900215deab711b3, type: 3}
-    overviewPrefab: {fileID: 120352, guid: b92fe95a3f8ff594cafa50f76cc55858, type: 2}
+    overviewPrefab: {fileID: 120352, guid: b92fe95a3f8ff594cafa50f76cc55858, type: 3}
   - name: Flame Core
     id: 1
     sceneName: Track_FlameCore
     picture: {fileID: 21300000, guid: 9bcec5996a6fdb245ba294c8d86c550d, type: 3}
-    overviewPrefab: {fileID: 106172, guid: 776929cd993de29429473a9a6bcc039b, type: 2}
+    overviewPrefab: {fileID: 106172, guid: 776929cd993de29429473a9a6bcc039b, type: 3}
   - name: Ice Mountain
     id: 2
     sceneName: Track_SnowyMountain
     picture: {fileID: 21300000, guid: d40157bf96b0396468a82dbfcacc592e, type: 3}
-    overviewPrefab: {fileID: 192978, guid: 7ff5f6fb8ee4cf446994c3b6ee13052e, type: 2}
+    overviewPrefab: {fileID: 192978, guid: 7ff5f6fb8ee4cf446994c3b6ee13052e, type: 3}
   - name: Dusty Desert
     id: 3
     sceneName: Track_Desert
     picture: {fileID: 21300000, guid: aa4ed67424b96f7428b3787be36fb735, type: 3}
-    overviewPrefab: {fileID: 152692, guid: 58a107525dc8c9842b4a718ba470c3d3, type: 2}
+    overviewPrefab: {fileID: 152692, guid: 58a107525dc8c9842b4a718ba470c3d3, type: 3}
   - name: Rainbow Road
     id: 4
     sceneName: Track_RainbowRoad
     picture: {fileID: 21300000, guid: af8ac845d97f57e45a78119b192cca54, type: 3}
-    overviewPrefab: {fileID: 181008, guid: cfb95fbdd5d7c3b40965abafdb30631c, type: 2}
-  - name: Minecraft
-    id: 5
-    sceneName: MinecraftTrack
-    picture: {fileID: 21300000, guid: eaa4eddd862e4ba4387ad9f21958427b, type: 3}
-    overviewPrefab: {fileID: 100010, guid: 49c2e8aa5d5a989488bfcb24cd9c7b89, type: 3}
-  - name: Testing
-    id: 6
-    sceneName: TestNewFeatures
-    picture: {fileID: 21300000, guid: f4ffb65d09abd7245bd56d7e5ffb675c, type: 3}
-    overviewPrefab: {fileID: 104428, guid: 08be3be5c8ef9084bac4b0b42d92bddb, type: 2}
+    overviewPrefab: {fileID: 181008, guid: cfb95fbdd5d7c3b40965abafdb30631c, type: 3}
   - name: Luigi's Circuit
     id: 7
     sceneName: Track_LuigiCircuit
@@ -570,7 +563,7 @@ MonoBehaviour:
       slowFall: 0
     material: {fileID: 2100000, guid: 12a19fedc954f1b4ab40785b384a2f15, type: 2}
     icon: {fileID: 21300000, guid: 7caa423ad1da5f54cbf319de8882d9ee, type: 3}
-    color: {r: 0, g: 0.79214, b: 0.9044118, a: 1}
+    color: {r: 0, g: 0.70980394, b: 0.9490197, a: 1}
     minimapIcon: {fileID: 21300000, guid: f2f55db9afe8f9e4688e1f95d763bf34, type: 3}
     trail: {fileID: 2100000, guid: 7b09e29f88f3ada40bfa17fc1a35fdcf, type: 2}
     ballSize: 1.5
@@ -590,7 +583,7 @@ MonoBehaviour:
       slowFall: 0
     material: {fileID: 2100000, guid: b480fc4445162454d87d3bee4182861c, type: 2}
     icon: {fileID: 21300000, guid: 0244e65e4e5bf8744971da4266de3afd, type: 3}
-    color: {r: 0.86666673, g: 0.86666673, b: 0.86666673, a: 1}
+    color: {r: 0.9215687, g: 0.91372555, b: 0.854902, a: 1}
     minimapIcon: {fileID: 21300000, guid: 5095841e02164f446854c31714b1b39e, type: 3}
     trail: {fileID: 2100000, guid: 7ace89ceb5b7eef45b64aded5f0d3fe2, type: 2}
     ballSize: 1
@@ -723,14 +716,14 @@ MonoBehaviour:
     privateKey: 
     verbose: 1
     disabled: 1
-  christmasHat: {fileID: 132204, guid: 59d3895ecfc783e4289b0c51098a0429, type: 2}
+  christmasHat: {fileID: 132204, guid: 59d3895ecfc783e4289b0c51098a0429, type: 3}
   halloweenHat: {fileID: 1053763385189064, guid: c7815897590fdd94194dfb6f708343c4,
-    type: 2}
-  waluigiHat: {fileID: 1644686339273710, guid: 972334eeeee0654448593c68f5c909bf, type: 2}
+    type: 3}
+  waluigiHat: {fileID: 1644686339273710, guid: 972334eeeee0654448593c68f5c909bf, type: 3}
   eSportsTrail: {fileID: 2100000, guid: 535ce71ad14791d40b6cbe98a2276283, type: 2}
-  eSportsHat: {fileID: 132204, guid: 8db695c5167175b4f8c02e1d1f7e5b99, type: 2}
+  eSportsHat: {fileID: 132204, guid: 8db695c5167175b4f8c02e1d1f7e5b99, type: 3}
   eSportsMusic: {fileID: 8300000, guid: 44aeddca0c186224090a76d97139eaa4, type: 3}
-  eSportsPrefab: {fileID: 11400000, guid: f55190f64bbb0c349bcd0f128756a753, type: 2}
+  eSportsPrefab: {fileID: 11400000, guid: f55190f64bbb0c349bcd0f128756a753, type: 3}
   ugandaMusic:
   - name: Find Da Wae - CG5
     clip: {fileID: 8300000, guid: d8a32f5728694584ea6e2c2d93504162, type: 3}
@@ -746,152 +739,3 @@ MonoBehaviour:
   kirbyMusic:
   - name: ColBreakz - Gourmet Race
     clip: {fileID: 8300000, guid: 708ae529dee1c5c4f87bae68602f7319, type: 3}
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: characters.Array.size
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[1].material
-      value: 
-      objectReference: {fileID: 2100000, guid: 06f88fe9a59efb148aee81770af439ea, type: 2}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[1].minimapIcon
-      value: 
-      objectReference: {fileID: 2100000, guid: 26967b799887ff8458328c09143cc727, type: 2}
-    - target: {fileID: 0}
-      propertyPath: gameJolt.gameID
-      value: 17385
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: gameJolt.privateKey
-      value: 10ebf2b7b3ecbb87fcdd65c115c8e15f
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: gameJolt.verbose
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[0].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 45106eab8e7289244b88d1cb65eee2e1,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[1].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 15a6f88a301145843ac46f045b3e8066,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[2].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: e55fb0a0a812fcf489b54e1fd0b4947c,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[3].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: f54471598afdcd14e979c1d54bd3d919,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[4].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 4e28aa2bbb0876d47814133089db668b,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[5].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 153019c126cd5c9439278368f95954e0,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[6].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 2b8334ffc94ee0a45982e2c43794887a,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[7].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: b6aa54ecf652de74c9ebd8704033fc09,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[8].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 941c947f96962a14a81d367db07fd89b,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[9].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 95b3481512f3b4b489b578b08c88ca20,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[10].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 2788a9b91b66e0d41847802d974f3d81,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[11].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 2d3a2b172aa7be04495f0a7c6c77ebee,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[12].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 1a49a1fa6c164e5459bd304bc831a180,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[13].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: fcac47643ed0b884ba66157d894d95dd,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[14].name
-      value: New
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[14].title
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[14].artBy
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[14].material
-      value: 
-      objectReference: {fileID: 2100000, guid: 5d9088b95aa9a1f49bf649ffcabb4a69, type: 2}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[14].alternativeMesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 43fcb6325254fce4992c0110ac748a28, type: 3}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[14].collisionMesh
-      value: 
-      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[0].stats.airSpeed
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[7].stats.rollSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[9].stats.rollSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[8].collisionMesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: characters.Array.data[13].hyperspeed
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 153034}
-  m_IsPrefabParent: 1

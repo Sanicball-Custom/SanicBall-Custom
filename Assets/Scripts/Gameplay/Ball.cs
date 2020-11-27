@@ -173,7 +173,7 @@ namespace Sanicball.Gameplay
             if(canMove) { //possible movement section
                 if ((grounded || jumpsRemaining > 0) && !hold) {
                     if(rb.velocity.y < 0) rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
-                    rb.AddForce(Up * characterStats.jumpHeight, ForceMode.Impulse);
+                    rb.AddForce(-gravDir.normalized * characterStats.jumpHeight, ForceMode.Impulse);
                     if (sounds.Jump != null)
                     {
                         sounds.Jump.Play();
@@ -250,6 +250,11 @@ namespace Sanicball.Gameplay
 
             zap_particles = transform.GetComponentInChildren<ParticleSystem>();
             zap_particles.Stop(false, ParticleSystemStopBehavior.StopEmittingAndClear);
+
+            customGravity cm = new GameObject("start custom gravity", typeof(customGravity)).GetComponent<customGravity>();
+            cm.gravityType = GravityType.Default;
+            cm.manageGrav(this);
+            Destroy(cm.gameObject);
 			
 			//powerups[0] = GameObject.Find("PowerupLightningBolt").GetComponent(typeof(Powerup)) as Powerup;
 			//powerups[1] = GameObject.Find("PowerupAdvance").GetComponent(typeof(Powerup)) as Powerup;
@@ -415,9 +420,9 @@ namespace Sanicball.Gameplay
                 if(child.gameObject.name == "Minimap Icon"){
                     GameObject minimapCamera = GameObject.Find("MinimapCamera");
                     if(minimapCamera != null){
-                        Camera camera = (Camera)minimapCamera.GetComponent<Camera>();
-                        if(camera != null){
-                            child.localScale = new Vector3(1f,1f,1f)*(100f/855.6f)*(float)camera.orthographicSize;
+                        Camera MCamera = minimapCamera.GetComponent<Camera>();
+                        if(MCamera != null){
+                            child.localScale = new Vector3(1f,1f,1f)*(100f/855.6f) * MCamera.orthographicSize;
                         }
                     }
                 }
@@ -426,8 +431,8 @@ namespace Sanicball.Gameplay
 
         private void FixedUpdate()
         {
-            if (!rb.useGravity)
-                rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude, ForceMode.Acceleration);
+            if (!rb.useGravity && canMove)
+                rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude, ForceMode.Acceleration);            
 
             if (CanMove)
             {   //movement 2
