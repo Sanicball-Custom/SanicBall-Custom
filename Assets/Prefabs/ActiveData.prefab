@@ -791,6 +791,28 @@ MonoBehaviour:
     collisionMesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
     tier: 1
     hidden: 0
+  - name: Khum Khum
+    artBy: IDK
+    stats:
+      rollSpeed: 110
+      airSpeed: 20
+      jumpHeight: 10
+      grip: 0
+      multipleJump: 0
+      extraJumps: 0
+      slowFall: 0
+    material: {fileID: 2100000, guid: a4326b2aa97d35c4ba3092cfb84853bf, type: 2}
+    icon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    color: {r: 0.94509804, g: 0.39607844, b: 0.19607843, a: 1}
+    minimapIcon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    trail: {fileID: 2100000, guid: 3d43ab7c9c8fed549a15b27c25b077e3, type: 2}
+    ballSize: 1.5
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    alternativeMesh: {fileID: 0}
+    collisionMesh: {fileID: 0}
+    tier: 0
+    hidden: 0
   gameJoltInfo:
     gameID: 0
     privateKey: 
@@ -819,3 +841,9 @@ MonoBehaviour:
   kirbyMusic:
   - name: ColBreakz - Gourmet Race
     clip: {fileID: 8300000, guid: 708ae529dee1c5c4f87bae68602f7319, type: 3}
+  windowsMusic:
+  - name: Windows XP Error Remix
+    clip: {fileID: 8300000, guid: 637a36b91da074f4a8699813bed06ab4, type: 3}
+  khumkhumMusic:
+  - name: Kyle Boss Theme 1 (But Awesome)
+    clip: {fileID: 8300000, guid: acec72376939e3a4d99fd334915242ae, type: 3}

@@ -238,6 +238,12 @@ namespace Sanicball.Logic
                         {
                             player.playlist = ActiveData.KirbyMusic;
                             player.Next();
+                        } else if (matchPlayer.CharacterId == 30) {
+                            player.playlist = ActiveData.KhumKhumMusic;
+                            player.Next();
+                        } else if (matchPlayer.CharacterId == 21) {
+                            player.playlist = ActiveData.WahndewsMusic;
+                            player.Next();
                         }
                     }
 

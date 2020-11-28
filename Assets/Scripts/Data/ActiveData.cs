@@ -53,7 +53,10 @@ namespace Sanicball.Data
         private Song[] shrekMusic;
         [SerializeField]
         private Song[] kirbyMusic;
-
+        [SerializeField]
+        private Song[] windowsMusic;
+        [SerializeField]
+        private Song[] khumkhumMusic;
         #endregion Fields
 
         #region Properties
@@ -75,7 +78,9 @@ namespace Sanicball.Data
         public static ESportMode ESportsPrefab {get{return instance.eSportsPrefab;}}
         public static Song[] UgandaMusic {get{return instance.ugandaMusic;}}
         public static Song[] ShrekMusic {get{return instance.shrekMusic;}}
-        public static Song[] KirbyMusic {get{return instance.kirbyMusic;}}
+        public static Song[] KirbyMusic {get{return instance.kirbyMusic;} }
+        public static Song[] WahndewsMusic { get { return instance.windowsMusic; } }
+        public static Song[] KhumKhumMusic { get { return instance.khumkhumMusic; } }
 
         public static bool ESportsFullyReady {
             get {

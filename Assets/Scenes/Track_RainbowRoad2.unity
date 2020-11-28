@@ -162,6 +162,30 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: windowsMusic.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: windowsMusic.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 637a36b91da074f4a8699813bed06ab4, type: 3}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: windowsMusic.Array.data[0].name
+      value: Windows XP error remix
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: characters.Array.data[29].color.b
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: characters.Array.data[29].color.g
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: characters.Array.data[29].color.r
+      value: 0.20392159
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
 --- !u!1 &56522348
@@ -994,6 +1018,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 51f3e5081b01a9445926f728b22ea4a2, type: 3}
+      propertyPath: playlist.Array.size
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 51f3e5081b01a9445926f728b22ea4a2, type: 3}
+      propertyPath: playlist.Array.data[22].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0df1ae1103eb1b7438bfc3d845594db1, type: 3}
+    - target: {fileID: 11400000, guid: 51f3e5081b01a9445926f728b22ea4a2, type: 3}
+      propertyPath: playlist.Array.data[22].name
+      value: THIS IS SPARTA Remix
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51f3e5081b01a9445926f728b22ea4a2, type: 3}
 --- !u!1 &337592396
@@ -1483,6 +1519,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -22.36
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cfa6de16a37474047966d7b267da6643, type: 3}
+      propertyPath: data.ballSpawningMask.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa6de16a37474047966d7b267da6643, type: 3}
 --- !u!4 &485643874 stripped
@@ -1607,7 +1647,7 @@ GameObject:
   - component: {fileID: 634879119}
   - component: {fileID: 634879118}
   - component: {fileID: 634879117}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

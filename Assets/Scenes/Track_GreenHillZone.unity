@@ -22358,7 +22358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 178192, guid: 15c7ed3ff76289b4680e4b9f1f52fb22, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 452612, guid: 15c7ed3ff76289b4680e4b9f1f52fb22, type: 3}
       propertyPath: m_RootOrder
@@ -22406,7 +22406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11410174, guid: 15c7ed3ff76289b4680e4b9f1f52fb22, type: 3}
       propertyPath: characterId
-      value: 26
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15c7ed3ff76289b4680e4b9f1f52fb22, type: 3}
@@ -42870,6 +42870,30 @@ PrefabInstance:
     - target: {fileID: 449212, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: windowsMusic.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: khumkhumMusic.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: windowsMusic.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 637a36b91da074f4a8699813bed06ab4, type: 3}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: windowsMusic.Array.data[0].name
+      value: Windows XP Error Remix
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: khumkhumMusic.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: acec72376939e3a4d99fd334915242ae, type: 3}
+    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
+      propertyPath: khumkhumMusic.Array.data[0].name
+      value: Kyle Boss Theme 1 (But Awesome)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
