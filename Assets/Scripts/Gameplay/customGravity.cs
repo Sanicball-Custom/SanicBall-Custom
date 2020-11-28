@@ -34,7 +34,7 @@ public class customGravity : MonoBehaviour
 	{
         if (gravityType == GravityType.Custom) {
             ball.rb.useGravity = false;
-            ball.gravDir = Normal;
+            ball.gravDir = -Normal;
             Debug.Log(ball.gravDir);
         } else {
             ball.GetComponent<Rigidbody>().useGravity = true;

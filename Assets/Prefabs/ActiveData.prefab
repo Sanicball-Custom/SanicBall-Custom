@@ -147,6 +147,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 87b940c0164963d4494b7ab1321f8433, type: 3}
     trail: {fileID: 2100000, guid: 9ce71dd0ced43204d80391225a2d06fa, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -167,6 +169,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: e157e8e3e40f55d429dbf967d5461683, type: 3}
     trail: {fileID: 2100000, guid: fcd053a6f7d7b944b8b6d0010cb70063, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -187,6 +191,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 0dfe22139d2b2f744a6cc4b94a0d5907, type: 3}
     trail: {fileID: 2100000, guid: 0949736aaab96bc4396ffff86bb87475, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -207,6 +213,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 7172839744cc4884595e9e1bcebb2cfa, type: 3}
     trail: {fileID: 2100000, guid: 6e8b0c669d7576e4797a925dfac8b219, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -227,6 +235,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: a16ec0753fbfcac428ef4d3b8e9af296, type: 3}
     trail: {fileID: 2100000, guid: 9995308e30b92084cbeaab794dc8358c, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -247,6 +257,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: bbd6111264bea9d43b01be6def7dfb0a, type: 3}
     trail: {fileID: 2100000, guid: 7272ba08fed4b044f86525c129f421f7, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -267,6 +279,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 1432975c0d3402f46a7dd045d12ba6a9, type: 3}
     trail: {fileID: 2100000, guid: 5eb3bbf05aefbd44593b0b15905804a5, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -287,6 +301,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 17dc972ef5d057c418147b81cd3a6ef8, type: 3}
     trail: {fileID: 2100000, guid: 650514d43ae140a4b93e052e528540b4, type: 2}
     ballSize: 2
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -307,6 +323,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: a95eea8b2c8289a429ce86908e04ba13, type: 3}
     trail: {fileID: 2100000, guid: 701830a908a9cb248b59a019e7a2eea0, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 4300000, guid: f7e58024306f668428fe7ffa6a2cc208, type: 3}
     collisionMesh: {fileID: 4300000, guid: 8bad5274dce3b554baa16f737265cba4, type: 3}
     tier: 1
@@ -327,6 +345,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 33fd3269c3c80f041b14a5c5211134f7, type: 3}
     trail: {fileID: 2100000, guid: d348cbd91db4faa469bc61c9532a39c9, type: 2}
     ballSize: 0.8
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -347,6 +367,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 7a5a7ffddf2ca734da4b2edef7c297a0, type: 3}
     trail: {fileID: 2100000, guid: b4dbedd5a24e26d4e89f17161cbaf850, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -367,6 +389,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 6e38b9d46f0207d4780130d6d2e2e3b3, type: 3}
     trail: {fileID: 2100000, guid: 12bc382ca16a729468c1c7ff42571659, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -387,6 +411,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 1fc73d01302923c45994f5f38ff93d28, type: 3}
     trail: {fileID: 2100000, guid: aeddd812ea4ea9a41ac427dfc4c5257d, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 4300000, guid: 62feaf2fb2598524dab37715d8a44e7a, type: 3}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -407,6 +433,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: fa975b7184d12a446bf9d8470c0c7793, type: 3}
     trail: {fileID: 2100000, guid: 6d7702b948c700749876d60a7efc17f1, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -427,6 +455,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 17bbd4fb0e69ab649a05fcf6ad85aa1e, type: 3}
     trail: {fileID: 2100000, guid: 9ce71dd0ced43204d80391225a2d06fa, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 4300000, guid: 8271211632fa8aa4e8b7c3f1bd3abbdb, type: 3}
     collisionMesh: {fileID: 4300000, guid: 8271211632fa8aa4e8b7c3f1bd3abbdb, type: 3}
     tier: 1
@@ -447,6 +477,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 9ce212591a97d8041aad0e3e376d2a68, type: 3}
     trail: {fileID: 2100000, guid: 502b7b2f5be99b945b1a4162ea295673, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -467,6 +499,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 4b2c2c1a75ae68d4e88d409d7d710cbc, type: 3}
     trail: {fileID: 2100000, guid: dcca274f4ea616e47b077f91462bb930, type: 2}
     ballSize: 1.5
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -487,6 +521,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 9019131725181e84ab6161a298879b9d, type: 3}
     trail: {fileID: 2100000, guid: 4f127014fc62d7240a9e9e0660074998, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -507,6 +543,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: e61508299605af649b72c338dd2b3754, type: 3}
     trail: {fileID: 2100000, guid: 61922a22183c89b45ad8c388eeda1b4f, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -527,6 +565,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: df61958dbb9fa5448880e3b70dbd803e, type: 3}
     trail: {fileID: 2100000, guid: c84fb1b0a224ddd488c5b2b8fbc32bac, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 4300002, guid: 6dbd32883203a3c4ca1d80ec97c8ed56, type: 3}
     collisionMesh: {fileID: 4300000, guid: 96bbcffd97a9d2d4e9a960a1237bba02, type: 3}
     tier: 1
@@ -547,6 +587,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 4db51f7bdb877a640a1404650bc0932d, type: 3}
     trail: {fileID: 2100000, guid: 91809c3603e3e344f8f28db85ff8f1b6, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -567,6 +609,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: f2f55db9afe8f9e4688e1f95d763bf34, type: 3}
     trail: {fileID: 2100000, guid: 7b09e29f88f3ada40bfa17fc1a35fdcf, type: 2}
     ballSize: 1.5
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -587,6 +631,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 5095841e02164f446854c31714b1b39e, type: 3}
     trail: {fileID: 2100000, guid: 7ace89ceb5b7eef45b64aded5f0d3fe2, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -607,6 +653,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 07dbf773296d1b14083caf0c3cdff28a, type: 3}
     trail: {fileID: 2100000, guid: 98b5ac68337c9504ba6237bfd7cacbf2, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -627,6 +675,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 56f2d106dba5cc049b0d49104631a88e, type: 3}
     trail: {fileID: 2100000, guid: 03fc678ad1f6137489811afafe3eb294, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -647,6 +697,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 643f53fc6d00d394a8c00f52bd94cb1e, type: 3}
     trail: {fileID: 2100000, guid: dad6325f931565546ba9e95c2e9939a2, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -667,6 +719,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 3d6b4fc6f6f89d64cbda8bf65a3101e7, type: 3}
     trail: {fileID: 2100000, guid: 3343a43537aead643ab5cb51d42ccc33, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -687,6 +741,8 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 0a3e0432eda5a2e499f13067de2687b4, type: 3}
     trail: {fileID: 2100000, guid: 848f216b8733a074e99c8aba209cebb6, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -707,9 +763,33 @@ MonoBehaviour:
     minimapIcon: {fileID: 21300000, guid: 639a57ee46409fa4e875de80246497d0, type: 3}
     trail: {fileID: 2100000, guid: edf623e489d533e459b5334beef28f1f, type: 2}
     ballSize: 1
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
+    hidden: 0
+  - name: Warrior Sanic
+    artBy: IDK
+    stats:
+      rollSpeed: 100
+      airSpeed: 20
+      jumpHeight: 20
+      grip: 0
+      multipleJump: 0
+      extraJumps: 0
+      slowFall: 0
+    material: {fileID: 2100000, guid: 291ebd7c54c0f5a4198b76a68bd390c7, type: 2}
+    icon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    color: {r: 0.797, g: 0, b: 1, a: 1}
+    minimapIcon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    trail: {fileID: 2100000, guid: d50d429befb3c2b47bb6fe460810bcf8, type: 2}
+    ballSize: 1
+    ballProportions: {x: 1, y: 0.75, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
+    alternativeMesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+    collisionMesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    tier: 1
     hidden: 0
   gameJoltInfo:
     gameID: 0

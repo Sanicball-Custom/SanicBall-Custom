@@ -173,7 +173,16 @@ namespace Sanicball.Gameplay
             if(canMove) { //possible movement section
                 if ((grounded || jumpsRemaining > 0) && !hold) {
                     if(rb.velocity.y < 0) rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
-                    rb.AddForce(-gravDir.normalized * characterStats.jumpHeight, ForceMode.Impulse);
+
+                    Vector3 jumpDir;
+
+                    //if (grounded)
+                    //else
+                    //            jumpDir = new Vector3(Up.x * (-gravDir.normalized.x), Up.y * (-gravDir.normalized.y), Up.z * (-gravDir.normalized.z));
+
+
+                    //rb.AddForce((grounded ? Up : -gravDir.normalized) * characterStats.jumpHeight, ForceMode.Impulse);
+                    rb.AddForce(Up * characterStats.jumpHeight, ForceMode.Impulse);
                     if (sounds.Jump != null)
                     {
                         sounds.Jump.Play();
@@ -389,7 +398,8 @@ namespace Sanicball.Gameplay
             if (c.name == "Super Sanic" && ActiveData.GameSettings.eSportsReady) {
                 GetComponent<TrailRenderer>().material = ActiveData.ESportsTrail;
             }
-            transform.localScale = new Vector3(c.ballSize, c.ballSize, c.ballSize);
+            transform.localScale = new Vector3(c.ballSize * c.ballProportions.x, c.ballSize * c.ballProportions.y, c.ballSize * c.ballProportions.z);
+            transform.rotation = c.ballRotation;
 			originalSize = c.ballSize;
             if (c.alternativeMesh != null)
             {
@@ -536,7 +546,7 @@ namespace Sanicball.Gameplay
                 }
                 else
                 {
-                    Up = Vector3.MoveTowards(Up, Vector3.up, Time.deltaTime * 10);
+                    Up = Vector3.MoveTowards(Up, -gravDir.normalized, Time.deltaTime * 10);
                 }
             }
 
