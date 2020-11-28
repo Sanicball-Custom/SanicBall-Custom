@@ -172,9 +172,12 @@ namespace Sanicball.Gameplay
         {
             if(canMove) { //possible movement section
                 if ((grounded || jumpsRemaining > 0) && !hold) {
-                    if(rb.velocity.y < 0) rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+                    float scalar = Vector3.Dot((-gravDir).normalized, rb.velocity.normalized);
+                    Debug.Log(scalar);  
+                    if (scalar < 0)
+                        rb.velocity -= (-gravDir) * scalar * rb.velocity.magnitude;
+                    //if(rb.velocity.y < 0) rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
 
-                    Vector3 jumpDir;
 
                     //if (grounded)
                     //else

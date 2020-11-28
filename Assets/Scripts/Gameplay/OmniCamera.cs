@@ -73,7 +73,7 @@ namespace Sanicball.Gameplay
                 up = Vector3.Lerp(up, targetUp, Time.deltaTime * 100);
 
                 //Based on how fast the target is moving, create a rotation bending towards its velocity.
-                Quaternion towardsVelocity = (Target.velocity != Vector3.zero) ? Quaternion.LookRotation(Target.velocity, -bc.gravDir) : Quaternion.identity;
+                Quaternion towardsVelocity = (Target.velocity != Vector3.zero) ? Quaternion.LookRotation(Target.velocity, up) : Quaternion.identity;
                 const float maxTrans = 20f;
                 Quaternion finalTargetDir = Quaternion.Slerp(currentDirection, towardsVelocity, Mathf.Max(0, Mathf.Min(-10 + Target.velocity.magnitude, maxTrans) / maxTrans));
 
@@ -92,7 +92,7 @@ namespace Sanicball.Gameplay
                 AttachedCamera.cullingMask =~ mask;
 
                 currentDirectionWithOffset = Quaternion.Slerp(currentDirectionWithOffset, currentDirection * targetDirectionOffset, Time.deltaTime * 6);
-                transform.position = Target.transform.position + (-bc.gravDir * orbitHeight) + currentDirectionWithOffset * (Vector3.back * orbitDistance);
+                transform.position = Target.transform.position + (Vector3.up * orbitHeight) + currentDirectionWithOffset * (Vector3.back * orbitDistance);
                 transform.rotation = currentDirectionWithOffset;
             }
         }

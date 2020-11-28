@@ -1,7 +1,7 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gameplay/Ball.cs">
     <Files>
-      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="446" Column="85" />
+      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="446" Column="1" />
       <File FileName="GlobalSuppressions.cs" Line="6" Column="1" />
       <File FileName="Assets/Scripts/Gameplay/customGravity.cs" Line="40" Column="43" />
       <File FileName="Assets/Scripts/Gameplay/OmniCamera.cs" Line="95" Column="93" />
@@ -21,11 +21,6 @@
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="SanicBall-Custom" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

@@ -14,12 +14,10 @@ public class customGravity : MonoBehaviour
 	public GravityType gravityType;
     Vector3 Normal;
     RaycastHit hit;
-
     [HideInInspector]
     Vector3 gravityDir;
     // Use this for initialization
     void Start () {
-		
 	}
 	
 	// Update is called once per frame
@@ -32,14 +30,16 @@ public class customGravity : MonoBehaviour
 
 	public void manageGrav(Ball ball)
 	{
+    
         if (gravityType == GravityType.Custom) {
             ball.rb.useGravity = false;
             ball.gravDir = -Normal;
-            Debug.Log(ball.gravDir);
         } else {
             ball.GetComponent<Rigidbody>().useGravity = true;
             ball.gravDir = Vector3.down;
+           
         }
+      
 	}
     /*
     public void OnCollisionEnter(Collision collision)
@@ -52,8 +52,8 @@ public class customGravity : MonoBehaviour
     {
         if (gravityType == GravityType.Custom)
         {
+            Gizmos.DrawRay(hit.point, hit.normal * 25);
             Gizmos.DrawSphere(hit.point, 5);
-            Gizmos.DrawRay(hit.point, hit.normal * 10);
             //Gizmos.DrawCube(transform.position, transform.localScale);
         }
     }
