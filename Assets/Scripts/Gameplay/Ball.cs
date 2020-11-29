@@ -310,7 +310,7 @@ namespace Sanicball.Gameplay
             }
 
             var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-            if (sceneIndex == 11 || sceneIndex == 12 || true)
+            if (sceneIndex == 11 || sceneIndex == 12)
             {
                 hatPrefab = ActiveData.WaluigiHat;
             }
