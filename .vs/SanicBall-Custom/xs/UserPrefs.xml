@@ -1,35 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gameplay/Ball.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gameplay/BoostRing.cs">
     <Files>
-      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="446" Column="1" />
+      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="505" Column="10" />
       <File FileName="GlobalSuppressions.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/Gameplay/customGravity.cs" Line="40" Column="43" />
-      <File FileName="Assets/Scripts/Gameplay/OmniCamera.cs" Line="95" Column="93" />
+      <File FileName="Assets/Scripts/Gameplay/customGravity.cs" Line="25" Column="77" />
+      <File FileName="Assets/Scripts/Gameplay/OmniCamera.cs" Line="95" Column="77" />
       <File FileName="Assets/Scripts/Gameplay/BoostRing.cs" Line="25" Column="43" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="SanicBall-Custom" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Gameplay" expanded="True">
-                    <Node name="Ball.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/home/miguel/unity projects/SanicBall-Custom/Assets/Scripts/Gameplay/Ball.cs" relfile="Assets/Scripts/Gameplay/Ball.cs" line="505" column="16" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
