@@ -460,6 +460,10 @@ namespace Sanicball
             return (Input.GetKeyDown(ActiveData.Keybinds[Keybind.NextSong]) && !KeyboardDisabled) || Input.GetKeyDown(KeyCode.JoystickButton6);
         }
 
+        public static bool ToggleCharacterMusic() {
+            return Input.GetKeyDown(ActiveData.Keybinds[Keybind.ToggleCharacterMusic]);
+        }
+
         public static bool IsOpeningChat()
         {
             return Input.GetKeyDown(ActiveData.Keybinds[Keybind.Chat]) && !KeyboardDisabled;

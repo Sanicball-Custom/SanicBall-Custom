@@ -148,6 +148,11 @@ namespace Sanicball
                 changeSong = false;
                 Play();
             }
+
+            if (GameInput.ToggleCharacterMusic()) {
+                ActiveData.GameSettings.characterMusic = !ActiveData.GameSettings.characterMusic;
+                playerCanvas.Show(ActiveData.GameSettings.characterMusic ? "Character Specific Music - ON" : "Character Specific Music - OFF");
+            }
             //Timer
             if (timer > 0)
             {

@@ -23,7 +23,8 @@ namespace Sanicball.Data
         NextSong,
         Chat,
 		PowerupLeft,
-		PowerupRight
+		PowerupRight,
+        ToggleCharacterMusic
     }
 
     [System.Serializable]
@@ -55,6 +56,7 @@ namespace Sanicball.Data
             keybinds.Add(Keybind.Chat, KeyCode.T);
             keybinds.Add(Keybind.PowerupLeft, KeyCode.Q);
             keybinds.Add(Keybind.PowerupRight, KeyCode.E);
+            keybinds.Add(Keybind.ToggleCharacterMusic, KeyCode.C);
 
             //Joystick 1
             /*keybinds.Add("joy1brake", KeyCode.Joystick1Button1); //X / A

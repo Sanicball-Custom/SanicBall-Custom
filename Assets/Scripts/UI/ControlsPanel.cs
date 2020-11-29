@@ -22,6 +22,7 @@ namespace Sanicball.UI
         public Text nextSong;
         public Text menu;
         public Text chat;
+        public Text characterMusic;
         private Keybind keybindToChange;
 
         private KeybindCollection tempKeybinds = new KeybindCollection();
@@ -61,6 +62,7 @@ namespace Sanicball.UI
             nextSong.text = Str(Keybind.NextSong);
             menu.text = Str(Keybind.Menu);
             chat.text = Str(Keybind.Chat);
+            characterMusic.text = Str(Keybind.ToggleCharacterMusic);
         }
 
         public void SetKeybindToChange(string name)
