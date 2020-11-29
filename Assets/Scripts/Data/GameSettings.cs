@@ -43,6 +43,9 @@ namespace Sanicball.Data
         public bool characterMusic = true;
         public bool fastMusic = true;
 
+        [Header("Misc")]
+        public bool characterHats = true;
+
         public GameSettings()
         {
         }
@@ -76,6 +79,8 @@ namespace Sanicball.Data
             music = original.music;
             characterMusic = original.characterMusic;
             fastMusic = original.fastMusic;
+
+            characterHats = original.characterHats;
         }
 
         //Since settings are saved and the user can modify them externally,

@@ -40,6 +40,9 @@ namespace Sanicball.UI
         public Text characterMusic;
         public Text fast;
 
+        [Header("Misc")]
+        public Text characterHats;
+
         private GameSettings tempSettings = new GameSettings();
 
         public void Apply()
@@ -102,6 +105,8 @@ namespace Sanicball.UI
             music.text = tempSettings.music ? "On" : "Off";
             characterMusic.text = tempSettings.characterMusic && tempSettings.music ? "On" : "Off";
             fast.text = tempSettings.fastMusic ? "On" : "Off";
+
+            characterHats.text = tempSettings.characterHats ? "On" : "Off";
         }
 
         private void Start()
@@ -354,6 +359,10 @@ namespace Sanicball.UI
         public void CharacterMusicToggle()
         {
             tempSettings.characterMusic = !tempSettings.characterMusic;
+            UpdateFields();
+        }
+        public void CharacterHatsToggle() {
+            tempSettings.characterHats = !tempSettings.characterHats;
             UpdateFields();
         }
 

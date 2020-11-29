@@ -311,22 +311,23 @@ namespace Sanicball.Gameplay
             }
 
             var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-            if (sceneIndex == 11 || sceneIndex == 12)
+            if (sceneIndex == 11 || sceneIndex == 12 || true)
             {
                 hatPrefab = ActiveData.WaluigiHat;
             }
 
-            if (ActiveData.GameSettings.eSportsReady)
+            if (ActiveData.GameSettings.eSportsReady && ActiveData.GameSettings.characterHats)
             {
                 GameObject hatEsports = Instantiate(ActiveData.ESportsHat);
                 hatEsports.transform.SetParent(transform, false);
             }
 
             //Spawn hat
-            if (hatPrefab)
+            if (hatPrefab != null && ActiveData.GameSettings.characterHats)
             {
                 GameObject hat = Instantiate(hatPrefab);
                 hat.transform.SetParent(transform, false);
+                hat.transform.rotation = Quaternion.Euler(-transform.rotation.eulerAngles)*hat.transform.rotation;
             }
 			
 			//Execute the Ball Modifying per Track
