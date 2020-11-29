@@ -456,7 +456,7 @@ namespace Sanicball.Gameplay
                     if(confused){
                         rb.AddTorque(DirectionVector * -characterStats.rollSpeed);
                     }else{
-                        rb.AddTorque(DirectionVector * characterStats.rollSpeed);   
+                        rb.AddTorque(DirectionVector * characterStats.rollSpeed);
                     }
                 }
                 //If not use both
@@ -468,6 +468,10 @@ namespace Sanicball.Gameplay
                         rb.AddForce((Quaternion.Euler(0, -90, 0) * DirectionVector) * characterStats.airSpeed);
                     }
                 }
+            }
+
+            if (canMove && CharacterId == 31 && !grounded) { // Big Chungus
+                rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude*4, ForceMode.Acceleration);
             }
 
             if (AutoBrake)

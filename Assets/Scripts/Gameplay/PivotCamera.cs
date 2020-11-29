@@ -18,7 +18,7 @@ namespace Sanicball.Gameplay
         [SerializeField]
         private Vector3 defaultCameraPosition = new Vector3(6, 2.8f, 0);
 
-        private float cameraDistance = 1;
+        public float cameraDistance = 1;
         private float cameraDistanceTarget = 1;
 
         //From smoothmouselook

@@ -781,8 +781,8 @@ MonoBehaviour:
       slowFall: 0
     material: {fileID: 2100000, guid: 291ebd7c54c0f5a4198b76a68bd390c7, type: 2}
     icon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
-    color: {r: 0.797, g: 0, b: 1, a: 1}
-    minimapIcon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    color: {r: 0.20392159, g: 0.31764707, b: 0.54901963, a: 1}
+    minimapIcon: {fileID: 21300000, guid: 7f935aa96b741ce438ce9b1f1c24116d, type: 3}
     trail: {fileID: 2100000, guid: d50d429befb3c2b47bb6fe460810bcf8, type: 2}
     ballSize: 1
     ballProportions: {x: 1, y: 0.75, z: 1}
@@ -796,22 +796,44 @@ MonoBehaviour:
     stats:
       rollSpeed: 110
       airSpeed: 20
-      jumpHeight: 10
+      jumpHeight: 15
       grip: 0
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
     material: {fileID: 2100000, guid: a4326b2aa97d35c4ba3092cfb84853bf, type: 2}
-    icon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    icon: {fileID: 21300000, guid: 0bde4e7d4d9df114dadf786b70d31f7e, type: 3}
     color: {r: 0.94509804, g: 0.39607844, b: 0.19607843, a: 1}
-    minimapIcon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
+    minimapIcon: {fileID: 21300000, guid: fd332f14cbdd2ca40ac05cfe8bb79d82, type: 3}
     trail: {fileID: 2100000, guid: 3d43ab7c9c8fed549a15b27c25b077e3, type: 2}
-    ballSize: 1.5
+    ballSize: 0.75
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
+    hidden: 0
+  - name: Beeg Chungus
+    artBy: Uhh... Warner Bros?
+    stats:
+      rollSpeed: 400
+      airSpeed: 100
+      jumpHeight: 14
+      grip: 0
+      multipleJump: 0
+      extraJumps: 0
+      slowFall: 0
+    material: {fileID: 2100000, guid: ae828f25aa7242845823b83f788b7324, type: 2}
+    icon: {fileID: 21300000, guid: acda04aa0ccda2e4596176fd7fa5b213, type: 3}
+    color: {r: 0.3803922, g: 0.3019608, b: 0.32941177, a: 1}
+    minimapIcon: {fileID: 21300000, guid: d88caae551204084b99b2faf6ba05ee7, type: 3}
+    trail: {fileID: 2100000, guid: 923a8a476938f6a468f1eb05c81515a4, type: 2}
+    ballSize: 3
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    alternativeMesh: {fileID: 0}
+    collisionMesh: {fileID: 0}
+    tier: 1
     hidden: 0
   gameJoltInfo:
     gameID: 0
