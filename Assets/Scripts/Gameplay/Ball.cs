@@ -173,7 +173,6 @@ namespace Sanicball.Gameplay
             if(canMove) { //possible movement section
                 if ((grounded || jumpsRemaining > 0) && !hold) {
                     float scalar = Vector3.Dot((-gravDir).normalized, rb.velocity.normalized);
-                    Debug.Log(scalar);  
                     if (scalar < 0)
                         rb.velocity -= (-gravDir) * scalar * rb.velocity.magnitude;
                     //if(rb.velocity.y < 0) rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
@@ -403,7 +402,8 @@ namespace Sanicball.Gameplay
                 GetComponent<TrailRenderer>().material = ActiveData.ESportsTrail;
             }
             transform.localScale = new Vector3(c.ballSize * c.ballProportions.x, c.ballSize * c.ballProportions.y, c.ballSize * c.ballProportions.z);
-            transform.rotation = c.ballRotation;
+            if(c.ballRotation != Quaternion.identity)
+                transform.rotation = c.ballRotation;
 			originalSize = c.ballSize;
             if (c.alternativeMesh != null)
             {
