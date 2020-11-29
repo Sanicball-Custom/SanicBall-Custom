@@ -86,6 +86,9 @@ namespace SanicballCore.Server
             CharacterTier.Normal,       //Kerbi
             CharacterTier.Normal,       //Mett
             CharacterTier.Normal,       //Walugui
+            CharacterTier.Odd,          //Warrior Sanic
+            CharacterTier.Normal,       //Khum Khum
+            CharacterTier.Odd,          //Beeg Chungus
 
         };
 
