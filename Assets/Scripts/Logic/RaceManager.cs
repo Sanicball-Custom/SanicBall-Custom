@@ -244,6 +244,9 @@ namespace Sanicball.Logic
                         } else if (matchPlayer.CharacterId == 21) {
                             player.playlist = ActiveData.WahndewsMusic;
                             player.Next();
+                        } else if (matchPlayer.CharacterId == 27) {
+                            player.playlist = ActiveData.MattMusic;
+                            player.Next();
                         }
                     }
 

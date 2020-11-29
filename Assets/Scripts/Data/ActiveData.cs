@@ -57,6 +57,8 @@ namespace Sanicball.Data
         private Song[] windowsMusic;
         [SerializeField]
         private Song[] khumkhumMusic;
+        [SerializeField]
+        private Song[] mattMusic;
         #endregion Fields
 
         #region Properties
@@ -81,6 +83,7 @@ namespace Sanicball.Data
         public static Song[] KirbyMusic {get{return instance.kirbyMusic;} }
         public static Song[] WahndewsMusic { get { return instance.windowsMusic; } }
         public static Song[] KhumKhumMusic { get { return instance.khumkhumMusic; } }
+        public static Song[] MattMusic { get { return instance.mattMusic; } }
 
         public static bool ESportsFullyReady {
             get {
