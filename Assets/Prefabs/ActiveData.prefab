@@ -130,6 +130,11 @@ MonoBehaviour:
     sceneName: Track_RainbowRoad2
     picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
     overviewPrefab: {fileID: 0}
+  - name: Sanic Loops
+    id: 19
+    sceneName: Track_Looper
+    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    overviewPrefab: {fileID: 0}
   characters:
   - name: Sanic
     artBy: Deviantart user franz888
