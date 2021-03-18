@@ -13,7 +13,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/home/miguel/unity projects/SanicBall-Custom/Assets/Scripts/Gameplay/Ball.cs" relfile="Assets/Scripts/Gameplay/Ball.cs" line="505" column="16" />
+      <Breakpoint file="/mnt/kali/home/migouche/unity projects/SanicBall-Custom/Assets/Scripts/Gameplay/Ball.cs" relfile="Assets/Scripts/Gameplay/Ball.cs" line="505" column="16" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
