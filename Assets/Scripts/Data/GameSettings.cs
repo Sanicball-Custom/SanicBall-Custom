@@ -105,6 +105,7 @@ namespace Sanicball.Data
 
         public void Apply(bool changeWindow)
         {
+#if UNITY_ANDROID
             if (changeWindow)
             {
                 //Resolution and fullscreen
@@ -115,6 +116,7 @@ namespace Sanicball.Data
                         Screen.SetResolution(res.width, res.height, fullscreen);
                 }
             }
+#endif  
             //AA
             QualitySettings.antiAliasing = aa;
             //Vsync
