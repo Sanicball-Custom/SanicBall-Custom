@@ -5640,3 +5640,59 @@ Received Import Request.
 Start importing Assets/Scenes/Track_RainbowRoad2.unity using Guid(1e42a47f9bf0a3f40b135febdf2bca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac9e49d2678e138f6f80e4a99e9339b') in 0,001073 seconds
   Import took 0,008091 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 10375,452411 seconds.
+  path: Assets/Scenes/Track_SanicLoops.unity
+  artifactKey: Guid(be30effea04ba40c6af99d985f7cc4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_SanicLoops.unity using Guid(be30effea04ba40c6af99d985f7cc4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99415df40eb27444266ff15158ae1d9b') in 0,001669 seconds
+  Import took 0,006187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36,349997 seconds.
+  path: Assets/Scenes/Track_OldGreenhill.unity
+  artifactKey: Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_OldGreenhill.unity using Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e757deaea1bffc5e964404c77fa94e') in 0,000808 seconds
+  Import took 0,005612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,018006 seconds.
+  path: Assets/Scenes/Track_OldGreenhill.unity
+  artifactKey: Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_OldGreenhill.unity using Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e757deaea1bffc5e964404c77fa94e') in 0,000705 seconds
+  Import took 0,004846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24,016760 seconds.
+  path: Assets/Scenes/Track_SanicLoops.unity
+  artifactKey: Guid(be30effea04ba40c6af99d985f7cc4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_SanicLoops.unity using Guid(be30effea04ba40c6af99d985f7cc4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2495868762bae2bc007774858ddd4f') in 0,001394 seconds
+  Import took 0,006053 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5,82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,1 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3737.
+Total: 4,990184 ms (FindLiveObjects: 0,306516 ms CreateObjectMapping: 0,151785 ms MarkObjects: 4,402463 ms  DeleteObjects: 0,128699 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6,30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3737.
+Total: 5,161491 ms (FindLiveObjects: 0,354885 ms CreateObjectMapping: 0,172763 ms MarkObjects: 4,515087 ms  DeleteObjects: 0,117343 ms)
+
