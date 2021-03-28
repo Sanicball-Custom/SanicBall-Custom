@@ -101,7 +101,7 @@ namespace Sanicball.Gameplay
             }
 
             
-            powerupUseTimer -= Time.deltaTime;
+            /*powerupUseTimer -= Time.deltaTime;
             if(powerupUseTimer <= 0){
 				float chance = Random.value;
                 if(chance > 0.5 - powerupFailedTimes*0.05){
@@ -112,7 +112,7 @@ namespace Sanicball.Gameplay
                     powerupFailedTimes++;
                 }
                 powerupUseTimer = POWERUP_USE_TIME;
-            }
+            }*/
 
             targetPointOffsetCurrent = Vector3.Lerp(targetPointOffsetCurrent, targetPointOffsetGoal, Time.deltaTime);
 
