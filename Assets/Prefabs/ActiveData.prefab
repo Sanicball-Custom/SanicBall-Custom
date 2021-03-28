@@ -159,6 +159,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -181,6 +184,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -203,6 +209,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -225,6 +234,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -247,6 +259,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -269,6 +284,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -291,6 +309,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -313,6 +334,9 @@ MonoBehaviour:
     ballSize: 2
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -335,6 +359,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 4300000, guid: f7e58024306f668428fe7ffa6a2cc208, type: 3}
     collisionMesh: {fileID: 4300000, guid: 8bad5274dce3b554baa16f737265cba4, type: 3}
     tier: 1
@@ -357,6 +384,9 @@ MonoBehaviour:
     ballSize: 0.8
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -379,6 +409,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -401,6 +434,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -423,6 +459,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 4300000, guid: 62feaf2fb2598524dab37715d8a44e7a, type: 3}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -445,6 +484,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -467,6 +509,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 4300000, guid: 8271211632fa8aa4e8b7c3f1bd3abbdb, type: 3}
     collisionMesh: {fileID: 4300000, guid: 8271211632fa8aa4e8b7c3f1bd3abbdb, type: 3}
     tier: 1
@@ -489,6 +534,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -511,6 +559,9 @@ MonoBehaviour:
     ballSize: 1.5
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -533,6 +584,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -555,6 +609,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -577,6 +634,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 4300002, guid: 6dbd32883203a3c4ca1d80ec97c8ed56, type: 3}
     collisionMesh: {fileID: 4300000, guid: 96bbcffd97a9d2d4e9a960a1237bba02, type: 3}
     tier: 1
@@ -599,6 +659,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -621,6 +684,9 @@ MonoBehaviour:
     ballSize: 1.5
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1
@@ -628,12 +694,12 @@ MonoBehaviour:
   - name: Hyper Sanic
     artBy: IDK
     stats:
-      rollSpeed: 2000
-      airSpeed: 1000
-      jumpHeight: 10
+      rollSpeed: 1000
+      airSpeed: 250
+      jumpHeight: 20
       grip: 500
-      multipleJump: 0
-      extraJumps: 0
+      multipleJump: 1
+      extraJumps: 1
       slowFall: 0
     material: {fileID: 2100000, guid: b480fc4445162454d87d3bee4182861c, type: 2}
     icon: {fileID: 21300000, guid: 0244e65e4e5bf8744971da4266de3afd, type: 3}
@@ -643,6 +709,21 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 1
+    colorsToCycle:
+    - {r: 1, g: 1, b: 0.5803922, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    - {r: 1, g: 0.8666667, b: 0.8666667, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    - {r: 1, g: 0.6556604, b: 1, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    - {r: 0.70980394, g: 0.8666667, b: 1, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    - {r: 0.70980394, g: 1, b: 0.70980394, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    - {r: 0.87058824, g: 1, b: 0.2901961, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    colorsPerSecond: 0.083333336
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -665,6 +746,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -687,6 +771,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2
@@ -709,6 +796,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -731,6 +821,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -753,6 +846,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -775,6 +871,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -797,6 +896,9 @@ MonoBehaviour:
     ballSize: 1
     ballProportions: {x: 1, y: 0.75, z: 1}
     ballRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
     collisionMesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
     tier: 1
@@ -819,6 +921,9 @@ MonoBehaviour:
     ballSize: 0.75
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 0
@@ -841,6 +946,9 @@ MonoBehaviour:
     ballSize: 3
     ballProportions: {x: 1, y: 1, z: 1}
     ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 1

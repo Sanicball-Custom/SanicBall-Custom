@@ -17,6 +17,9 @@ namespace Sanicball.Data
         public float ballSize = 1;
         public Vector3 ballProportions = Vector3.one;
         public Quaternion ballRotation = Quaternion.identity;
+        public bool cycleColors = false;
+        public Color[] colorsToCycle;
+        public float colorsPerSecond = 1;
         public Mesh alternativeMesh = null;
         public Mesh collisionMesh = null;
 		public CharacterTier tier = CharacterTier.Normal;

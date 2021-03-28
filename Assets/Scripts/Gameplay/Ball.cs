@@ -143,6 +143,12 @@ namespace Sanicball.Gameplay
 		public int extraJumps = 0;
 		private int jumpsRemaining = 0;
 
+        public Color[] materialColors;
+        public bool cycleMaterialColors;
+        public float colorsPerSecond = 1;
+        private int materialColorIndex = 0;
+        private float materialCycleTimer;
+
         private Vector3 slowFallInitialSpeed = new Vector3();
         private bool usedSlowFall = false;
 
@@ -431,7 +437,11 @@ namespace Sanicball.Gameplay
             if(minimapIcon != null){
                 minimapIcon.sprite = c.minimapIcon;
             }
-            foreach(Transform child in transform){
+            cycleMaterialColors = c.cycleColors;
+            materialColors = c.colorsToCycle;
+            colorsPerSecond = c.colorsPerSecond;
+            materialCycleTimer = colorsPerSecond * Time.fixedDeltaTime;
+            foreach (Transform child in transform){
                 if(child.gameObject.name == "Minimap Icon"){
                     GameObject minimapCamera = GameObject.Find("MinimapCamera");
                     if(minimapCamera != null){
@@ -446,6 +456,22 @@ namespace Sanicball.Gameplay
 
         private void FixedUpdate()
         {
+            if(cycleMaterialColors) {
+                if (materialCycleTimer <= 0) {
+                    GetComponent<Renderer>().material.color = materialColors[materialColorIndex];
+                    SpriteRenderer minimapIcon = GetComponentInChildren<SpriteRenderer>();
+                    if (minimapIcon != null) {
+                        minimapIcon.color = materialColors[materialColorIndex];
+                    }
+                    
+                    materialColorIndex++;
+                    if (materialColorIndex >= materialColors.Length) materialColorIndex = 0;
+                    materialCycleTimer = colorsPerSecond * Time.fixedDeltaTime;
+                } else {
+                    materialCycleTimer -= Time.fixedDeltaTime;
+                }
+            }
+
             if (!rb.useGravity && canMove)
                 rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude, ForceMode.Acceleration);            
 
