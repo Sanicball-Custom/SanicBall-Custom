@@ -79,7 +79,7 @@ namespace Sanicball.Logic
 
         //Events
         public event EventHandler<NextCheckpointPassArgs> NextCheckpointPassed;
-        public event EventHandler Respawned;
+        public event EventHandler<bool> Respawned;
         public event EventHandler FinishLinePassed;
         public event EventHandler Destroyed;
 
@@ -116,7 +116,7 @@ namespace Sanicball.Logic
             matchMessenger.CreateListener<RaceTimeoutMessage>(RaceTimeoutHandler);
             matchMessenger.CreateListener<PlayerZappedMessage>(PlayerZappedHandler);
             matchMessenger.CreateListener<PlayerConfusedMessage>(PlayerConfusedHandler);
-            matchMessenger.CreateListener<PlayerForcedRespawnMessage>(PlayerForcedRespawnHandler);
+            //matchMessenger.CreateListener<PlayerForcedRespawnMessage>(PlayerForcedRespawnHandler);
 
             lap = 1;
 
@@ -243,19 +243,19 @@ namespace Sanicball.Logic
             }
         }
 
-        private void PlayerForcedRespawnHandler(PlayerForcedRespawnMessage msg, float travelTime)
-        {
-            if(associatedMatchPlayer != null){
-                if (msg.ClientGuid == associatedMatchPlayer.ClientGuid && msg.CtrlType == associatedMatchPlayer.CtrlType)
-                {
-                    Debug.Log("Player respawned (RacePlayer): " + ball.Nickname);
-                    ball.RequestRespawn();
-                }
-            }else if(ball.Type == BallType.AI){
-                Debug.Log("Player respawned (RacePlayer): " + ball.Nickname);
-                ball.RequestRespawn();
-            }
-        }
+        //private void PlayerForcedRespawnHandler(PlayerForcedRespawnMessage msg, float travelTime)
+        //{
+        //    if(associatedMatchPlayer != null){
+        //        if (msg.ClientGuid == associatedMatchPlayer.ClientGuid && msg.CtrlType == associatedMatchPlayer.CtrlType)
+        //        {
+        //            Debug.Log("Player respawned (RacePlayer): " + ball.Nickname);
+        //            ball.RequestRespawn();
+        //        }
+        //    }else if(ball.Type == BallType.AI){
+        //        Debug.Log("Player respawned (RacePlayer): " + ball.Nickname);
+        //        ball.RequestRespawn();
+        //    }
+        //}
 
         private void PassNextCheckpoint(float lapTime)
         {
@@ -307,11 +307,11 @@ namespace Sanicball.Logic
             TrySetAITarget();
         }
 
-        private void Ball_RespawnRequested(object sender, EventArgs e)
+        private void Ball_RespawnRequested(object sender, bool penalty)
         {
             if (Respawned != null)
             {
-                Respawned(this, EventArgs.Empty);
+                Respawned(this, penalty);
             }
 
             ball.transform.position = sr.checkpoints[currentCheckpointIndex].GetRespawnPoint() + Vector3.up * ball.transform.localScale.x * 0.5f;
@@ -322,8 +322,10 @@ namespace Sanicball.Logic
                 ballCamera.SetDirection(sr.checkpoints[currentCheckpointIndex].transform.rotation);
             }
 
+            Debug.Log("Apply penalty = " + penalty);
+
             //Time penalty
-            lapTime += 5;
+            if(penalty) lapTime += 5;
 
             //Set next target node if this is an AI ball
             TrySetAITarget();

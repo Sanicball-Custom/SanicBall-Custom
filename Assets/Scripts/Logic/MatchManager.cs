@@ -301,8 +301,8 @@ namespace Sanicball.Logic
         private void PlayerForcedRespawnCallback(PlayerForcedRespawnMessage msg, float travelTime) {
             var player = players.FirstOrDefault(a => a.ClientGuid == msg.ClientGuid && a.CtrlType == msg.CtrlType);
             if (player != null) {
-                Debug.Log("Player respawned (MatchManager): " + player.BallObject.Nickname);
-				player.BallObject.RequestRespawn();
+                Debug.Log("Player forced to respawn (MatchManager): " + player.BallObject.Nickname);
+				player.BallObject.RequestRespawn(false);
 			}
         }
 

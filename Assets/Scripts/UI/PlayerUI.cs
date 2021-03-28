@@ -134,9 +134,11 @@ namespace Sanicball.UI
 
         public Camera TargetCamera { get; set; }
         
-        private void TargetPlayer_Respawned(object sender, EventArgs e)	
+        private void TargetPlayer_Respawned(object sender, bool penalty)	
         {
             UISound.Play(respawnSound);
+
+            if (!penalty) return;
 
             checkpointTimeField.text = "Respawn lap time penalty";
             checkpointTimeField.GetComponent<ToggleCanvasGroup>().ShowTemporarily(2f);

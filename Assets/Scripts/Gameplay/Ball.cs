@@ -160,7 +160,7 @@ namespace Sanicball.Gameplay
 
         //Events
         public event System.EventHandler<CheckpointPassArgs> CheckpointPassed;
-        public event System.EventHandler RespawnRequested;
+        public event System.EventHandler<bool> RespawnRequested;
         public event System.EventHandler<CameraCreationArgs> CameraCreated;
 
         public Vector3 gravDir;
@@ -231,14 +231,15 @@ namespace Sanicball.Gameplay
 			}
         }
 		
-        public void RequestRespawn()
+        public void RequestRespawn(bool penalty = true)
         {
             if (RespawnRequested != null){
-                RespawnRequested(this, System.EventArgs.Empty);
+                RespawnRequested(this, penalty);
             }
             if(!CanMove){
                 CanMove = true;
-                rb.useGravity = true;   
+                rb.useGravity = true;
+                
             }
         }
 
