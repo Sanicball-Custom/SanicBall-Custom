@@ -79,7 +79,7 @@ namespace SanicballCore
 				AllowedTiers = AllowedTiers.All,
                 TierRotationMode = TierRotationMode.None,
                 DisqualificationTime = 120,
-                Aliases = {}
+                Aliases = new Dictionary<string, int>()
             };
         }
 

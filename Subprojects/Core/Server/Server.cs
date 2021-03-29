@@ -55,7 +55,7 @@ namespace SanicballCore.Server
         private const string MOTD_FILENAME = "MOTD.txt";
 		private const string DEFAULT_SERVER_LIST_URL = "https://sanicball.bdgr.zone/servers";
         private const int TICKRATE = 20;
-        private const int STAGE_COUNT = 19; //Hardcoded stage count for now.. can't receive the actual count since it's part of a Unity prefab.
+        private const int STAGE_COUNT = 17; //Hardcoded stage count for now.. can't receive the actual count since it's part of a Unity prefab.
         private readonly CharacterTier[] characterTiers = new[] { //Hardcoded character tiers, same reason
             CharacterTier.Normal,       //Sanic
             CharacterTier.Normal,       //Knackles
@@ -338,7 +338,7 @@ namespace SanicballCore.Server
                                 maxScore = score;
                             }
                         }
-                        Log("Stage " + cmd.Content + " doesn't exist, were you looking for " + bestMatch);
+                        Log("Stage " + cmd.Content + " doesn't exist, maybe you were looking for " + bestMatch);
                     }
                 }
                 else
@@ -350,6 +350,10 @@ namespace SanicballCore.Server
             "Sets an alias for a stage (no spaces).",	
             cmd =>
             {
+                if (cmd.Content.Split(' ').Length != 2) {
+                    Log("Usage: alias [0-" + (STAGE_COUNT - 1) + "] [NewAlias] / alias [StageName / StageAlias] [NewAlias]");
+                    return;
+                }
                 string stage = cmd.Content.Split(' ')[0];
                 string alias = cmd.Content.Split(' ')[1];
                 int stageInt;
