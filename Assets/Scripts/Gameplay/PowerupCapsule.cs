@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Sanicball.Gameplay;
+using Sanicball.Logic;
 using UnityEngine;
 
 public class PowerupCapsule : MonoBehaviour {
@@ -13,6 +14,9 @@ public class PowerupCapsule : MonoBehaviour {
 	private LayerMask placementLayers;
 	
 	private void Start() {
+		var manager = FindObjectOfType<MatchManager>();
+		if (manager && !manager.CurrentSettings.PowerupsEnabled) gameObject.SetActive(false);
+
 		childMeshRenderers = GetComponentsInChildren(typeof(SkinnedMeshRenderer)); // NULL
 		capsuleCollider = GetComponent(typeof(Collider)) as Collider;
 		//Debug.Log(childMeshRenderers);
