@@ -6,8 +6,6 @@ namespace SanicballCore {
 		IceMountain,
 		DustyDesert,
 		RainbowRoad,
-		Minecraft,
-		Testing,
 		LuigiCircuit,
 		WaluigiPinball,
 		WaluigiStadium,
