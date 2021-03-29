@@ -61,12 +61,13 @@ namespace Sanicball.UI
 
         private void UpdateFields()
         {
-            var records = ActiveData.RaceRecords.Where(a => a.Stage == selectedStage && a.GameVersion == GameVersion.AS_FLOAT && a.WasTesting == GameVersion.IS_TESTING).OrderBy(a => a.Time);
+            var stageindex = ActiveData.Stages[selectedStage].id;
+            var records = ActiveData.RaceRecords.Where(a => a.Stage == stageindex && a.GameVersion == GameVersion.AS_FLOAT && a.WasTesting == GameVersion.IS_TESTING).OrderBy(a => a.Time);
 
-			for (int i = 0; i < recordTypes.Count (); i++) {
-				var ctrl = recordTypes [i];
-				var bestLapRecord = records.Where (a => a.Tier == (CharacterTier)i).FirstOrDefault();
-				ctrl.SetRecord (bestLapRecord);
+			for (int i = 0; i < recordTypes.Count(); i++) {
+				var ctrl = recordTypes[i];
+				var bestLapRecord = records.Where(a => a.Tier == (CharacterTier)i).FirstOrDefault();
+				ctrl.SetRecord(bestLapRecord);
 			}
 
 //            var bestLapRecord = records.Where(a => a.Type == RecordType.Lap).FirstOrDefault();
