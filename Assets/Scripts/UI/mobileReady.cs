@@ -6,6 +6,10 @@ public class mobileReady : MonoBehaviour {
 
     public bool ready;
 
+    public void Start() {
+        if (!PlatformDetector.isMobile()) gameObject.SetActive(false);
+    }
+
     public void LateUpdate()
     {
         ready = false;
