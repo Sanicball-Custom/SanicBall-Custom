@@ -598,11 +598,11 @@ PrefabInstance:
     - target: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
       value: 
-      objectReference: {fileID: 1479160115}
+      objectReference: {fileID: 664602122}
     - target: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
-      objectReference: {fileID: 989644965}
+      objectReference: {fileID: 1556478138}
     - target: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1769,6 +1769,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &146358581 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 34443136}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &151427781
@@ -6996,7 +7008,7 @@ PrefabInstance:
     - target: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
-      objectReference: {fileID: 1556478138}
+      objectReference: {fileID: 146358581}
     - target: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -16107,7 +16119,7 @@ PrefabInstance:
     - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
       value: 
-      objectReference: {fileID: 664602122}
+      objectReference: {fileID: 146358581}
     - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
