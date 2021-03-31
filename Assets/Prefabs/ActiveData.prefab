@@ -723,7 +723,7 @@ MonoBehaviour:
     - {r: 1, g: 1, b: 1, a: 0}
     - {r: 0.87058824, g: 1, b: 0.2901961, a: 0}
     - {r: 1, g: 1, b: 1, a: 0}
-    colorsPerSecond: 0.083333336
+    colorsPerSecond: 0.001
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
     tier: 2

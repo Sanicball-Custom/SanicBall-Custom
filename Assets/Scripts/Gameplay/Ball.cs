@@ -440,7 +440,7 @@ namespace Sanicball.Gameplay
             cycleMaterialColors = c.cycleColors;
             materialColors = c.colorsToCycle;
             colorsPerSecond = c.colorsPerSecond;
-            materialCycleTimer = colorsPerSecond * Time.fixedDeltaTime;
+            materialCycleTimer = colorsPerSecond * 50; // 50 FixedUpdate calls per second
             foreach (Transform child in transform){
                 if(child.gameObject.name == "Minimap Icon"){
                     GameObject minimapCamera = GameObject.Find("MinimapCamera");
@@ -466,7 +466,7 @@ namespace Sanicball.Gameplay
                     
                     materialColorIndex++;
                     if (materialColorIndex >= materialColors.Length) materialColorIndex = 0;
-                    materialCycleTimer = colorsPerSecond * Time.fixedDeltaTime;
+                    materialCycleTimer = colorsPerSecond * 50; // 50 FixedUpdate calls per second
                 } else {
                     materialCycleTimer -= Time.fixedDeltaTime;
                 }
