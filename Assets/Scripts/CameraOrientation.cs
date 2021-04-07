@@ -11,7 +11,8 @@ namespace Sanicball
         {
             get
             {
-                return Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0);
+                //return Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0);
+                return transform.rotation;
             }
         }
 
@@ -19,7 +20,7 @@ namespace Sanicball
         {
             Gizmos.color = Color.red;
             Gizmos.matrix = Matrix4x4.TRS(transform.position, CameraRotation, Vector3.one);
-            Gizmos.DrawFrustum(transform.position, 72f, 1000f, 1f, 16f / 9f);
+            Gizmos.DrawFrustum(Vector3.zero, 72f, 1000f, 1f, 16f / 9f);
         }
     }
 }
