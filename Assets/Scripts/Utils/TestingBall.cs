@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestingBall : MonoBehaviour {
     void Start() {
-        if(!Application.isEditor) {
+        if (!Application.isEditor) {
             Destroy(gameObject);
         }
     }
