@@ -113,32 +113,42 @@ MonoBehaviour:
   - name: Mario's Course
     id: 15
     sceneName: Track_MarioCourse
-    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    picture: {fileID: 21300000, guid: 7c8a81c4b26aabf47ac32c1f6c9019fd, type: 3}
     overviewPrefab: {fileID: 0}
   - name: Wario's Stadium
     id: 16
     sceneName: Track_WarioStadium
-    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    picture: {fileID: 21300000, guid: ee30e9bd48519be4e85982ff7ceb469f, type: 3}
     overviewPrefab: {fileID: 0}
   - name: Mario's Track
     id: 17
     sceneName: Track_MarioTrack
-    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    picture: {fileID: 21300000, guid: c2a91ed39b42e2342ad69e676e48b253, type: 3}
     overviewPrefab: {fileID: 0}
   - name: Rainbow Road 2
     id: 18
     sceneName: Track_RainbowRoad2
-    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    picture: {fileID: 21300000, guid: a14dd66bb12fae1468684323be6ff956, type: 3}
     overviewPrefab: {fileID: 0}
   - name: Sanic Loops
     id: 19
     sceneName: Track_SanicLoops
-    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    picture: {fileID: 21300000, guid: 3c5ebc5a4794db245925b463ad1a4c6c, type: 3}
     overviewPrefab: {fileID: 0}
   - name: Old Green Hill Zone
     id: 20
     sceneName: Track_OldGreenHill
-    picture: {fileID: 21300000, guid: f2de3e27b4d42064fbf47e276bf9c8de, type: 3}
+    picture: {fileID: 21300000, guid: b6b22bcc579dd12499b4fbd9424ce7a6, type: 3}
+    overviewPrefab: {fileID: 0}
+  - name: Wuhu Island
+    id: 21
+    sceneName: Track_WuhuIsland
+    picture: {fileID: 21300000, guid: 902a15978cf331e4bb9e9dcdb507c22a, type: 3}
+    overviewPrefab: {fileID: 0}
+  - name: Wuhu Sunset
+    id: 22
+    sceneName: Track_WuhuIsland_Sunset
+    picture: {fileID: 21300000, guid: aa7a51da646ac4e47a86f1104b179b7b, type: 3}
     overviewPrefab: {fileID: 0}
   characters:
   - name: Sanic
