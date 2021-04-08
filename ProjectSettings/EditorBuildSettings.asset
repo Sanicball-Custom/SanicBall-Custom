@@ -14,19 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lobby.unity
     guid: c1e00a02ec0c7304584fa323ef166aaf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_GreenHillZone.unity
     guid: dd3bbb09ce1af034192ad01d199b5a98
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_FlameCore.unity
     guid: 8912b8b165639fe4285eff0f6d6d3b66
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_Desert.unity
     guid: a786b0209e96abe4c8fd49cc4d26f4ac
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_RainbowRoad.unity
     guid: c6ff669b6a5dbd44bba8bdd7dbef35ff
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_SnowyMountain.unity
     guid: b2b8ab8885b2c404985feb6cf44156e0
   - enabled: 0
@@ -35,46 +35,46 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestNewFeatures.unity
     guid: 60cb721e14230ff45a0e1ba696639a39
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_LuigiCircuit.unity
     guid: 2e50d5c5b6d93034abd354aa5325bcad
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_WaluigiPinball.unity
     guid: 6ce63447c5ea597448f4e70e9d02fd21
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_WaluigisStadium.unity
     guid: 6d0ed505440ef164395bd00eb778977a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_PeachsGardens.unity
     guid: b48a36bbd6063ff4c834775fb47a6fd6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_VolcanoCircuit.unity
     guid: 36f48ea552a24cd41a95bed3807655bb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_VolcanoValley.unity
     guid: ca1b05e9c4043584f9920dc8eeeac98b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_ToadCircuit.unity
     guid: 78198e5c606eaea4bab72b449bb963a4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_BowsersCastle.unity
     guid: 0d32ce5db893a764a8eeef3b757dfdac
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_MarioCourse.unity
     guid: 8444e6f318e27f848822723f2169e4b3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_WarioStadium.unity
     guid: 02d93133ed5ac494c9d4671cebe2aac0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_MarioTrack.unity
     guid: 0dbc60ab5d1e3794eada60b0b5f54dfe
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_RainbowRoad2.unity
     guid: 1e42a47f9bf0a3f40b135febdf2bca4a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_SanicLoops.unity
     guid: be30effea04ba40c6af99d985f7cc4ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_OldGreenHill.unity
     guid: 587ff0f5eaa3fa740832ba0944257c3c
   - enabled: 0
@@ -86,7 +86,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Track_WuhuIsland.unity
     guid: 57c49a558af4d21438d478110d8a803b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
     guid: 76e7907a019c51544adf27b0e28c6f19
   m_configObjects: {}
