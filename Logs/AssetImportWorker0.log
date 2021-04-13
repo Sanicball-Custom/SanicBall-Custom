@@ -135,3 +135,87 @@ Received Import Request.
 Start importing Assets/Scenes/Track_WuhuIsland.unity using Guid(57c49a558af4d21438d478110d8a803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d5b44b1f15597eb6c52ad400ebfacb') in 0,001972 seconds
   Import took 0,012316 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 18206,624439 seconds.
+  path: Assets/Scenes/Track_OldGreenhill.unity
+  artifactKey: Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_OldGreenhill.unity using Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b261ee1b009bff068514fb67dc50cbcf') in 0,426117 seconds
+  Import took 0,449195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12,761641 seconds.
+  path: Assets/Scenes/Lobby.unity
+  artifactKey: Guid(c1e00a02ec0c7304584fa323ef166aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lobby.unity using Guid(c1e00a02ec0c7304584fa323ef166aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e3059355aa554093eec89929bbab63') in 0,001688 seconds
+  Import took 0,013170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58,228884 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(48101ff8d549d8341866310edc781562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(48101ff8d549d8341866310edc781562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318b45f33fb102f3604a8a53e5f5a500') in 0,001884 seconds
+  Import took 0,011111 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6,61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,1 MB.
+System memory in use after: 76,2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3603.
+Total: 3,280233 ms (FindLiveObjects: 0,300914 ms CreateObjectMapping: 0,130592 ms MarkObjects: 2,759865 ms  DeleteObjects: 0,083437 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2582,969566 seconds.
+  path: Assets/Scenes/Track_WaluigiPinball.unity
+  artifactKey: Guid(6ce63447c5ea597448f4e70e9d02fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_WaluigiPinball.unity using Guid(6ce63447c5ea597448f4e70e9d02fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9d9629db2af6afde2c6cc92b7c67b3') in 0,027957 seconds
+  Import took 0,033919 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6,39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,1 MB.
+System memory in use after: 76,2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3603.
+Total: 3,083375 ms (FindLiveObjects: 0,285518 ms CreateObjectMapping: 0,166561 ms MarkObjects: 2,547611 ms  DeleteObjects: 0,082604 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5811,803304 seconds.
+  path: Assets/Scenes/Track_OldGreenhill.unity
+  artifactKey: Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_OldGreenhill.unity using Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71b93a4951afb21472bce51feb0bc4') in 0,001955 seconds
+  Import took 0,009218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,009751 seconds.
+  path: Assets/Scenes/Track_OldGreenhill.unity
+  artifactKey: Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_OldGreenhill.unity using Guid(587ff0f5eaa3fa740832ba0944257c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71b93a4951afb21472bce51feb0bc4') in 0,001025 seconds
+  Import took 0,006718 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 10,16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,1 MB.
+System memory in use after: 76,2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3603.
+Total: 5,608457 ms (FindLiveObjects: 0,509806 ms CreateObjectMapping: 0,275733 ms MarkObjects: 4,664573 ms  DeleteObjects: 0,155841 ms)
+

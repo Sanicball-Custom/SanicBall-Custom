@@ -137,7 +137,7 @@ MonoBehaviour:
     overviewPrefab: {fileID: 0}
   - name: Old Green Hill Zone
     id: 20
-    sceneName: Track_OldGreenHill
+    sceneName: Track_OldGreenhill
     picture: {fileID: 21300000, guid: b6b22bcc579dd12499b4fbd9424ce7a6, type: 3}
     overviewPrefab: {fileID: 0}
   - name: Wuhu Island

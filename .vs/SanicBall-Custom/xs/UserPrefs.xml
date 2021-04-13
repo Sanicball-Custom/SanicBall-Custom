@@ -1,7 +1,7 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Data/GameSettings.cs">
+﻿<Properties StartupConfiguration="{D7E84FCF-60A6-58C6-34B3-E3E1BF2DC779}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/PlayerUI.cs">
     <Files>
-      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="505" Column="10" />
+      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="642" Column="17" />
       <File FileName="GlobalSuppressions.cs" Line="6" Column="1" />
       <File FileName="Assets/Scripts/Gameplay/customGravity.cs" Line="25" Column="77" />
       <File FileName="Assets/Scripts/Gameplay/OmniCamera.cs" Line="95" Column="77" />
@@ -9,25 +9,25 @@
       <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraSplitter.cs" Line="17" Column="42" />
       <File FileName="Assets/Scripts/Data/GameSettings.cs" Line="119" Column="9" />
+      <File FileName="Assets/Scripts/UI/PlayerUI.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SanicBall-Custom" expanded="True">
             <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True" />
-            </Node>
-            <Node name="Assembly-CSharp-Editor" expanded="True" />
-            <Node name="Assembly-CSharp-firstpass" expanded="True">
               <Node name="Assets" expanded="True">
-                <Node name="Standard Assets" expanded="True">
-                  <Node name="Effects" expanded="True">
-                    <Node name="ImageEffects" expanded="True">
-                      <Node name="Scripts" expanded="True" />
-                    </Node>
+                <Node name="Scripts" expanded="True">
+                  <Node name="Gameplay" expanded="True" />
+                  <Node name="UI" expanded="True">
+                    <Node name="PlayerUI.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
+            </Node>
+            <Node name="Assembly-CSharp-Editor" expanded="True" />
+            <Node name="Assembly-CSharp-firstpass" expanded="True">
+              <Node name="Assets" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -38,9 +38,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/mnt/kali/home/migouche/unity projects/SanicBall-Custom/Assets/Scripts/Gameplay/Ball.cs" relfile="Assets/Scripts/Gameplay/Ball.cs" line="505" column="16" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
