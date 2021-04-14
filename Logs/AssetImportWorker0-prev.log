@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-35983
+34185
 Successfully changed project path to: /mnt/kali/home/migouche/unity projects/SanicBall-Custom
 /mnt/kali/home/migouche/unity projects/SanicBall-Custom
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69,92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75,67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -38,34 +38,34 @@ on_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_N
 mat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_vie
 w_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_s
 hadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1780595128
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -410814632
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = '/home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56110
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001793 seconds.
+Registered in 0,001673 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64,42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67,88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,229 seconds
+- Completed reload, in  1,306 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,004741 seconds.
+Registered in 0,005095 seconds.
 Begin MonoManager ReloadAssembly
 OnLevelWasLoaded was found on MatchManager
 This message has been deprecated and will be removed in a later version of Unity.
@@ -75,7 +75,7 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63,95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77,78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Fallback handler could not load library /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libdiscord-rpc
 Fallback handler could not load library /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libdiscord-rpc.so
@@ -105,56 +105,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,968 seconds
+- Completed reload, in  1,111 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1,14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0,92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149,6 MB.
-System memory in use after: 149,0 MB.
+System memory in use before: 149,8 MB.
+System memory in use after: 149,2 MB.
 
 Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 4,500228 ms (FindLiveObjects: 0,406037 ms CreateObjectMapping: 0,199992 ms MarkObjects: 3,288688 ms  DeleteObjects: 0,603703 ms)
+Total: 3,848285 ms (FindLiveObjects: 0,358213 ms CreateObjectMapping: 0,178962 ms MarkObjects: 2,804350 ms  DeleteObjects: 0,505713 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/ActiveData.prefab
-  artifactKey: Guid(7a1320b5449ace84db564be1a1ddd206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ActiveData.prefab using Guid(7a1320b5449ace84db564be1a1ddd206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8426d32bf2bfcc562ae1e6883cc59e4a') in 0,094934 seconds
-  Import took 0,102759 seconds .
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 6,31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77,0 MB.
-System memory in use after: 77,1 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3605.
-Total: 3,199748 ms (FindLiveObjects: 0,297160 ms CreateObjectMapping: 0,109515 ms MarkObjects: 2,712851 ms  DeleteObjects: 0,079424 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 7,03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77,0 MB.
-System memory in use after: 77,1 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3605.
-Total: 3,598521 ms (FindLiveObjects: 0,305517 ms CreateObjectMapping: 0,128144 ms MarkObjects: 3,071346 ms  DeleteObjects: 0,092494 ms)
+  path: Assets/Scenes/Track_WuhuIsland.unity
+  artifactKey: Guid(57c49a558af4d21438d478110d8a803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Track_WuhuIsland.unity using Guid(57c49a558af4d21438d478110d8a803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c2154da5b123e945769bdca9ce622c') in 0,005018 seconds
+  Import took 0,010516 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,006125 seconds.
+Registered in 0,004906 seconds.
 OnLevelWasLoaded was found on MatchManager
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -168,7 +144,7 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1,14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Fallback handler could not load library /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libdiscord-rpc
 Fallback handler could not load library /home/miguel/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libdiscord-rpc.so
@@ -198,128 +174,72 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,967 seconds
+- Completed reload, in  1,085 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0,90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0,87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134,9 MB.
-System memory in use after: 134,3 MB.
+Unloading 2921 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135,2 MB.
+System memory in use after: 134,7 MB.
 
-Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 3608.
-Total: 3,216333 ms (FindLiveObjects: 0,277733 ms CreateObjectMapping: 0,138980 ms MarkObjects: 2,581298 ms  DeleteObjects: 0,217116 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 6,97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76,9 MB.
-System memory in use after: 77,0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3608.
-Total: 3,768801 ms (FindLiveObjects: 0,338036 ms CreateObjectMapping: 0,152470 ms MarkObjects: 3,161383 ms  DeleteObjects: 0,115237 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 6,48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76,9 MB.
-System memory in use after: 77,0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3608.
-Total: 3,545837 ms (FindLiveObjects: 0,307581 ms CreateObjectMapping: 0,152802 ms MarkObjects: 2,980203 ms  DeleteObjects: 0,104290 ms)
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 3614.
+Total: 3,048325 ms (FindLiveObjects: 0,248406 ms CreateObjectMapping: 0,107197 ms MarkObjects: 2,480412 ms  DeleteObjects: 0,211488 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5464,654149 seconds.
+  Time since last request: 494,065218 seconds.
+  path: Assets/Scenes/Retro/Map.prefab
+  artifactKey: Guid(ec718f088ded918e89290f85c83de049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Retro/Map.prefab using Guid(ec718f088ded918e89290f85c83de049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75556cb17963c33462e9ed46d43f852') in 0,410161 seconds
+  Import took 0,418014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000193 seconds.
+  path: Assets/Scenes/Retro/Retro green hill.prefab
+  artifactKey: Guid(084d689f3bcb7e2cc8bdbd579b5f88d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Retro/Retro green hill.prefab using Guid(084d689f3bcb7e2cc8bdbd579b5f88d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916a5cefcff29a19562aeb7678b11b9a') in 0,109081 seconds
+  Import took 0,117087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,798948 seconds.
+  path: Assets/Scenes/Retro/respawns.prefab
+  artifactKey: Guid(030f581a88a3dd8cdb6864c07b32d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Retro/respawns.prefab using Guid(030f581a88a3dd8cdb6864c07b32d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3634bcfba9f958f59f42602d91f32201') in 0,007136 seconds
+  Import took 0,012190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001489 seconds.
+  path: Assets/Scenes/Retro/respawns.prefab
+  artifactKey: Guid(030f581a88a3dd8cdb6864c07b32d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Retro/respawns.prefab using Guid(030f581a88a3dd8cdb6864c07b32d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3634bcfba9f958f59f42602d91f32201') in 0,014237 seconds
+  Import took 0,018963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145,476682 seconds.
   path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
   artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ddae7c58d40002ace5cf823e0ed6f6') in 0,003923 seconds
-  Import took 0,012623 seconds .
+Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8786b427a502aab306eaa2ad9b27f6') in 0,001044 seconds
+  Import took 0,007572 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 674,289502 seconds.
+  Time since last request: 169,570089 seconds.
   path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
   artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7359f161804fda192ab5be06cdc815f') in 0,001469 seconds
-  Import took 0,007616 seconds .
+Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9b3bd870fdbe4f4892e5aefe84488c') in 0,096463 seconds
+  Import took 0,101780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 297,252564 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(451586f28ff22a946b895ef0d457d0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(451586f28ff22a946b895ef0d457d0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40cd5d9247e886346c57bd5a685537d') in 0,002219 seconds
-  Import took 0,010713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107,422687 seconds.
+  Time since last request: 310,103063 seconds.
   path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
   artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172baef96fc254c4e4da215b192a5336') in 0,003288 seconds
-  Import took 0,011000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 314,603514 seconds.
-  path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
-  artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd718f5ab898fdb92e064657c7216618b') in 0,003891 seconds
-  Import took 0,012901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 256,406165 seconds.
-  path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
-  artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3af9cb5c861150f616037c1262e296') in 0,004266 seconds
-  Import took 0,020010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 245,748605 seconds.
-  path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
-  artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e2348750e0677ce433528bf9a57b5c') in 0,003385 seconds
-  Import took 0,011642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55,019691 seconds.
-  path: Assets/Scenes/CharacterGallery.unity
-  artifactKey: Guid(7bc4ff30111916640a57948cffe4a9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CharacterGallery.unity using Guid(7bc4ff30111916640a57948cffe4a9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fcd09f773dfc410d2274dd364819aa') in 0,001403 seconds
-  Import took 0,008351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90,444605 seconds.
-  path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
-  artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca66aca571b1c9a7f5de934d4bf60b14') in 0,002351 seconds
-  Import took 0,008918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1049,196305 seconds.
-  path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
-  artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a05ae33e5b5bc4d0f5f3cc99cd9b64') in 0,002912 seconds
-  Import took 0,008838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76,130317 seconds.
-  path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
-  artifactKey: Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf12ce7c180b407f274bfe618413e6e') in 0,002857 seconds
-  Import took 0,009479 seconds .
+Start importing Assets/Scenes/Track_WuhuIsland_Sunset.unity using Guid(76e7907a019c51544adf27b0e28c6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec109bccef79e56ef9e29e474525cc4') in 0,002706 seconds
+  Import took 0,007636 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
