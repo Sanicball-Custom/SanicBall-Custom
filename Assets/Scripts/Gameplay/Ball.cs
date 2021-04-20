@@ -264,6 +264,8 @@ namespace Sanicball.Gameplay
 
         private void Start()
         {
+            Achievements.UpdateAchievements();
+            
             Up = Vector3.up;
 
             zap_particles = transform.GetComponentInChildren<ParticleSystem>();
@@ -676,6 +678,11 @@ namespace Sanicball.Gameplay
         {
             //TODO: Create a special version of the particle system for Super Sanic that has a cloud of pot leaves instead. No, really.
             Instantiate(prefabs.RemovalParticles, transform.position, transform.rotation);
+        }
+        
+        public void UnlockAchievement(Achievement achievement) //Ball singleton
+        {
+
         }
     }
 }
