@@ -25,7 +25,7 @@ public class AchievementPanel : MonoBehaviour {
             if (Achievements.Unlocked(achievement.title)) entry = Instantiate(achievementEntryPrefab, unlockedAchievements);
             else entry = Instantiate(achievementEntryPrefab, lockedAchievements);
             entry.transform.GetChild(0).GetComponent<Text>().text = achievement.title;
-            entry.transform.GetChild(1).GetComponent<Text>().text = achievement.description;
+            entry.transform.GetChild(1).GetComponent<Text>().text = achievement.achieved ? achievement.description : "???";
         }
     }
 }
