@@ -47,6 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCanvasPrefab: {fileID: 11496758, guid: 8cee92b7e27d99042b0a050e833b027a, type: 3}
   playerCanvasLobbyOffset: 0
+  achievementPrefab: {fileID: 689163644947490358, guid: e35a669fb05b2660db497043b0acff8b,
+    type: 3}
   startPlaying: 0
   fadeIn: 0
   playlist:

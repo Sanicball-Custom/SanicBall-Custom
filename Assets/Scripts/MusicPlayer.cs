@@ -17,6 +17,8 @@ namespace Sanicball
         public bool playerCanvasLobbyOffset = false;
         private MusicPlayerCanvas playerCanvas;
 
+        public AchievementCanvas achievementPrefab;
+
         public bool startPlaying = false;
         public bool fadeIn = false;
 
@@ -68,6 +70,7 @@ namespace Sanicball
         private void Start()
         {
             playerCanvas = Instantiate(playerCanvasPrefab);
+            Instantiate(achievementPrefab);
             if (playerCanvasLobbyOffset) 
             {
                 playerCanvas.lobbyOffset = true;
