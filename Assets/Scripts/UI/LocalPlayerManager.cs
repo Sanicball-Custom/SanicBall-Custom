@@ -55,6 +55,7 @@ namespace Sanicball.UI
             if (PauseMenu.GamePaused) return; //Short circuit if the game is paused
             foreach (ControlType ctrlType in System.Enum.GetValues(typeof(ControlType)))
             {
+                if (ctrlType == ControlType.Mobile && !PlatformDetector.isMobile()) continue;
                 if (GameInput.IsOpeningMenu(ctrlType))
                 {
                     if (!manager
