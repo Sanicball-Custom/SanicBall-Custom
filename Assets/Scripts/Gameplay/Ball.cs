@@ -651,6 +651,14 @@ namespace Sanicball.Gameplay
 
             if (other.GetComponent<TriggerRespawn>())
                 RequestRespawn();
+
+            AchievementTrigger trigger = other.GetComponent<AchievementTrigger>();
+            if(trigger)
+            {
+                print("entered achievement trigger area");
+                if (trigger.triggerType == TriggerType.Default)
+                    Achievements.Unlock(trigger.AchievementTitle);
+            }
         }
 
         private void OnCollisionStay(Collision c)

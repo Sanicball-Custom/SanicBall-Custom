@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Sanicball.UI;
 
-public static class Achievements //will use the Ball.cs singleton to call UI instantiation
+public static class Achievements //UI will be the singleton itslef
 {
     public static string canvasName;
     
@@ -20,10 +21,11 @@ public static class Achievements //will use the Ball.cs singleton to call UI ins
         new Achievement("Our Ogre Lord", "You found him"),
         new Achievement("I'm an ogre!", "Found the statue and disguised as him"),
         new Achievement("Reunion", "What are they doing in the middle fo the desert?"),
-        new Achievement("Kakka carrot cake", "Chilling under the umbrella"),
+        new Achievement("Kakka carrot cake", "Chilling under t\the umbrella"),
         new Achievement("4chan", "Looks like you're going to the Shadow Realm, Jimbo"),
-        new Achievement("Vinesauce", "Found the mushroom"),
-        new Achievement("Hilarious Easter Egg", "Hilarous Easter Eggs")
+        new Achievement("Vineshroom", "Found the mushroom"),
+        new Achievement("Hilarious Easter Egg", "Hilarous Easter Eggs"),
+        new Achievement("On top of the mountain", "You climbed the tallest mountain")
     };
     
     public static bool Exists(string achievement)
@@ -47,6 +49,7 @@ public static class Achievements //will use the Ball.cs singleton to call UI ins
     
     public static void Unlock(string achievementName)
     {
+        Debug.Log("Unlocking achievement " + achievementName);
         //Achievement achievement;
         if (Exists(achievementName))
         {
@@ -83,6 +86,7 @@ public static class Achievements //will use the Ball.cs singleton to call UI ins
     public static void ShowUnlockedAchievement(Achievement achievement)
     {
         Debug.Log("Just unlocked " + achievement.title + ": " + achievement.description);
+        GameObject.FindObjectOfType<AchievementCanvas>().UnlockAchievement(achievement);
         //achievementUI = AssetD
     }
 }
