@@ -50,6 +50,10 @@ namespace Sanicball.Extra {
 				return "Sanic Loops";
 			} else if (sceneIndex == 21) {
 				return "Old Green Hill Zone";
+			} else if (sceneIndex == 22) {
+				return "Wuhu Island";
+			} else if (sceneIndex == 23) {
+				return "Wuhu Sunset";
 			}
 			return "Unknown Stage";
 		}
