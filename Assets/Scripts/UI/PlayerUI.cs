@@ -213,7 +213,10 @@ namespace Sanicball.UI
 			leftPowerupImageGO = GetLocalGameObjectByPath("Container/LeftPowerup/Image");
 			rightPowerupImageGO = GetLocalGameObjectByPath("Container/RightPowerup/Image");
             GetLocalGameObjectByPath("Container/Minimap").SetActive(!Application.isMobilePlatform);
-		}
+            GetLocalGameObjectByPath("Container/LeftPowerup").SetActive(ActiveData.MatchSettings.PowerupsEnabled);
+            GetLocalGameObjectByPath("Container/RightPowerup").SetActive(ActiveData.MatchSettings.PowerupsEnabled);
+            GetLocalGameObjectByPath("Container/Minimap").SetActive(ActiveData.GameSettings.minimapEnabled);
+        }
 
         private void Update()
         {
@@ -225,7 +228,7 @@ namespace Sanicball.UI
 
             if (TargetPlayer == null || TargetManager == null) return;
 			
-			if(!controlTypeSet){
+			if(!controlTypeSet && ActiveData.MatchSettings.PowerupsEnabled){
 				if(TargetPlayer.CtrlType != ControlType.Keyboard) {
 					if(leftPowerupKbdGO != null && rightPowerupKbdGO != null) {
 						leftPowerupKbdGO.SetActive(false);

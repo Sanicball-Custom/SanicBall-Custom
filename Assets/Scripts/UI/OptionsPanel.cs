@@ -42,6 +42,7 @@ namespace Sanicball.UI
 
         [Header("Misc")]
         public Text characterHats;
+        public Text minimapEnabled;
 
         private GameSettings tempSettings = new GameSettings();
 
@@ -107,6 +108,7 @@ namespace Sanicball.UI
             fast.text = tempSettings.fastMusic ? "On" : "Off";
 
             characterHats.text = tempSettings.characterHats ? "On" : "Off";
+            minimapEnabled.text = tempSettings.minimapEnabled ? "On" : "Off";
         }
 
         private void Start()
@@ -363,6 +365,10 @@ namespace Sanicball.UI
         }
         public void CharacterHatsToggle() {
             tempSettings.characterHats = !tempSettings.characterHats;
+            UpdateFields();
+        }
+        public void EnableMinimapToggle() {
+            tempSettings.minimapEnabled = !tempSettings.minimapEnabled;
             UpdateFields();
         }
 

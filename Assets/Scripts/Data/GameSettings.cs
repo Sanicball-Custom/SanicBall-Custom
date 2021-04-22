@@ -45,6 +45,7 @@ namespace Sanicball.Data
 
         [Header("Misc")]
         public bool characterHats = true;
+        public bool minimapEnabled = true;
 
         public GameSettings()
         {
@@ -70,6 +71,7 @@ namespace Sanicball.Data
             bloom = original.bloom;
             reflectionQuality = original.reflectionQuality;
             eSportsReady = original.eSportsReady;
+            minimapEnabled = original.minimapEnabled;
 
             useOldControls = original.useOldControls;
             oldControlsMouseSpeed = original.oldControlsMouseSpeed;
@@ -81,6 +83,7 @@ namespace Sanicball.Data
             fastMusic = original.fastMusic;
 
             characterHats = original.characterHats;
+            minimapEnabled = original.minimapEnabled;
         }
 
         //Since settings are saved and the user can modify them externally,
