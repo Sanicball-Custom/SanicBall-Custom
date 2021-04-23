@@ -663,7 +663,7 @@ namespace Sanicball.Gameplay
                     if (trigger.AchievementTitle != "")
                         Achievements.Unlock(trigger.AchievementTitle);
                     if (CharacterId == trigger.characterId)
-                        Achievements.Unlock(trigger.BallSpecialAchievementTitle);
+                        Achievements.Unlock(trigger.BallSpecialAchievementTitle);   
                 }
             }
         }

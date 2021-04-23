@@ -22,7 +22,7 @@ public static class Achievements //UI will be the singleton itslef
         new Achievement("I'm an ogre!", "Found the statue and disguised as him"),
         new Achievement("Reunion", "What are they doing in the middle fo the desert?"),
         new Achievement("Kakka carrot cake", "Chilling under t\the umbrella"),
-        new Achievement("4chan", "Looks like you're going to the Shadow Realm, Jimbo"),
+        //new Achievement("4chan", "Looks like you're going to the Shadow Realm, Jimbo"),
         new Achievement("Vineshroom", "Found the mushroom"),
         new Achievement("Hilarious Easter Egg", "Hilarous Easter Eggs"),
         new Achievement("On top of the mountain", "You climbed the tallest mountain")
