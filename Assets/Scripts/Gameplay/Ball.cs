@@ -658,6 +658,13 @@ namespace Sanicball.Gameplay
                 print("entered achievement trigger area");
                 if (trigger.triggerType == TriggerType.Default)
                     Achievements.Unlock(trigger.AchievementTitle);
+                if (trigger.triggerType == TriggerType.BallDependant)
+                {
+                    if (trigger.AchievementTitle != "")
+                        Achievements.Unlock(trigger.AchievementTitle);
+                    if (CharacterId == trigger.characterId)
+                        Achievements.Unlock(trigger.BallSpecialAchievementTitle);
+                }
             }
         }
 

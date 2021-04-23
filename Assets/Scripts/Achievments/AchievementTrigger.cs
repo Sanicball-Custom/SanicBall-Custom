@@ -12,6 +12,8 @@ public class AchievementTrigger : MonoBehaviour
 {
     public TriggerType triggerType;
     public string AchievementTitle;
+    public string BallSpecialAchievementTitle;
+    public int characterId;
     // Start is called before the first frame update
     void Start()
     {
