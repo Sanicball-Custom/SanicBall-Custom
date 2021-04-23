@@ -15,10 +15,10 @@ public class AchievementPanel : MonoBehaviour {
     public void RefreshAchievements() {
         Achievements.UpdateAchievements();
         foreach(Transform child in unlockedAchievements) {
-            Destroy(child);
+            Destroy(child.gameObject);
         }
         foreach (Transform child in lockedAchievements) {
-            Destroy(child);
+            Destroy(child.gameObject);
         }
         foreach (Achievement achievement in Achievements.achievements) {
             GameObject entry;
