@@ -16617,6 +16617,8 @@ GameObject:
   - component: {fileID: 570441272}
   - component: {fileID: 570441271}
   - component: {fileID: 570441270}
+  - component: {fileID: 570441275}
+  - component: {fileID: 570441274}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -16700,6 +16702,35 @@ Transform:
   m_Father: {fileID: 1801014962}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570441274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570441269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558fa784c9d6e170a9c0122a3373897e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerType: 0
+  AchievementTitle: THE PINK BOX
+  BallSpecialAchievementTitle: 
+  characterId: 0
+--- !u!65 &570441275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570441269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &571175439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48081,6 +48112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 0
   AchievementTitle: The Dank Engine
+  BallSpecialAchievementTitle: 
+  characterId: 0
 --- !u!65 &1587824128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54069,6 +54102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 0
   AchievementTitle: Picnic time
+  BallSpecialAchievementTitle: 
+  characterId: 0
 --- !u!65 &1823366195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55322,6 +55357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 0
   AchievementTitle: The real Sanic
+  BallSpecialAchievementTitle: 
+  characterId: 0
 --- !u!65 &1856641645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56221,6 +56258,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 0
   AchievementTitle: MISSING
+  BallSpecialAchievementTitle: 
+  characterId: 0
 --- !u!65 &1883446540
 BoxCollider:
   m_ObjectHideFlags: 0

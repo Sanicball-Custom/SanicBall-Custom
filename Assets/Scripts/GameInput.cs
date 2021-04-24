@@ -469,10 +469,6 @@ namespace Sanicball
             return Input.GetKeyDown(ActiveData.Keybinds[Keybind.Chat]) && !KeyboardDisabled;
         }
         
-        public static bool CallAchievementPopup()
-        {
-            return Input.GetKeyDown(ActiveData.Keybinds[Keybind.CallAchievementPopup]);
-        }
         #endregion Keyboard only input
     }
 }

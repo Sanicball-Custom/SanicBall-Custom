@@ -20,8 +20,8 @@ namespace Sanicball.UI
         // Update is called once per frame
         void Update()
         {
-            if (GameInput.CallAchievementPopup())
-                UnlockAchievement(new Achievement("Achievement Test", "placeholder desciption"));
+            if (Input.GetKeyDown(KeyCode.P))
+                Achievements.ClearAchievements();
 
             if (showTimer > 0)
             {
