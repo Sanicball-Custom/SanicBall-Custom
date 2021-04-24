@@ -20,8 +20,8 @@ namespace Sanicball.UI
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.P))
-                Achievements.ClearAchievements();
+            //if (Input.GetKeyDown(KeyCode.P))
+            //    Achievements.ClearAchievements();
 
             if (showTimer > 0)
             {
