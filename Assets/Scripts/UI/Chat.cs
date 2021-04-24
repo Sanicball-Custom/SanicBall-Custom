@@ -101,11 +101,13 @@ namespace Sanicball.UI
             switch (type)
             {
                 case ChatMessageType.User:
-                    messageObj.text = string.Format("<color=#6688ff><b>{0}</b></color>: {1}", from, text);
+                    if(text.StartsWith(">")) messageObj.text = string.Format("<color=#6688ff><b>{0}</b></color>: <color=#57ab57>{1}</color>", from, text);
+                    else messageObj.text = string.Format("<color=#6688ff><b>{0}</b></color>: {1}", from, text);
                     break;
 
                 case ChatMessageType.System:
-                    messageObj.text = string.Format("<color=#ffff77><b>{0}</b></color>", text);
+                    if (text.StartsWith(">")) messageObj.text = string.Format("<color=#57ab57><b>{0}</b></color>", text);
+                    else messageObj.text = string.Format("<color=#ffff77><b>{0}</b></color>", text);
                     break;
             }
 
@@ -128,6 +130,7 @@ namespace Sanicball.UI
 
             if (text.Trim() != string.Empty)
             {
+                if (text.StartsWith(">")) Achievements.Unlock("4chan");
                 if (MessageSent != null)
                     MessageSent(this, new ChatMessageArgs(text));
             }
