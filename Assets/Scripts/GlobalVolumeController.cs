@@ -17,11 +17,15 @@ public class GlobalVolumeController : MonoBehaviour {
         volume.profile.TryGet(out motionBlur);
         bloom.active = ActiveData.GameSettings.bloom;
         motionBlur.active = ActiveData.GameSettings.motionBlur;
-        motionBlur.active = ActiveData.GameSettings.motionBlur;
+        StartCoroutine(UpdateAntialiasing());
+    }
+
+    IEnumerator UpdateAntialiasing() {
+        yield return new WaitForSecondsRealtime(1f);
         if (ActiveData.GameSettings.aa == 0) {
             FindObjectsOfType<UniversalAdditionalCameraData>().ToList().ForEach(camera => camera.antialiasing = AntialiasingMode.None);
-        }else {
-            FindObjectsOfType<UniversalAdditionalCameraData>().ToList().ForEach(camera => camera.antialiasing = AntialiasingMode.FastApproximateAntialiasing);
+        } else {
+            FindObjectsOfType<UniversalAdditionalCameraData>().ToList().ForEach(camera => camera.antialiasing = AntialiasingMode.SubpixelMorphologicalAntiAliasing);
             switch (ActiveData.GameSettings.aa) {
                 case 2:
                     FindObjectsOfType<UniversalAdditionalCameraData>().ToList().ForEach(camera => camera.antialiasingQuality = AntialiasingQuality.Low);

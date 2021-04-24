@@ -113,7 +113,7 @@ namespace Sanicball.Gameplay
             var gravityAngleX = Vector3.Angle(Target.GetComponent<Ball>().gravDir, Vector3.right)-90;
             var gravityAngleZ = Vector3.Angle(Target.GetComponent<Ball>().gravDir, Vector3.forward)-90;
 
-            print("x: " + gravityAngleX + "; y: " + gravityAngleY + "; z: " + gravityAngleZ);
+            //print("x: " + gravityAngleX + "; y: " + gravityAngleY + "; z: " + gravityAngleZ);
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, (gravityAngleY >= 180 ? -1 : 1) * xtargetRotation - gravityAngleX, ytargetRotation - gravityAngleY), Time.deltaTime * 10 / smoothing);
             ///*if(!Target.useGravity || Target.GetComponent<Ball>().gravDir != Vector3.down)*/ transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(0, xtargetRotation, ytargetRotation) * gravityRot, Time.deltaTime * 2.5f / smoothing);
             //transform.localRotation = Quaternion.Lerp(transform.localRotation, transform.localRotation * , Time.deltaTime * 10 / smoothing);

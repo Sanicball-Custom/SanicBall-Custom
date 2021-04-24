@@ -11,7 +11,6 @@ public class SomeGravDirTest : MonoBehaviour
     }
 
     void Update(){
-
         var gravityAngleY = Vector3.Angle(ball.gravDir, Vector3.up);
         var gravityAngleX = Vector3.Angle(ball.gravDir, Vector3.right) - 90;
         var gravityAngleZ = Vector3.Angle(ball.gravDir, Vector3.forward) - 90;
