@@ -143,6 +143,8 @@ namespace Sanicball.Gameplay
 		public int extraJumps = 0;
 		private int jumpsRemaining = 0;
 
+        public IBallCamera myCamera;
+
         public Color[] materialColors;
         public bool cycleMaterialColors;
         public float colorsPerSecond = 1;
@@ -363,6 +365,8 @@ namespace Sanicball.Gameplay
                     }
                     camera.Target = rb;
                     camera.CtrlType = ctrlType;
+
+                    myCamera = camera;
 
                     if (CameraCreated != null)
                         CameraCreated(this, new CameraCreationArgs(camera));

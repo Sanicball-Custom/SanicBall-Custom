@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Sanicball.Gameplay;
+using Sanicball.Data;
 
 public enum GravityType
 {
@@ -37,10 +38,8 @@ public class customGravity : MonoBehaviour
         } else {
             ball.GetComponent<Rigidbody>().useGravity = true;
             ball.gravDir = Vector3.down;
-           
         }
-      
-	}
+    }
     /*
     public void OnCollisionEnter(Collision collision)
     {
