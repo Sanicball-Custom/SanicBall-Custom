@@ -45,27 +45,12 @@ namespace Sanicball.Logic
             GameObject music = GameObject.Find("IngameMusic");
             if (music != null && ActiveData.GameSettings.characterMusic && ActiveData.GameSettings.music) {
                 MusicPlayer player = (MusicPlayer)music.GetComponent<MusicPlayer>();
-                player.playlist = ActiveData.CharacterSpecificMusic[CharacterId].playlist;
-                player.Next();
-                //if (CharacterId == 25) {
-                //    player.playlist = ActiveData.UgandaMusic;
-                //    player.Next();
-                //} else if (CharacterId == 16) {
-                //    player.playlist = ActiveData.ShrekMusic;
-                //    player.Next();
-                //} else if (CharacterId == 26) {
-                //    player.playlist = ActiveData.KirbyMusic;
-                //    player.Next();
-                //} else if (CharacterId == 30) {
-                //    player.playlist = ActiveData.KhumKhumMusic;
-                //    player.Next();
-                //} else if (CharacterId == 21) {
-                //    player.playlist = ActiveData.WahndewsMusic;
-                //    player.Next();
-                //} else if (CharacterId == 27) {
-                //    player.playlist = ActiveData.MattMusic;
-                //    player.Next();
-                //}
+                var customPlaylist = ActiveData.CharacterSpecificMusic[CharacterId];
+                if (customPlaylist != null) {
+                    player.playlist = customPlaylist.playlist;
+                    player.ShuffleSongs();
+                    player.Next();
+                }
             }
         }
 

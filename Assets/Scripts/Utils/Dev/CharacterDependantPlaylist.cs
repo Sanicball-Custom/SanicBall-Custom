@@ -1,4 +1,6 @@
 using System;
+using System.Reflection;
+using System.Reflection.Emit;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,9 +22,9 @@ public class CharacterDependantPlaylist {
             character = ActiveData.characterDataInEditor[characterId];
         } catch (IndexOutOfRangeException) { }
           catch (ArgumentOutOfRangeException) { }
-          catch (NullReferenceException) { name = "Character ID #" + characterId; return; }
+          catch (NullReferenceException) { name = "Character ID #" + characterId + " (" + playlist.Length + " songs)"; return; }
 
-        if (character != null) name = character.name + " Playlist";
+        if (character != null) name = character.name + " ("+playlist.Length+" songs)";
         else name = "UNKNOWN CHARACTER ID";
     }
 }
@@ -37,7 +39,7 @@ public class CharacterDependantPlaylists : ISerializationCallbackReceiver {
         }
     }
     public CharacterDependantPlaylist this[int i] {
-        get { return list.First(p => p.characterId == i); }
+        get { return list.DefaultIfEmpty(null).FirstOrDefault(p => p.characterId == i); }
         set { list[list.ToList().FindIndex(p => p.characterId == i)] = value; }
     }
 

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
 using Sanicball.UI;
+using Sanicball.Logic;
 
 namespace Sanicball
 {
@@ -23,6 +24,7 @@ namespace Sanicball
         public bool fadeIn = false;
 
         public Song[] playlist;
+        private Song[] originalPlaylist;
         public AudioSource fastSource;
 
         [System.NonSerialized]
@@ -56,7 +58,7 @@ namespace Sanicball
         public void Play(string credits)
         {
             if (!ActiveData.GameSettings.music) return;
-            playerCanvas.Show(credits);
+            if(credits.Length > 0) playerCanvas.Show(credits);
             isPlaying = true;
             aSource.Play();
         }
@@ -69,6 +71,7 @@ namespace Sanicball
 
         private void Start()
         {
+            originalPlaylist = playlist;
             playerCanvas = Instantiate(playerCanvasPrefab);
             Instantiate(achievementPrefab);
             if (playerCanvasLobbyOffset) 
@@ -154,11 +157,20 @@ namespace Sanicball
 
             if (GameInput.ToggleCharacterMusic()) {
                 ActiveData.GameSettings.characterMusic = !ActiveData.GameSettings.characterMusic;
+                if (ActiveData.GameSettings.characterMusic) {
+                    MatchPlayer player = raceManager.matchManager.Players.First(p => p.ClientGuid == raceManager.matchManager.LocalClientGuid);
+                    if (player != null) player.ChangeMusic();
+                } else {
+                    playlist = originalPlaylist;
+                    Next();
+                }
                 playerCanvas.Show(ActiveData.GameSettings.characterMusic ? "Character Specific Music - ON" : "Character Specific Music - OFF");
             }
 
             if (GameInput.ToggleMusic()) {
                 ActiveData.GameSettings.music = !ActiveData.GameSettings.music;
+                if (ActiveData.GameSettings.music) Play("");
+                else Pause();
                 playerCanvas.Show(ActiveData.GameSettings.music ? "Music - ON" : "Music - OFF");
             }
             //Timer
@@ -187,7 +199,7 @@ namespace Sanicball
             }
         }
 
-        private void ShuffleSongs()
+        public void ShuffleSongs()
         {
             //Shuffle playlist using Fisher-Yates algorithm
             for (int i = playlist.Length; i > 1; i--)
