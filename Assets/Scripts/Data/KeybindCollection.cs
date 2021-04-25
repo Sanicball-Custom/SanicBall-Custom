@@ -25,6 +25,7 @@ namespace Sanicball.Data
 		PowerupLeft,
 		PowerupRight,
         ToggleCharacterMusic,
+        ToggleMusic,
         ClearAchievements
     }
 
@@ -58,6 +59,7 @@ namespace Sanicball.Data
             keybinds.Add(Keybind.PowerupLeft, KeyCode.Q);
             keybinds.Add(Keybind.PowerupRight, KeyCode.E);
             keybinds.Add(Keybind.ToggleCharacterMusic, KeyCode.C);
+            keybinds.Add(Keybind.ToggleMusic, KeyCode.M);
 
             //Joystick 1
             /*keybinds.Add("joy1brake", KeyCode.Joystick1Button1); //X / A

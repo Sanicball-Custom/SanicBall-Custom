@@ -461,7 +461,10 @@ namespace Sanicball
         }
 
         public static bool ToggleCharacterMusic() {
-            return Input.GetKeyDown(ActiveData.Keybinds[Keybind.ToggleCharacterMusic]);
+            return Input.GetKeyDown(ActiveData.Keybinds[Keybind.ToggleCharacterMusic]) && !KeyboardDisabled;
+        }
+        public static bool ToggleMusic() {
+            return Input.GetKeyDown(ActiveData.Keybinds[Keybind.ToggleMusic]) && !KeyboardDisabled;
         }
 
         public static bool IsOpeningChat()

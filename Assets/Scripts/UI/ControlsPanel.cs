@@ -63,6 +63,7 @@ namespace Sanicball.UI
             menu.text = Str(Keybind.Menu);
             chat.text = Str(Keybind.Chat);
             characterMusic.text = Str(Keybind.ToggleCharacterMusic);
+            //musicToggle.text = Str(Keybind.ToggleMusic);
         }
 
         public void SetKeybindToChange(string name)
