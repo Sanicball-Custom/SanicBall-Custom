@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
@@ -6,7 +7,7 @@ using UnityEngine;
 
 namespace Sanicball.Data
 {
-    public class ActiveData : MonoBehaviour
+    public class ActiveData : MonoBehaviour, ISerializationCallbackReceiver
     {
         #region Fields
 
@@ -46,20 +47,25 @@ namespace Sanicball.Data
         private AudioClip eSportsMusic;
         [SerializeField]
         private ESportMode eSportsPrefab;
-        
+
         [SerializeField]
-        private Song[] ugandaMusic;
-        [SerializeField]
-        private Song[] shrekMusic;
-        [SerializeField]
-        private Song[] kirbyMusic;
-        [SerializeField]
-        private Song[] windowsMusic;
-        [SerializeField]
-        private Song[] khumkhumMusic;
-        [SerializeField]
-        private Song[] mattMusic;
+        private CharacterDependantPlaylists characterSpecificMusic;
+
+        //[SerializeField]
+        //private Song[] ugandaMusic;
+        //[SerializeField]
+        //private Song[] shrekMusic;
+        //[SerializeField]
+        //private Song[] kirbyMusic;
+        //[SerializeField]
+        //private Song[] windowsMusic;
+        //[SerializeField]
+        //private Song[] khumkhumMusic;
+        //[SerializeField]
+        //private Song[] mattMusic;
         #endregion Fields
+
+        public static CharacterInfo[] characterDataInEditor;
 
         #region Properties
 
@@ -78,12 +84,13 @@ namespace Sanicball.Data
         public static GameObject ESportsHat {get{return instance.eSportsHat;}}
         public static AudioClip ESportsMusic {get{return instance.eSportsMusic;}}
         public static ESportMode ESportsPrefab {get{return instance.eSportsPrefab;}}
-        public static Song[] UgandaMusic {get{return instance.ugandaMusic;}}
-        public static Song[] ShrekMusic {get{return instance.shrekMusic;}}
-        public static Song[] KirbyMusic {get{return instance.kirbyMusic;} }
-        public static Song[] WahndewsMusic { get { return instance.windowsMusic; } }
-        public static Song[] KhumKhumMusic { get { return instance.khumkhumMusic; } }
-        public static Song[] MattMusic { get { return instance.mattMusic; } }
+        //public static Song[] UgandaMusic {get{return instance.ugandaMusic;}}
+        //public static Song[] ShrekMusic {get{return instance.shrekMusic;}}
+        //public static Song[] KirbyMusic {get{return instance.kirbyMusic;} }
+        //public static Song[] WahndewsMusic { get { return instance.windowsMusic; } }
+        //public static Song[] KhumKhumMusic { get { return instance.khumkhumMusic; } }
+        //public static Song[] MattMusic { get { return instance.mattMusic; } }
+        public static CharacterDependantPlaylists CharacterSpecificMusic { get { return instance.characterSpecificMusic; } }
 
         public static bool ESportsFullyReady {
             get {
@@ -209,5 +216,12 @@ namespace Sanicball.Data
         }
 
         #endregion Saving and loading
+
+        public void OnBeforeSerialize() {
+            OnAfterDeserialize();
+        }
+        public void OnAfterDeserialize() {
+            characterDataInEditor = characters;
+        }
     }
 }

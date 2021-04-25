@@ -5,6 +5,7 @@ using System.Linq;
 using SanicballCore;
 using SanicballCore.MatchMessages;
 using UnityEngine;
+using Sanicball.Data;
 
 namespace Sanicball.Logic
 {
@@ -40,6 +41,34 @@ namespace Sanicball.Logic
         public Gameplay.Ball BallObject { get; set; }
         public bool ReadyToRace { get; set; }
 
+        public void ChangeMusic() {
+            GameObject music = GameObject.Find("IngameMusic");
+            if (music != null && ActiveData.GameSettings.characterMusic && ActiveData.GameSettings.music) {
+                MusicPlayer player = (MusicPlayer)music.GetComponent<MusicPlayer>();
+                player.playlist = ActiveData.CharacterSpecificMusic[CharacterId].playlist;
+                player.Next();
+                //if (CharacterId == 25) {
+                //    player.playlist = ActiveData.UgandaMusic;
+                //    player.Next();
+                //} else if (CharacterId == 16) {
+                //    player.playlist = ActiveData.ShrekMusic;
+                //    player.Next();
+                //} else if (CharacterId == 26) {
+                //    player.playlist = ActiveData.KirbyMusic;
+                //    player.Next();
+                //} else if (CharacterId == 30) {
+                //    player.playlist = ActiveData.KhumKhumMusic;
+                //    player.Next();
+                //} else if (CharacterId == 21) {
+                //    player.playlist = ActiveData.WahndewsMusic;
+                //    player.Next();
+                //} else if (CharacterId == 27) {
+                //    player.playlist = ActiveData.MattMusic;
+                //    player.Next();
+                //}
+            }
+        }
+
         public void ProcessMovement(double timestamp, PlayerMovement movement)
         {
             if (timestamp > latestMovementTimestamp)
@@ -59,12 +88,12 @@ namespace Sanicball.Logic
 		public static MatchPlayer GetByBall(Gameplay.Ball referenceBall) {
 			object[] gameobjects = GameObject.FindSceneObjectsOfType(typeof(GameObject));
 			foreach (object obj in gameobjects) {
-				Debug.Log("Testing if Object "+((GameObject) obj).name+" has MatchPlayer.");
+				//Debug.Log("Testing if Object "+((GameObject) obj).name+" has MatchPlayer.");
 				MatchPlayer player = ((GameObject) obj).GetComponent<MatchPlayer>();
 				if(player != null) {
-					Debug.Log("Testing MatchPlayer with the referenceBall");
+					//Debug.Log("Testing MatchPlayer with the referenceBall");
 					if(player.BallObject == referenceBall){
-						Debug.Log("MatchPlayer matching referenceBall found. returning value");
+						//Debug.Log("MatchPlayer matching referenceBall found. returning value");
 						return player;
 					}
 				}

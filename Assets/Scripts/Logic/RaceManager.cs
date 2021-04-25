@@ -220,35 +220,36 @@ namespace Sanicball.Logic
                 if (local)
                 {
                     Sanicball.Extra.DiscordUtils.UpdateActivity(ActiveData.Characters[matchPlayer.CharacterId].name);
-                    GameObject music = GameObject.Find("IngameMusic");
-                    if (music != null && ActiveData.GameSettings.characterMusic && ActiveData.GameSettings.music)
-                    {
-                        MusicPlayer player = (MusicPlayer)music.GetComponent<MusicPlayer>();
-                        if (matchPlayer.CharacterId == 25)
-                        {
-                            player.playlist = ActiveData.UgandaMusic;
-                            player.Next();
-                        }
-                        else if (matchPlayer.CharacterId == 16)
-                        {
-                            player.playlist = ActiveData.ShrekMusic;
-                            player.Next();
-                        }
-                        else if (matchPlayer.CharacterId == 26)
-                        {
-                            player.playlist = ActiveData.KirbyMusic;
-                            player.Next();
-                        } else if (matchPlayer.CharacterId == 30) {
-                            player.playlist = ActiveData.KhumKhumMusic;
-                            player.Next();
-                        } else if (matchPlayer.CharacterId == 21) {
-                            player.playlist = ActiveData.WahndewsMusic;
-                            player.Next();
-                        } else if (matchPlayer.CharacterId == 27) {
-                            player.playlist = ActiveData.MattMusic;
-                            player.Next();
-                        }
-                    }
+                    matchPlayer.ChangeMusic();
+                    //GameObject music = GameObject.Find("IngameMusic");
+                    //if (music != null && ActiveData.GameSettings.characterMusic && ActiveData.GameSettings.music)
+                    //{
+                    //    MusicPlayer player = (MusicPlayer)music.GetComponent<MusicPlayer>();
+                    //    if (matchPlayer.CharacterId == 25)
+                    //    {
+                    //        player.playlist = ActiveData.UgandaMusic;
+                    //        player.Next();
+                    //    }
+                    //    else if (matchPlayer.CharacterId == 16)
+                    //    {
+                    //        player.playlist = ActiveData.ShrekMusic;
+                    //        player.Next();
+                    //    }
+                    //    else if (matchPlayer.CharacterId == 26)
+                    //    {
+                    //        player.playlist = ActiveData.KirbyMusic;
+                    //        player.Next();
+                    //    } else if (matchPlayer.CharacterId == 30) {
+                    //        player.playlist = ActiveData.KhumKhumMusic;
+                    //        player.Next();
+                    //    } else if (matchPlayer.CharacterId == 21) {
+                    //        player.playlist = ActiveData.WahndewsMusic;
+                    //        player.Next();
+                    //    } else if (matchPlayer.CharacterId == 27) {
+                    //        player.playlist = ActiveData.MattMusic;
+                    //        player.Next();
+                    //    }
+                    //}
 
                 }
 
