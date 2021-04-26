@@ -1,5 +1,5 @@
 # Blender MTL File: 'None'
-# Material Count: 70
+# Material Count: 69
 
 newmtl ef_dashboard
 Ns 96.078443
@@ -122,18 +122,6 @@ map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mar
 map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Mario Kart Stadium\\ufc_Light_1_Alb.png
 
 newmtl fc_LightObj.002
-Ns 96.078443
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 0.000000
-d 0.000000
-illum 1
-map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Mario Kart Stadium\\ufc_Light_1_Alb.png
-map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Mario Kart Stadium\\ufc_Light_1_Alb.png
-
-newmtl fc_LightObj_CubeMap
 Ns 96.078443
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
