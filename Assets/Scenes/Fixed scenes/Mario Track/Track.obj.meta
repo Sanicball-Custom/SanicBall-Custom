@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 3df91490be29351dc86fd60728554885
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ef_dashboard
+    second: {fileID: 2100000, guid: e751e53e3c77fe74a9d169d1d2775012, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ef_glideboard
+    second: {fileID: 2100000, guid: b0d1e2b75d4e798458d595b7eddc3cff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ef_gravityboard
+    second: {fileID: 2100000, guid: 650f7da1a8a832c43a1dfbd762987a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_ColorRoad
+    second: {fileID: 2100000, guid: 6d160dd3201d58c07827b60cd0850231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_ConcreteOutside
+    second: {fileID: 2100000, guid: c5fd4593be62536fd8cb4c205d8adfb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_Enkei_Building_3D
+    second: {fileID: 2100000, guid: c4a6947fd448708aebc975fa93ec5665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_Enkei_Building_Plane
+    second: {fileID: 2100000, guid: ed4ba1c1053630f23a845a68797a5272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_Enkei_RedLight
+    second: {fileID: 2100000, guid: c64f74172ced0627dae239aa7dde4a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_KabeShiro
+    second: {fileID: 2100000, guid: f550af680da015045a2f3bf04c7e581d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_LightObj
+    second: {fileID: 2100000, guid: 30715cc7bb20b690184fd4bbd12c47ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_LightObj.002
+    second: {fileID: 2100000, guid: 0333692439cb39287aa04250e6965e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_LightObj_NoBake
+    second: {fileID: 2100000, guid: dda1ba480655b54c8877b4c8e268021a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_MARIOKART
+    second: {fileID: 2100000, guid: cdf83b9ed128a5b5f8a9ed5cee8d24c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_MichiUra
+    second: {fileID: 2100000, guid: 682058f7eef06e365a6ea796abd9e93c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_Obj_01
+    second: {fileID: 2100000, guid: 261c5fa9fe3117fc291ac74e90c72392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_PitYuka
+    second: {fileID: 2100000, guid: cc87a818b5d60928db274d8caad2e1ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_RoadOther
+    second: {fileID: 2100000, guid: 71671eb2f00e2bb6a8d5b4da3b705500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_RoadOther2
+    second: {fileID: 2100000, guid: a253c8adbd323883fb95b65f30eacac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_RoadOther2.002
+    second: {fileID: 2100000, guid: c2dd784a019fc554983b2e59fdb37fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_RoadOther2_G
+    second: {fileID: 2100000, guid: d26fadd419b3f9c5e99f04fb09f8fa5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_RoofParts
+    second: {fileID: 2100000, guid: 98cc1590afd4b4fd9bb713cdcc57c19b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_ScrollingLight
+    second: {fileID: 2100000, guid: e168a0d803f84b9e8bec580496ccd438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_SignPole
+    second: {fileID: 2100000, guid: ac25192f1e00c1103ac26d14b26f519e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_StadiumLight
+    second: {fileID: 2100000, guid: eb42eaf8358e31b348e22604870a2eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_StadiumLight_CubeMap
+    second: {fileID: 2100000, guid: 36b5188b591e4dfa0b837a43bc479d1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_StadiumRoof
+    second: {fileID: 2100000, guid: 88f562d371a759644a3eaafd84f0163b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_StadiumSignboard
+    second: {fileID: 2100000, guid: a6d3c7994624d2c20b175028eb881b11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_StartGate
+    second: {fileID: 2100000, guid: 97ce46a01a654e3c4b293eee278bf947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_StaticShadow
+    second: {fileID: 2100000, guid: b99f768b55dad1fbc9550d918096bd15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_TV_MKTV
+    second: {fileID: 2100000, guid: 8996463e2b5c5621db1864b90e47749e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_TV_capture
+    second: {fileID: 2100000, guid: a78d5a2b6f56e65a5a702843c8f5751e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_TeamLogo_nuki
+    second: {fileID: 2100000, guid: 0cc56581b6809eef3b84769af31912a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_WhiteLine
+    second: {fileID: 2100000, guid: 1fbfc2a2ceb20e599af1593c2ce55d6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_WhiteWall
+    second: {fileID: 2100000, guid: 02d80d69a4913aeed9c2c6154307ca76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_WhiteWall_Outside
+    second: {fileID: 2100000, guid: c95829b73253130458c94037e852dcea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_YellowWall
+    second: {fileID: 2100000, guid: 6e8ba3741c864d388861512d354d4d53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_bench
+    second: {fileID: 2100000, guid: 8198a9eb76ffa61c1bc67f8536a2b5ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_bush_LeafBase
+    second: {fileID: 2100000, guid: f17aa58935bfb47939020e5324abff43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_concrete_road
+    second: {fileID: 2100000, guid: 4aff117041581c5a7a9d6dc8fc4b5f7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_flower
+    second: {fileID: 2100000, guid: 9fe0ae3033f4c6938b4974ede1410901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_grass_Outside
+    second: {fileID: 2100000, guid: 62fc8833e9d35ca4e97a85baad8b5b33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_kyokyaku_1
+    second: {fileID: 2100000, guid: f394038e3ac22adb5982391e0173e06c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_kyokyaku_2
+    second: {fileID: 2100000, guid: b90185fedd49765b1832679a18f8ce7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_monument
+    second: {fileID: 2100000, guid: 999596cecfbc01bca90d9ed728b2ead9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_nuki_1
+    second: {fileID: 2100000, guid: 8659de677f3bc96bb829a851f505ab4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_nuki_2
+    second: {fileID: 2100000, guid: 3d559e5a90a98aec8abe24f8a728bc51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_nuki_3
+    second: {fileID: 2100000, guid: 31ca681f7ecd9fe1b8f44e678aa2e49c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_nuki_4
+    second: {fileID: 2100000, guid: 203c0729d838fe6db89993e467f645c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_nuki_5
+    second: {fileID: 2100000, guid: 582c601c5a167b071a36de4efc362eb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_obj_2
+    second: {fileID: 2100000, guid: 1946b171a54e368349d3ef4182481bbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_obj_3
+    second: {fileID: 2100000, guid: 8931e3b1e2962b6abb3d9e194c2c9be3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_obj_4
+    second: {fileID: 2100000, guid: 4ad0c8039bfb4ec57ac7494a8fd1dace, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_pit
+    second: {fileID: 2100000, guid: 8a77c6752bff86c55b7f001d5e7484c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_road
+    second: {fileID: 2100000, guid: ad259e66efa7fedbf86840581c97d646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_road_G
+    second: {fileID: 2100000, guid: 2398f841418c69b13b9fab9d5fc4bd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_road_MARIOKART
+    second: {fileID: 2100000, guid: decb403b652c095398449c7c6fb77eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_road_WhiteLine
+    second: {fileID: 2100000, guid: 10b73b61105bf20c2b838bb8467be131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_road_WhiteLine_G
+    second: {fileID: 2100000, guid: 642b0c79915116c4dbea3da746dda623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_saku
+    second: {fileID: 2100000, guid: 3144a494706059aa48703dfed6bc90ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_shiba
+    second: {fileID: 2100000, guid: 060c4d1f9dbedc1938c2d3701215b1aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_signboard
+    second: {fileID: 2100000, guid: b6a8b9a3f6b4212c786eaa4b84e28c77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_signboard_Emm
+    second: {fileID: 2100000, guid: 2bdd7629b98bde1a383bcc384caef04a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_steps
+    second: {fileID: 2100000, guid: 7e5e4f511fde83079948324a93651812, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_suna
+    second: {fileID: 2100000, guid: 454dd6f76604c60ad9d9344801e82fdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_tetukabe
+    second: {fileID: 2100000, guid: 51b861cded01c13e3ab89f91c5934f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_truck
+    second: {fileID: 2100000, guid: 0940774f4be34ac9b85d4eedb1271b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_window_1
+    second: {fileID: 2100000, guid: 816273cb6ef1688859385026bf313ec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_window_2
+    second: {fileID: 2100000, guid: 637305b873492f5f09ba54b1dfbe867d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fc_yane
+    second: {fileID: 2100000, guid: 420c6a4d5d19101ac982abe41a02dceb, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
