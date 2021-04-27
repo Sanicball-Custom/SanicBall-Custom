@@ -1,0 +1,494 @@
+# Blender MTL File: 'None'
+# Material Count: 41
+
+newmtl ef_dashboard
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_dashboard02_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_dashboard02_Alb.png
+
+newmtl ef_glideboard
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_glideboard02_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_glideboard02_Alb.png
+
+newmtl ef_gravityboard
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_GravityPanell_Alb2.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_GravityPanell_Alb2.png
+
+newmtl m_HolographyMachine
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_holographymachine_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_holographymachine_Alb.png
+
+newmtl mt_GalleryA
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\gallery_fix_Alb.0.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\gallery_fix_Alb.0.png
+
+newmtl mt_GalleryB
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\gallery_fix_Alb.0.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\gallery_fix_Alb.0.png
+
+newmtl mt_GalleryC
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\gallery_fix_Alb.0.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\gallery_fix_Alb.0.png
+
+newmtl rr_a_curbstone00
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_CurbStone00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_CurbStone00_Alb.png
+
+newmtl rr_a_curbstone_colony
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_CurbStone00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_CurbStone00_Alb.png
+
+newmtl rr_a_dirt
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_sand_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_sand_Alb.png
+
+newmtl rr_a_dirt_colony
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_sand_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_sand_Alb.png
+
+newmtl rr_a_road
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Nrm.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Nrm.png
+
+newmtl rr_a_road_G
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Nrm.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Nrm.png
+
+newmtl rr_a_road_cold_G
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Alb_coldcolor.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Alb_coldcolor.png
+
+newmtl rr_a_road_cross
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_crossroad02_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_crossroad02_Alb.png
+
+newmtl rr_a_road_warm_G
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Alb_warmcolor.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road00_Alb_warmcolor.png
+
+newmtl rr_a_roadside
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road07_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road07_Alb.png
+
+newmtl rr_a_roadside_G
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road07_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road07_Alb.png
+
+newmtl rr_a_roadside_toG
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road07_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_road07_Alb.png
+
+newmtl rr_b_gardrail01
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_gardrail01_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_gardrail01_Alb.png
+
+newmtl rr_b_lastcorner
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_lastcorner_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_lastcorner_Alb.png
+
+newmtl rr_b_lastcorner02
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_rrRoad04_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_rrRoad04_Alb.png
+
+newmtl rr_b_lastcorner_GrassFloor
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\RRroad_GrassFloor_Nor.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\RRroad_GrassFloor_Nor.png
+
+newmtl rr_b_seat00
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_seat00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_seat00_Alb.png
+
+newmtl rr_b_seat00.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_seat00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_seat00_Alb.png
+
+newmtl rr_b_seat02
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_seat02_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_seat02_Alb.png
+
+newmtl rr_b_seat_glas00
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_DisplayWord01_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\ef_DisplayWord01_Alb.png
+
+newmtl rr_b_start00
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_start00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_start00_Alb.png
+
+newmtl rr_b_start01
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_start01_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_start01_Alb.png
+
+newmtl rr_b_start_kanban
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\utc_startkanban_Emm.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\utc_startkanban_Emm.png
+
+newmtl rr_b_start_signboard
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_signboard00_seat_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_signboard00_seat_Alb.png
+
+newmtl rr_b_startframe
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_glas03_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_glas03_Alb.png
+
+newmtl rr_b_startpanel
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_startpanel_Alb.0.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_startpanel_Alb.0.png
+
+newmtl rr_d_spacestation00
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation00_Alb.png
+
+newmtl rr_d_spacestation00_space
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation00_Alb.png
+
+newmtl rr_d_spacestation04
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation04_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation04_Alb.png
+
+newmtl rr_d_spacestation05
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation05_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation05_Alb.png
+
+newmtl rr_d_spacestation06
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation06_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_spacestation06_Alb.png
+
+newmtl rr_d_spacestation07_space
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_panel01_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_panel01_Alb.png
+
+newmtl rr_d_spacestation08
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_station00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_station00_Alb.png
+
+newmtl rr_lightCubeMap2
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 0.000000
+illum 1
+map_Kd C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_earth00_Alb.png
+map_d C:\\Users\\migouche\\Unity\\SanicBall-Custom\\Assets\\Scenes\\Wii U - Mario Kart 8 - Rainbow Road\\urr_earth00_Alb.png
