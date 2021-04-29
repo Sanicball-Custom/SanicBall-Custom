@@ -679,6 +679,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1091930442}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CharacterHatsToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &34443137 stripped
@@ -2485,6 +2500,76 @@ PrefabInstance:
       propertyPath: m_Text
       value: Sound volume
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundVolumeDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundVolumeUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -3349,6 +3434,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 709682547}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MotionBlurToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &267449046 stripped
@@ -3785,6 +3885,76 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Manual camera speed (Keyboard)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CameraSpeedKbDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CameraSpeedKbUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
@@ -4515,6 +4685,160 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376481298}
   m_CullTransparentMesh: 0
+--- !u!1001 &376730627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1595704945}
+    m_Modifications:
+    - target: {fileID: 138764, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Name
+      value: Watch credits button
+      objectReference: {fileID: 0}
+    - target: {fileID: 138764, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9588452, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f438f5401e1b3b445a367f69a1cddce2, type: 2}
+    - target: {fileID: 11438192, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Text
+      value: Watch the (other) credits roll
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3613f8bdf4dae0f4eb3c2d55c6a50803,
+        type: 3}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Navigation.m_SelectOnUp
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
 --- !u!114 &378899550 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
@@ -4819,6 +5143,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1056282348}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShadowsToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &397889239 stripped
@@ -5085,6 +5424,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1733401201}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VsyncToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 144490, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Name
       value: Vsync selector
@@ -6392,6 +6746,27 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1581916671}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 589528318}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.PopupHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11490040, guid: dbe5efc7c563e024cbac22028827d347,
+        type: 3}
     - target: {fileID: 6618351115009251515, guid: 0fbc4dd82005cb749b5041ca316ca833,
         type: 3}
       propertyPath: m_Text
@@ -6669,6 +7044,76 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Screen resolution
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResolutionDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResolutionUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
@@ -7597,6 +8042,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1600482740}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CharacterMusicToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &664602122 stripped
@@ -8160,7 +8620,7 @@ PrefabInstance:
     - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: IncrementStage
+      value: DecrementStage
       objectReference: {fileID: 0}
     - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
@@ -8170,7 +8630,7 @@ PrefabInstance:
     - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DecrementStage
+      value: IncrementStage
       objectReference: {fileID: 0}
     - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
@@ -8662,6 +9122,76 @@ PrefabInstance:
       propertyPath: m_Text
       value: Fullscreen
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FullscreenToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FullscreenToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -8672,6 +9202,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 268912488}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FullscreenToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &796350285 stripped
@@ -11533,6 +12078,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1475034761}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpeedUnitToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 144490, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Name
       value: Speed unit selector
@@ -12075,6 +12635,61 @@ PrefabInstance:
       propertyPath: m_Text
       value: Camera control mode
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321368}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseOldControlsToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -12085,6 +12700,41 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1739386739}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseOldControlsToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &1036393987 stripped
@@ -14279,6 +14929,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 2058895805}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BloomToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &1212952827 stripped
@@ -14850,6 +15515,36 @@ PrefabInstance:
       propertyPath: m_Text
       value: Music
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -14860,6 +15555,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 606792541}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MusicToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &1248882359 stripped
@@ -15142,6 +15852,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1724579249}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ESportsToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &1259660600 stripped
@@ -15549,6 +16274,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1321524469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 138764, guid: e5d237d0846d27944a3a24718ef6c22f,
+    type: 3}
+  m_PrefabInstance: {fileID: 376730627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1321524470 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22402164, guid: e5d237d0846d27944a3a24718ef6c22f,
+    type: 3}
+  m_PrefabInstance: {fileID: 376730627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1321524471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321524469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 118859ac196384540b90b00e00fa2569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://sanicball.bdgr.zone
 --- !u!224 &1332689613 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 22481230, guid: 348966db71fa603449cae3efa7eda193,
@@ -16283,6 +17033,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1217787518}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnableMinimapToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &1442162841 stripped
@@ -16471,6 +17236,27 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 467353989}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 589528318}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.PopupHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618351115009148601, guid: 0fbc4dd82005cb749b5041ca316ca833,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11490040, guid: 36528c1aad6aaf34ca9138c490bee4c2,
+        type: 3}
     - target: {fileID: 6618351115009251515, guid: 0fbc4dd82005cb749b5041ca316ca833,
         type: 3}
       propertyPath: m_Text
@@ -17357,6 +18143,76 @@ PrefabInstance:
       propertyPath: m_Text
       value: Water reflection quality (CPU heavy!)
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReflectionQualityDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReflectionQualityUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -17367,6 +18223,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 379272846}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321368}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 144490, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Name
       value: Reflection quality
@@ -18126,6 +18997,7 @@ RectTransform:
   - {fileID: 1823444503}
   - {fileID: 1267740020}
   - {fileID: 1041437983}
+  - {fileID: 1321524470}
   m_Father: {fileID: 322528515}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19678,6 +20550,76 @@ PrefabInstance:
       propertyPath: m_Text
       value: Anti-aliasing
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AaDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AaUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -20090,6 +21032,21 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1015661714}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrailsToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &1793796294 stripped
@@ -21612,6 +22569,76 @@ PrefabInstance:
       propertyPath: m_Text
       value: Manual camera speed (Mouse)
       objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172321374}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CameraSpeedMouseDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CameraSpeedMouseUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Sanicball.UI.OptionsPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692545623132392442, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: onClickRight.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
@@ -21622,6 +22649,11 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 528334917}
+    - target: {fileID: 3692545623132435716, guid: 524c01946a92bd74f9be41eb02dc73b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524c01946a92bd74f9be41eb02dc73b3, type: 3}
 --- !u!224 &2024684628 stripped
