@@ -4,6 +4,8 @@ namespace Sanicball
 {
     public class MenuCamera : MonoBehaviour
     {
+        public bool fadingEnabled = true;
+        public bool movingEnabled = true;
         public StandardShaderFade fade;
         public MenuCameraPath[] paths;
         public Transform lookTarget;
@@ -17,14 +19,17 @@ namespace Sanicball
         // Use this for initialization
         private void Start()
         {
-            CameraFade.StartAlphaFade(Color.black, true, 5);
+            if(fadingEnabled)
+                CameraFade.StartAlphaFade(Color.black, true, 5);
 
-            transform.position = paths[currentPath].startPoint.position;
+            if(movingEnabled)
+                transform.position = paths[currentPath].startPoint.position;
         }
 
         // Update is called once per frame
         private void Update()
         {
+            if (!movingEnabled) return;
             float dist = Vector3.Distance(transform.position, paths[currentPath].endPoint.position);
 
             //Movement

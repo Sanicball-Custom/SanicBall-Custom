@@ -1069,7 +1069,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.25735295
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -1088,7 +1088,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.25735295
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -1107,7 +1107,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.25735295
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -2035,7 +2035,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.25735295
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -2054,7 +2054,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.25735295
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -2073,7 +2073,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.25735295
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -5430,7 +5430,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SelectorControl
+  m_Name: SelectorControl_Sonic1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Normal
