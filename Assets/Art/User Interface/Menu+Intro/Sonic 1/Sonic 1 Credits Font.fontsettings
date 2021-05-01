@@ -458,6 +458,6 @@ Font:
   m_DefaultStyle: 0
   m_FontNames: []
   m_FallbackFonts: []
-  m_FontRenderingMode: 0
+  m_FontRenderingMode: 2
   m_UseLegacyBoundsCalculation: 0
   m_ShouldRoundAdvanceValue: 1
