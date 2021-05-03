@@ -1524,9 +1524,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenTransitions: 240
   transitionElements:
-  - {fileID: 1051633243}
-  - {fileID: 1579115736}
-  - {fileID: 1167119193}
+  - gameObject: {fileID: 1051633243}
+    stayTime: 120
+  - gameObject: {fileID: 1579115736}
+    stayTime: 240
+  - gameObject: {fileID: 1167119193}
+    stayTime: 130
   fader: {fileID: 9321866}
 --- !u!4 &1812418936
 Transform:

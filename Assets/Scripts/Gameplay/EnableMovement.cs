@@ -8,7 +8,6 @@ public class EnableMovement : MonoBehaviour {
 		var bc = other.GetComponent<Ball>();
         if (bc != null) {
 			bc.canMove = true;
-			bc.rb.useGravity = true;
 		}
 	}
 }

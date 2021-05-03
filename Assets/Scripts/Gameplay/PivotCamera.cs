@@ -34,6 +34,8 @@ namespace Sanicball.Gameplay
         private float sensitivityMouse = 3;
         private float sensitivityKeyboard = 10;
 
+        float debugValueX = 0;
+
         public void SetDirection(Quaternion dir)
         {
             Vector3 eulerAngles = dir.eulerAngles + new Vector3(0, 90, 0);
@@ -112,9 +114,22 @@ namespace Sanicball.Gameplay
             var gravityAngleY = Vector3.Angle(Target.GetComponent<Ball>().gravDir, Vector3.down);
             var gravityAngleX = Vector3.Angle(Target.GetComponent<Ball>().gravDir, Vector3.right)-90;
             var gravityAngleZ = Vector3.Angle(Target.GetComponent<Ball>().gravDir, Vector3.forward)-90;
+            if (Target.GetComponent<Ball>().gravDir == Vector3.down) {
+                gravityAngleX = 0;
+                gravityAngleZ = 0;
+                gravityAngleY = 0;
+            }
 
-            //print("x: " + gravityAngleX + "; y: " + gravityAngleY + "; z: " + gravityAngleZ);
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, (gravityAngleY >= 180 ? -1 : 1) * xtargetRotation - gravityAngleX, ytargetRotation - gravityAngleY), Time.deltaTime * 10 / smoothing);
+            var debugValueY = Input.GetKey(KeyCode.Q) ? yMax : Input.GetKey(KeyCode.E) ? yMin : 0;
+            debugValueX += Input.GetKeyDown(KeyCode.Z) ? 22.5f : Input.GetKeyDown(KeyCode.C) ? -22.5f : 0;
+            if (Input.GetKeyDown(KeyCode.B)) debugValueX = 0;
+
+            //Vector3 lookDir = new Vector3(0, debugValueX, debugValueY);
+            Vector3 lookDir = new Vector3(0, xtargetRotation, ytargetRotation);
+
+            print("x: " + gravityAngleX + "; y: " + gravityAngleY + "; z: " + gravityAngleZ);
+            //transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(-gravityAngleZ, gravityAngleX, -gravityAngleY) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, gravityAngleY) * Quaternion.Euler(gravityAngleZ, 0, 0) * Quaternion.Euler(0, gravityAngleX, 0) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
             ///*if(!Target.useGravity || Target.GetComponent<Ball>().gravDir != Vector3.down)*/ transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(0, xtargetRotation, ytargetRotation) * gravityRot, Time.deltaTime * 2.5f / smoothing);
             //transform.localRotation = Quaternion.Lerp(transform.localRotation, transform.localRotation * , Time.deltaTime * 10 / smoothing);
         }

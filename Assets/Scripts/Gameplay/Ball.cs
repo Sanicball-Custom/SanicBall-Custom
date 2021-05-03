@@ -478,8 +478,14 @@ namespace Sanicball.Gameplay
                 }
             }
 
+            //if (!rb.useGravity && canMove) {
+            //    GetComponent<ConstantForce>().force = gravDir * Physics.gravity.magnitude;
+            //} else {
+            //    GetComponent<ConstantForce>().force = Vector3.zero;
+            //}
+
             if (!rb.useGravity && canMove)
-                rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude, ForceMode.Acceleration);            
+                rb.AddForce(gravDir * rb.mass * Physics.gravity.magnitude, ForceMode.Acceleration);
 
             if (CanMove)
             {   //movement 2
