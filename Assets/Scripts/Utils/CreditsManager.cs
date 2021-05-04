@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Transition {
@@ -9,15 +10,29 @@ public class Transition {
 }
 
 public class CreditsManager : MonoBehaviour {
-    public int timeBetweenTransitions = 30;
+    public int startDelaySeconds = 1;
+    public int endDelaySeconds = 1;
+    public string menuScene = "Menu_Sonic1";
     int fixedUpdateLoops = 0;
     public Transition[] transitionElements;
     public GenesisFade fader;
-    bool countLoops = true;
+    bool countLoops = false;
     int transitionIndex = 0;
 
     void Start() {
-        StartCoroutine(fader.Unfade());
+        StartCoroutine(StartDelayed());
+    }
+
+    IEnumerator StartDelayed() {
+        yield return new WaitForSeconds(startDelaySeconds);
+        yield return fader.Unfade();
+        countLoops = true;
+    }
+
+    IEnumerator EndDelayed() {
+        yield return new WaitForSeconds(endDelaySeconds);
+        countLoops = false;
+        yield return SceneManager.LoadSceneAsync(menuScene);
     }
 
     void FixedUpdate() {
@@ -40,6 +55,8 @@ public class CreditsManager : MonoBehaviour {
             yield return new WaitForSeconds(0.25f);
             yield return fader.Unfade();
             countLoops = true;
+        } else {
+            yield return EndDelayed();
         }
     }
 }

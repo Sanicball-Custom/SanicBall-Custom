@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class GenesisFade : MonoBehaviour {
     public int fadeSpeed = 25;
-    void Start() {}
+    public bool unfadeOnStart = false;
+    void Start() {
+        if (unfadeOnStart) StartCoroutine(Unfade());
+    }
 
     void Update() {}
 
