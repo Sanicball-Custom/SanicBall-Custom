@@ -89,10 +89,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Track_WuhuIsland_Sunset.unity
     guid: 76e7907a019c51544adf27b0e28c6f19
-  - enabled: 1
-    path: Assets/Scenes/Menu_Sonic1.unity
-    guid: cea11c7ca927dc84cab7a906da59c843
-  - enabled: 1
-    path: Assets/Scenes/Menu_Sonic1_Credits.unity
-    guid: 12e24d78ccf5d1045bf177e0447b9236
   m_configObjects: {}
