@@ -24,7 +24,7 @@ namespace Sanicball.UI
                 timeField.text = string.Format("{0:00}:{1:00}.{2:000}", timespan.Minutes, timespan.Seconds, timespan.Milliseconds);
                 characterField.text = "Set with " + ActiveData.Characters[r.Character].name;
                 dateField.text = r.Date.ToString();
-                if(r.RawTime != 0){
+                if(r.RawTime != 0 && r.Date > new DateTime(2021, 5, 6)){ // 06 - 05 - 2021 is when the raw time was fixed, so past records won't show that field
                     var rawTimespan = TimeSpan.FromSeconds(r.RawTime);
                     rawTimeField.text = string.Format("{0:00}:{1:00}.{2:000}", rawTimespan.Minutes, rawTimespan.Seconds, rawTimespan.Milliseconds);
                     rawTimeField.color = timeColor;
