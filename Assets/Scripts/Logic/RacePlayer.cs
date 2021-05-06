@@ -298,6 +298,7 @@ namespace Sanicball.Logic
 
                 //Reset lap time
                 this.lapTime = 0 + (this.lapTime - lapTime);
+                rawTime = 0;
                 checkpointTimes = new float[StageReferences.Active.checkpoints.Length];
             }
 

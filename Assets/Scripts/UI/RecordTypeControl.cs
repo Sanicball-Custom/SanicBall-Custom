@@ -27,9 +27,10 @@ namespace Sanicball.UI
                 if(r.RawTime != 0){
                     var rawTimespan = TimeSpan.FromSeconds(r.RawTime);
                     rawTimeField.text = string.Format("{0:00}:{1:00}.{2:000}", rawTimespan.Minutes, rawTimespan.Seconds, rawTimespan.Milliseconds);
-                }else{
+                    rawTimeField.color = timeColor;
+                } else{
                     rawTimeField.text = "No Raw Time Found.";
-                    rawTimeField.color = new Color(0.5f, 0.5f, 0.5f);
+                    rawTimeField.color = noRecordColor;
                 }
             }
             else
