@@ -26,22 +26,21 @@ namespace Sanicball.UI
                 //Changing panel
                 if (activePanel != panel)
                 {
-                    CloseActivePanel();
+                    CloseActivePanel(true);
                     panel.Open();
                     activePanel = panel;
                 }
                 else
                 {
                     //Closing active panel
-                    CloseActivePanel();
+                    CloseActivePanel(true);
                 }
             }
         }
 
-        public void CloseActivePanel()
+        public void CloseActivePanel(bool closeSelf = false)
         {
-            activePanel.Close();
-            activePanel = null;
+            activePanel.Close(closeSelf);
         }
 
         private void Start()
@@ -52,6 +51,7 @@ namespace Sanicball.UI
 
         private void Update()
         {
+            if(activePanel != null && !activePanel.isOpen) activePanel = null;
             if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.JoystickButton1)) && FindObjectsOfType<Popup>().Length <= 0)
             {
                 if (activePanel != null)

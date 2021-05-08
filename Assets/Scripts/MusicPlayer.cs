@@ -1,6 +1,7 @@
 using Sanicball;
 using Sanicball.Data;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
@@ -159,6 +160,12 @@ namespace Sanicball
                 ActiveData.GameSettings.characterMusic = !ActiveData.GameSettings.characterMusic;
                 if (ActiveData.GameSettings.characterMusic) {
                     MatchPlayer player = raceManager.matchManager.Players.First(p => p.ClientGuid == raceManager.matchManager.LocalClientGuid);
+                    
+                    if (SceneManager.GetActiveScene().name == "Lobby") {
+                        MatchManager matchManager = FindObjectOfType<MatchManager>();
+                        player = matchManager.Players.First(p => p.ClientGuid == matchManager.LocalClientGuid);
+                    }
+
                     if (player != null) player.ChangeMusic();
                 } else {
                     playlist = originalPlaylist;

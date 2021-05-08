@@ -12,8 +12,10 @@ namespace Sanicball.UI
         public Text rawTimeField;
         public Text characterField;
         public Text dateField;
+        public Text conditionsField;
         public Color timeColor = new Color(50 / 255f, 50 / 255f, 50 / 255f);
         public Color noRecordColor = new Color(0.5f,0.5f,0.5f);
+        public static DateTime conditionsAddedDate = new DateTime(2021, 5, 8);
 
         public void SetRecord(RaceRecord r)
         {
@@ -32,6 +34,12 @@ namespace Sanicball.UI
                     rawTimeField.text = "No Raw Time Found.";
                     rawTimeField.color = noRecordColor;
                 }
+                conditionsField.text = "";
+                if (r.Date > conditionsAddedDate) {
+                    conditionsField.text += r.HadPowerups ? (char)65 : (char)66;
+                }else {
+                    conditionsField.text += (char)67;
+                }
             }
             else
             {
@@ -40,6 +48,7 @@ namespace Sanicball.UI
                 rawTimeField.text = "";
                 characterField.text = "";
                 dateField.text = "";
+                conditionsField.text = "";
             }
         }
     }

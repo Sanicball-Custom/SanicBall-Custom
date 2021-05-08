@@ -7,10 +7,19 @@ using UnityEngine.UI;
 
 namespace Sanicball.UI
 {
+    // State 1, 2, 3 and 4 are named like that to be generic to any condition
+    enum RecordConditionState {
+        NotSet,
+        State1,
+        State2,
+        State3,
+        State4
+    }
     public class RecordsPanel : MonoBehaviour
     {
         public Text stageNameField;
         public Text individualCharactersField;
+        public Text hadPowerupsField;
 
         public Transform tierRecords;
         public Transform characterRecords;
@@ -28,9 +37,21 @@ namespace Sanicball.UI
 
         private int selectedStage = 0;
         private bool individualCharacters = false;
+        private RecordConditionState powerupCondition = RecordConditionState.NotSet; // 1 = No; 2 = Yes
+
         public void IndividualCharactersToggle() {
             individualCharacters = !individualCharacters;
             UpdateIndividualCharacters();
+        }
+
+        public void IncrementPowerupsCondition() {
+            powerupCondition = (RecordConditionState)Mathf.Min((int)powerupCondition + 1, (int)RecordConditionState.State2);
+            UpdateConditions();
+        }
+
+        public void DecrementPowerupsCondition() {
+            powerupCondition = (RecordConditionState)Mathf.Max((int)powerupCondition - 1, (int)RecordConditionState.NotSet);
+            UpdateConditions();
         }
 
         public void IncrementStage()
@@ -81,6 +102,7 @@ namespace Sanicball.UI
             UpdateFields();
             UpdateStageName();
             UpdateIndividualCharacters();
+            UpdateConditions();
         }
 
         private void UpdateFields()
@@ -93,7 +115,7 @@ namespace Sanicball.UI
                 characterRecords.gameObject.SetActive(false);
                 for (int i = 0; i < recordTypesByTier.Count(); i++) {
                     var ctrl = recordTypesByTier[i];
-                    var bestLapRecord = records.Where(a => a.Tier == (CharacterTier)i).FirstOrDefault();
+                    var bestLapRecord = records.Where(a => a.Tier == (CharacterTier)i).Where(FilterRecords).FirstOrDefault();
                     ctrl.SetRecord(bestLapRecord);
                 }
             } else {
@@ -101,7 +123,7 @@ namespace Sanicball.UI
                 characterRecords.gameObject.SetActive(true);
                 for (int i = 0; i < recordTypesByCharacter.Count(); i++) {
                     var ctrl = recordTypesByCharacter[i];
-                    var bestLapRecord = records.Where(a => a.Character == i).FirstOrDefault();
+                    var bestLapRecord = records.Where(a => a.Character == i).Where(FilterRecords).FirstOrDefault();
                     ctrl.gameObject.SetActive(bestLapRecord != null);
                     ctrl.SetRecord(bestLapRecord);
                 }
@@ -114,6 +136,12 @@ namespace Sanicball.UI
             //            hyperspeedLapRecord.SetRecord(bestHyperspeedLapRecord);
         }
 
+        private bool FilterRecords(RaceRecord record) {
+            bool shouldShow = true;
+            if (powerupCondition != RecordConditionState.NotSet) shouldShow = shouldShow && ((powerupCondition == RecordConditionState.State2 && record.HadPowerups) || (powerupCondition == RecordConditionState.State1 && !record.HadPowerups && record.Date > RecordTypeControl.conditionsAddedDate));
+            return shouldShow;
+        }
+
         private void UpdateStageName()
         {
             stageNameField.text = ActiveData.Stages[selectedStage].name;
@@ -122,6 +150,10 @@ namespace Sanicball.UI
 
         private void UpdateIndividualCharacters() {
             individualCharactersField.text = individualCharacters ? "Yes" : "No";
+            UpdateFields();
+        }
+        private void UpdateConditions() {
+            hadPowerupsField.text = powerupCondition == RecordConditionState.NotSet ? "Not Set" : powerupCondition == RecordConditionState.State2 ? "Yes" : "No";
             UpdateFields();
         }
     }

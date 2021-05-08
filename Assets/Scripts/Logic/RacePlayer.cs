@@ -290,7 +290,8 @@ namespace Sanicball.Logic
                         Character,
                         checkpointTimes,
                         GameVersion.AS_FLOAT,
-                        GameVersion.IS_TESTING
+                        GameVersion.IS_TESTING,
+                        ActiveData.MatchSettings.PowerupsEnabled
                         ));
 
                     Debug.Log("Saved lap record (" + TimeSpan.FromSeconds(lapTime) + ")");

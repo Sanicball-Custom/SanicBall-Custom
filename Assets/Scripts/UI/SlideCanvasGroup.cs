@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Sanicball.UI
@@ -25,11 +29,27 @@ namespace Sanicball.UI
             onOpen.Invoke();
         }
 
-        public void Close()
+        public void Close(bool closeSelf = false)
         {
-            isOpen = false;
-            cg.interactable = false;
-            onClose.Invoke();
+            StartCoroutine(CloseAllChildren(closeSelf));
+        }
+
+        public IEnumerator CloseAllChildren(bool closeSelf) {
+            SlideCanvasGroup childGroup = GetComponentsInChildren<SlideCanvasGroup>().Where(el => el != this && el.isOpen).FirstOrDefault();
+            if (childGroup != null) 
+                yield return StartCoroutine(childGroup.CloseAllChildren(closeSelf));
+            if (closeSelf || childGroup == null) {
+                isOpen = false;
+                yield return new WaitUntil(() => pos == 0);
+                cg.interactable = false;
+                onClose.Invoke();
+            }
+            yield return null;
+        }
+
+        public void Toggle() {
+            if (isOpen) Close();
+            else Open();
         }
 
         // Use this for initialization

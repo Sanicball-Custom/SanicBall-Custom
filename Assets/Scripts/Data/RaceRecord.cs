@@ -16,8 +16,9 @@ namespace Sanicball.Data
         private float rawTime;
         private float gameVersion;
         private bool wasTesting;
+        private bool hadPowerups;
 
-		public CharacterTier Tier { get { return tier; } }
+        public CharacterTier Tier { get { return tier; } }
         public float Time { get { return time; } }
         public float RawTime { get { return rawTime; } }
         public DateTime Date { get { return date; } }
@@ -26,8 +27,9 @@ namespace Sanicball.Data
         public float[] CheckpointTimes { get { return checkpointTimes; } }
         public float GameVersion { get { return gameVersion; } }
         public bool WasTesting { get { return wasTesting; } }
+        public bool HadPowerups { get { return hadPowerups; } }
 
-		public RaceRecord(CharacterTier tier, float time, float rawTime, DateTime date, int stage, int character, float[] checkpointTimes, float gameVersion, bool isTesting)
+        public RaceRecord(CharacterTier tier, float time, float rawTime, DateTime date, int stage, int character, float[] checkpointTimes, float gameVersion, bool isTesting, bool hadPowerups)
         {
             this.tier = tier;
             this.time = time;
@@ -38,6 +40,7 @@ namespace Sanicball.Data
             this.checkpointTimes = checkpointTimes;
             this.gameVersion = gameVersion;
             this.wasTesting = isTesting;
+            this.hadPowerups = hadPowerups;
         }
     }
 }
