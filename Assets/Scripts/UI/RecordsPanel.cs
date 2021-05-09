@@ -20,6 +20,7 @@ namespace Sanicball.UI
         public Text stageNameField;
         public Text individualCharactersField;
         public Text hadPowerupsField;
+        public Text rawTimeFilterField;
 
         public Transform tierRecords;
         public Transform characterRecords;
@@ -38,10 +39,15 @@ namespace Sanicball.UI
         private int selectedStage = 0;
         private bool individualCharacters = false;
         private RecordConditionState powerupCondition = RecordConditionState.NotSet; // 1 = No; 2 = Yes
+        private bool filterByRawTime = false;
 
         public void IndividualCharactersToggle() {
             individualCharacters = !individualCharacters;
-            UpdateIndividualCharacters();
+            UpdateConditions();
+        }
+        public void RawTimeToggle() {
+            filterByRawTime = !filterByRawTime;
+            UpdateConditions();
         }
 
         public void IncrementPowerupsCondition() {
@@ -101,14 +107,13 @@ namespace Sanicball.UI
 
             UpdateFields();
             UpdateStageName();
-            UpdateIndividualCharacters();
             UpdateConditions();
         }
 
         private void UpdateFields()
         {
             var stageindex = ActiveData.Stages[selectedStage].id;
-            var records = ActiveData.RaceRecords.Where(a => a.Stage == stageindex && a.GameVersion == GameVersion.AS_FLOAT && a.WasTesting == GameVersion.IS_TESTING).OrderBy(a => a.Time);
+            var records = ActiveData.RaceRecords.Where(a => a.Stage == stageindex && a.GameVersion == GameVersion.AS_FLOAT && a.WasTesting == GameVersion.IS_TESTING).OrderBy(OrderRecords);
 
             if (!individualCharacters) {
                 tierRecords.gameObject.SetActive(true);
@@ -136,9 +141,15 @@ namespace Sanicball.UI
             //            hyperspeedLapRecord.SetRecord(bestHyperspeedLapRecord);
         }
 
+        private float OrderRecords(RaceRecord record) {
+            if (filterByRawTime) return record.RawTime;
+            else return record.Time;
+        }
+
         private bool FilterRecords(RaceRecord record) {
             bool shouldShow = true;
             if (powerupCondition != RecordConditionState.NotSet) shouldShow = shouldShow && ((powerupCondition == RecordConditionState.State2 && record.HadPowerups) || (powerupCondition == RecordConditionState.State1 && !record.HadPowerups && record.Date > RecordTypeControl.conditionsAddedDate));
+            if (filterByRawTime) shouldShow = shouldShow && (record.Date > RecordTypeControl.rawTimeFixedDate);
             return shouldShow;
         }
 
@@ -148,12 +159,10 @@ namespace Sanicball.UI
             UpdateFields();
         }
 
-        private void UpdateIndividualCharacters() {
-            individualCharactersField.text = individualCharacters ? "Yes" : "No";
-            UpdateFields();
-        }
         private void UpdateConditions() {
+            individualCharactersField.text = individualCharacters ? "Yes" : "No";
             hadPowerupsField.text = powerupCondition == RecordConditionState.NotSet ? "Not Set" : powerupCondition == RecordConditionState.State2 ? "Yes" : "No";
+            rawTimeFilterField.text = filterByRawTime ? "Raw Time" : "Total Time";
             UpdateFields();
         }
     }

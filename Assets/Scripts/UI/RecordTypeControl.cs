@@ -16,6 +16,7 @@ namespace Sanicball.UI
         public Color timeColor = new Color(50 / 255f, 50 / 255f, 50 / 255f);
         public Color noRecordColor = new Color(0.5f,0.5f,0.5f);
         public static DateTime conditionsAddedDate = new DateTime(2021, 5, 8);
+        public static DateTime rawTimeFixedDate = new DateTime(2021, 5, 6);
 
         public void SetRecord(RaceRecord r)
         {
@@ -26,7 +27,7 @@ namespace Sanicball.UI
                 timeField.text = string.Format("{0:00}:{1:00}.{2:000}", timespan.Minutes, timespan.Seconds, timespan.Milliseconds);
                 characterField.text = "Set with " + ActiveData.Characters[r.Character].name;
                 dateField.text = r.Date.ToString();
-                if(r.RawTime != 0 && r.Date > new DateTime(2021, 5, 6)){ // 06 - 05 - 2021 is when the raw time was fixed, so past records won't show that field
+                if(r.RawTime != 0 && r.Date > rawTimeFixedDate) {
                     var rawTimespan = TimeSpan.FromSeconds(r.RawTime);
                     rawTimeField.text = string.Format("{0:00}:{1:00}.{2:000}", rawTimespan.Minutes, rawTimespan.Seconds, rawTimespan.Milliseconds);
                     rawTimeField.color = timeColor;
