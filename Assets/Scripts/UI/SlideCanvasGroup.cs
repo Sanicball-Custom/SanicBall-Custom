@@ -40,9 +40,9 @@ namespace Sanicball.UI
                 yield return StartCoroutine(childGroup.CloseAllChildren(closeSelf));
             if (closeSelf || childGroup == null) {
                 isOpen = false;
+                onClose.Invoke();
                 yield return new WaitUntil(() => pos == 0);
                 cg.interactable = false;
-                onClose.Invoke();
             }
             yield return null;
         }
