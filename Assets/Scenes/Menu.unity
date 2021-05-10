@@ -3151,7 +3151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11463696, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Text
-      value: '[Yes/No]'
+      value: '[No/Yes]'
       objectReference: {fileID: 0}
     - target: {fileID: 11480510, guid: 77af82ed99a824045a652fbca65e44a3, type: 3}
       propertyPath: m_Navigation.m_Mode
@@ -10175,7 +10175,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1364841827}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1364841828}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -16162,6 +16162,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+--- !u!1 &1364841828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 138764, guid: e5d237d0846d27944a3a24718ef6c22f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1364841827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1370756406
 GameObject:
   m_ObjectHideFlags: 0
@@ -23047,7 +23053,7 @@ MonoBehaviour:
         m_MethodName: SetSelectedGameObject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 10889950}
+          m_ObjectArgument: {fileID: 1364841828}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
