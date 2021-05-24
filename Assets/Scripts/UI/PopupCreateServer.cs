@@ -18,6 +18,8 @@ namespace Sanicball.UI
         [SerializeField]
         private InputField portInput;
         [SerializeField]
+        private Toggle isPublicInput;
+        [SerializeField]
         private Text portOutput;
         [SerializeField]
         private UI.Popup connectingPopupPrefab = null;
@@ -53,7 +55,7 @@ namespace Sanicball.UI
             
             var serverStarter = Instantiate(serverStarterPrefab);
             DontDestroyOnLoad(serverStarter);
-            serverStarter.GetComponent<LocalServerStarter>().InitServer(port, maxPlayers, nameInput.text);
+            serverStarter.GetComponent<LocalServerStarter>().InitServer(port, maxPlayers, nameInput.text, isPublicInput.isOn);
 
             if(popupHandler != null){
                 popupHandler.OpenSecondaryPopup(connectingPopupPrefab);

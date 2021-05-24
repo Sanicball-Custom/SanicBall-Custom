@@ -726,10 +726,10 @@ namespace SanicballCore.Server
         }
 
         public void Start(){
-            Start(25000, 8, "A Sanicball Server", "", "");
+            Start(25000, 8, "A Sanicball Server", "", "", false);
         }
 
-        public void Start(int port, int maxPlayers, string name, string admin, string matchSettingsPath)
+        public void Start(int port, int maxPlayers, string name, string admin, string matchSettingsPath, bool showOnList)
         {
             if (!LoadServerConfig() || (port == 0 && isLocalServer))
                 return;
@@ -782,6 +782,11 @@ namespace SanicballCore.Server
             if(!isLocalServer){
                 if (this.config.ShowOnList)
                 {
+                    AddToServerLists();
+                    serverListPingTimer.Start();
+                }
+            }else {
+                if (showOnList) {
                     AddToServerLists();
                     serverListPingTimer.Start();
                 }
