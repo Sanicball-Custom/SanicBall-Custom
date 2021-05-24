@@ -55,7 +55,7 @@ namespace Sanicball.UI
             
             var serverStarter = Instantiate(serverStarterPrefab);
             DontDestroyOnLoad(serverStarter);
-            serverStarter.GetComponent<LocalServerStarter>().InitServer(port, maxPlayers, nameInput.text, isPublicInput.isOn);
+            serverStarter.GetComponent<LocalServerStarter>().InitServer(port, maxPlayers, nameInput.text, isPublicInput.isOn, ActiveData.GameSettings.serverListURL);
 
             if(popupHandler != null){
                 popupHandler.OpenSecondaryPopup(connectingPopupPrefab);

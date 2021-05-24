@@ -115,6 +115,9 @@ namespace SanicballCore.Server
         private string adminName = "";
         private string ownerName = "";
         private bool isLocalServer;
+        private string listURLForLocalServer = "";
+        private Stopwatch localServerStopTimeoutTimer = new Stopwatch();
+        private const float LOCAL_SERVER_NO_CLIENT_TIMEOUT = 20;
 
         #region Timers
 
@@ -726,15 +729,22 @@ namespace SanicballCore.Server
         }
 
         public void Start(){
-            Start(25000, 8, "A Sanicball Server", "", "", false);
+            Start(25000, 8, "A Sanicball Server", "", "", false, DEFAULT_SERVER_LIST_URL);
         }
 
-        public void Start(int port, int maxPlayers, string name, string admin, string matchSettingsPath, bool showOnList)
+        public void Start(int port, int maxPlayers, string name, string admin, string matchSettingsPath, bool showOnList, string serverListURL)
         {
             if (!LoadServerConfig() || (port == 0 && isLocalServer))
                 return;
 
-            if(!isLocalServer){
+            if(isLocalServer) {
+                this.config.ServerName = name;
+                this.config.MaxPlayers = maxPlayers;
+                this.config.PrivatePort = port;
+            }
+
+            listURLForLocalServer = serverListURL;
+            if (!isLocalServer){
                 if (!LoadMatchSettings())
                     matchSettings = MatchSettings.CreateDefault();
             }else{
@@ -787,6 +797,9 @@ namespace SanicballCore.Server
                 }
             }else {
                 if (showOnList) {
+                    this.config.PublicIP = new WebClient().DownloadString("http://ipinfo.io/ip").Trim();
+                    this.config.PublicPort = port;
+                    this.config.ServerListURLs = new string[] { serverListURL };
                     AddToServerLists();
                     serverListPingTimer.Start();
                 }
@@ -808,7 +821,7 @@ namespace SanicballCore.Server
 
         private bool LoadServerConfig()
         {
-            if(isLocalServer) return true;
+            if (isLocalServer) return true;
             if (File.Exists(CONFIG_FILENAME))
             {
                 using (StreamReader sr = new StreamReader(CONFIG_FILENAME))
@@ -881,25 +894,22 @@ namespace SanicballCore.Server
 
         private void AddToServerLists()
         {
-            Thread addThread = new Thread(() =>
-            {
+            Thread addThread = new Thread(() => {
                 foreach (string listURL in config.ServerListURLs) {
-                    try
-                    {
-                        using (var client = new WebClient())
-                        {
+                    try {
+                        using (var client = new WebClient()) {
                             var values = new NameValueCollection();
                             values["ip"] = config.PublicIP;
                             values["port"] = config.PublicPort.ToString();
 
-                            var response = client.UploadValues(listURL + "/add/", values);
+                            var url = listURL;
+                            if (listURL.EndsWith("/")) url = listURL.Substring(0, listURL.Length - 1);
+                            var response = client.UploadValues(url + "/add/", values);
                             string responseString = Encoding.Default.GetString(response);
 
-                            Log("Server list at '" + listURL +"' said: " + responseString, LogType.Debug);
+                            Log("Server list at '" + listURL + "' said: " + responseString, LogType.Debug);
                         }
-                    }
-                    catch (WebException ex)
-                    {
+                    } catch (WebException ex) {
                         Log("Failed adding server to server list at '" + listURL + "': " + ex.Message, LogType.Warning);
                     }
                 }
@@ -986,6 +996,16 @@ namespace SanicballCore.Server
                             SendToAll(new DoneRacingMessage(p.ClientGuid, p.CtrlType, 0, true));
                         }
                     }
+                }
+
+                // If the server was created in-game and has 0 players. Stop it.
+                if(isLocalServer && clients.Count == 0) {
+                    if(!localServerStopTimeoutTimer.IsRunning) localServerStopTimeoutTimer.Start();
+                }else {
+                    if (localServerStopTimeoutTimer.IsRunning) localServerStopTimeoutTimer.Reset();
+                }
+                if(localServerStopTimeoutTimer.Elapsed.TotalSeconds > LOCAL_SERVER_NO_CLIENT_TIMEOUT) {
+                    running = false;
                 }
 
                 //Check command queue
@@ -1712,6 +1732,7 @@ namespace SanicballCore.Server
                 if (!debugMode && type == LogType.Debug)
                     return;
                 LogEntry entry = new LogEntry(DateTime.Now, "[" + DateTime.Now.ToString("HH:mm:ss") + "] " + message.ToString(), type);
+                //UnityEngine.Debug.Log("[SERVER] ("+type+"): "+message);
                 OnLog?.Invoke(this, new LogArgs(entry));
                 log.Add(entry);
             }
