@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Sanicball.UI
@@ -19,6 +20,9 @@ namespace Sanicball.UI
         private void Start()
         {
             holdImageTimer = imgTime;
+            if(DateTime.Now.Month == 6 && DateTime.Now.Day >= 21 && DateTime.Now.Day <= 25) {
+                menuSceneName = "Menu_Sonic1";
+            }
         }
 
         private void Update()
