@@ -836,7 +836,7 @@ MonoBehaviour:
     colorsPerSecond: 1
     alternativeMesh: {fileID: 0}
     collisionMesh: {fileID: 0}
-    tier: 0
+    tier: 3
     hidden: 0
   - name: Mett
     artBy: Internet
@@ -978,7 +978,7 @@ MonoBehaviour:
   eSportsPrefab: {fileID: 11400000, guid: f55190f64bbb0c349bcd0f128756a753, type: 3}
   characterSpecificMusic:
     list:
-    - name: Uganda Knackles Playlist
+    - name: Uganda Knackles (4 songs)
       characterId: 25
       playlist:
       - name: Find Da Wae - CG5
@@ -989,27 +989,27 @@ MonoBehaviour:
         clip: {fileID: 8300000, guid: 044685f4a13b4fa4687092153cff2059, type: 3}
       - name: Initial D - Deja Vu
         clip: {fileID: 8300000, guid: 8e6a1b8eeb5643741871ab2b85cdef38, type: 3}
-    - name: Ogre Playlist
+    - name: Ogre (1 songs)
       characterId: 16
       playlist:
       - name: Smash Mouth - All Star
         clip: {fileID: 8300000, guid: 3edabddf6c46ee94e814f1ed58589e83, type: 3}
-    - name: Kerbi Playlist
+    - name: Kerbi (1 songs)
       characterId: 26
       playlist:
       - name: ColBreakz - Gourmet Race
         clip: {fileID: 8300000, guid: 708ae529dee1c5c4f87bae68602f7319, type: 3}
-    - name: Wahndews Playlist
+    - name: Wahndews (1 songs)
       characterId: 21
       playlist:
       - name: Windows XP error remix
         clip: {fileID: 8300000, guid: 637a36b91da074f4a8699813bed06ab4, type: 3}
-    - name: Khum Khum Playlist
+    - name: Khum Khum (1 songs)
       characterId: 30
       playlist:
       - name: Kyle Boss Theme 1 (But Awesome)
         clip: {fileID: 8300000, guid: acec72376939e3a4d99fd334915242ae, type: 3}
-    - name: Mett Playlist
+    - name: Mett (1 songs)
       characterId: 27
       playlist:
       - name: Wii Sports Theme - Nintendo

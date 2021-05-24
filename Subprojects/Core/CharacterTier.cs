@@ -3,6 +3,7 @@ namespace SanicballCore {
 	{
 		Normal,
 		Odd,
-		Hyperspeed
+		Hyperspeed,
+		Special
 	}
 }

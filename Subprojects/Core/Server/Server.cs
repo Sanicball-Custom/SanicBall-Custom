@@ -83,7 +83,7 @@ namespace SanicballCore.Server
             CharacterTier.Normal,       //Real Sanic
             CharacterTier.Hyperspeed,   //Real Super Sanic
             CharacterTier.Normal,       //Uganda Knackles
-            CharacterTier.Normal,       //Kerbi
+            CharacterTier.Special,      //Kerbi
             CharacterTier.Normal,       //Mett
             CharacterTier.Normal,       //Walugui
             CharacterTier.Odd,          //Warrior Sanic

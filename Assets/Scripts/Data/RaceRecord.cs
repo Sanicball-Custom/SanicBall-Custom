@@ -29,6 +29,10 @@ namespace Sanicball.Data
         public bool WasTesting { get { return wasTesting; } }
         public bool HadPowerups { get { return hadPowerups; } }
 
+        public void SetTier(CharacterTier newTier) {
+            tier = newTier;
+        }
+
         public RaceRecord(CharacterTier tier, float time, float rawTime, DateTime date, int stage, int character, float[] checkpointTimes, float gameVersion, bool isTesting, bool hadPowerups)
         {
             this.tier = tier;
