@@ -127,7 +127,6 @@ namespace Sanicball.Gameplay
             //Vector3 lookDir = new Vector3(0, debugValueX, debugValueY);
             Vector3 lookDir = new Vector3(0, xtargetRotation, ytargetRotation);
 
-            print("x: " + gravityAngleX + "; y: " + gravityAngleY + "; z: " + gravityAngleZ);
             //transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(-gravityAngleZ, gravityAngleX, -gravityAngleY) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, gravityAngleY) * Quaternion.Euler(gravityAngleZ, 0, 0) * Quaternion.Euler(0, gravityAngleX, 0) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
             ///*if(!Target.useGravity || Target.GetComponent<Ball>().gravDir != Vector3.down)*/ transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(0, xtargetRotation, ytargetRotation) * gravityRot, Time.deltaTime * 2.5f / smoothing);
