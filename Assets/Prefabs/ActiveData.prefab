@@ -161,6 +161,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: b96d9c92118ed354aaf3559ddd32cece, type: 2}
     icon: {fileID: 21300000, guid: 45106eab8e7289244b88d1cb65eee2e1, type: 3}
     color: {r: 0, g: 0.2965517, b: 1, a: 1}
@@ -186,6 +187,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 06f88fe9a59efb148aee81770af439ea, type: 2}
     icon: {fileID: 21300000, guid: 15a6f88a301145843ac46f045b3e8066, type: 3}
     color: {r: 1, g: 0, b: 0, a: 1}
@@ -211,6 +213,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 1
+    abilities: []
     material: {fileID: 2100000, guid: 634206cf18f1bb0449c3110a366eaeb5, type: 2}
     icon: {fileID: 21300000, guid: e55fb0a0a812fcf489b54e1fd0b4947c, type: 3}
     color: {r: 0.9191176, g: 0.77966535, b: 0, a: 1}
@@ -236,6 +239,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 30ed8fef8e5a5e040b1080929a0c776b, type: 2}
     icon: {fileID: 21300000, guid: f54471598afdcd14e979c1d54bd3d919, type: 3}
     color: {r: 1, g: 0.6985294, b: 0.99168366, a: 1}
@@ -261,6 +265,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 5d66e63183aa4cf4882213543bfb2a52, type: 2}
     icon: {fileID: 21300000, guid: 4e28aa2bbb0876d47814133089db668b, type: 3}
     color: {r: 0.1397059, g: 0.1397059, b: 0.1397059, a: 1}
@@ -286,6 +291,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 4409cf1e088daae478a2382db954b2d2, type: 2}
     icon: {fileID: 21300000, guid: 153019c126cd5c9439278368f95954e0, type: 3}
     color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
@@ -311,6 +317,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 02a6a5afb08f3a043940c8f1aaed2615, type: 2}
     icon: {fileID: 21300000, guid: 2b8334ffc94ee0a45982e2c43794887a, type: 3}
     color: {r: 1, g: 0, b: 0.72413826, a: 1}
@@ -336,6 +343,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 2c887576be9cb3946b21daf53b2d674d, type: 2}
     icon: {fileID: 21300000, guid: b6aa54ecf652de74c9ebd8704033fc09, type: 3}
     color: {r: 0.6137934, g: 0, b: 1, a: 1}
@@ -361,6 +369,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: a36342b584faa744da5236e2a73b4b3e, type: 2}
     icon: {fileID: 21300000, guid: 941c947f96962a14a81d367db07fd89b, type: 3}
     color: {r: 1, g: 0.8483772, b: 0.52205884, a: 1}
@@ -386,6 +395,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: b1d42e999a8f60746831e0a43b2ca2cd, type: 2}
     icon: {fileID: 21300000, guid: 95b3481512f3b4b489b578b08c88ca20, type: 3}
     color: {r: 0.5, g: 0.46551728, b: 0, a: 1}
@@ -411,6 +421,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 04b217afe6f2b5049a4a352c657f5f9d, type: 2}
     icon: {fileID: 21300000, guid: 2788a9b91b66e0d41847802d974f3d81, type: 3}
     color: {r: 0.6838235, g: 0.6838235, b: 0.6838235, a: 1}
@@ -436,6 +447,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 572479cbb0884484ab91a59aa2005854, type: 2}
     icon: {fileID: 21300000, guid: 2d3a2b172aa7be04495f0a7c6c77ebee, type: 3}
     color: {r: 0.63733447, g: 0.5255191, b: 0.66176474, a: 1}
@@ -461,6 +473,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 23fdcaa4620e31243a629e131833f151, type: 2}
     icon: {fileID: 21300000, guid: 1a49a1fa6c164e5459bd304bc831a180, type: 3}
     color: {r: 0.48307177, g: 0.7205882, b: 0.031790644, a: 1}
@@ -486,6 +499,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: ed9afe70cddfa64429bbcb920fa979f4, type: 2}
     icon: {fileID: 21300000, guid: fcac47643ed0b884ba66157d894d95dd, type: 3}
     color: {r: 0.49198782, g: 0.9264706, b: 0, a: 1}
@@ -511,6 +525,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 2c3ba655008b52e42992ab8cc6c354ca, type: 2}
     icon: {fileID: 21300000, guid: c1be4fb07e7e12e409aad5b7f78785f3, type: 3}
     color: {r: 0.28611588, g: 0.39472315, b: 0.7941176, a: 1}
@@ -536,6 +551,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: b6904d23ca25bda45851cd8812ebcbd4, type: 2}
     icon: {fileID: 21300000, guid: ed5ea30a86db88842a418f78c36c342e, type: 3}
     color: {r: 1, g: 0, b: 0, a: 1}
@@ -561,6 +577,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: d7caadbf0d38fa54e8998ef3b93bf467, type: 2}
     icon: {fileID: 21300000, guid: 69604edd7f9387841a777c31d9ad559a, type: 3}
     color: {r: 0.8146552, g: 0.99264705, b: 0, a: 1}
@@ -586,6 +603,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 9f6808606ab9ab24ebd00569c460723f, type: 2}
     icon: {fileID: 21300000, guid: c00a387bcb2578d4db7881e4159ea70b, type: 3}
     color: {r: 0.6544118, g: 0.44745043, b: 0.26946366, a: 1}
@@ -611,6 +629,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 29fbe91acb50d1749a0076746a4fe079, type: 2}
     icon: {fileID: 21300000, guid: 459fc9d87caa1104a998e502df7e5b33, type: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
@@ -636,6 +655,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 6873edc8d2dd5ab4689ce0c4e37bd5e4, type: 2}
     icon: {fileID: 21300000, guid: f4ffb65d09abd7245bd56d7e5ffb675c, type: 3}
     color: {r: 0.9632353, g: 0.6589272, b: 0.33288276, a: 1}
@@ -661,6 +681,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: cee3dd15493a4074082aa38186e596af, type: 2}
     icon: {fileID: 21300000, guid: 38e64da0869af6c4b982ce8b09fe8880, type: 3}
     color: {r: 0.73333335, g: 0.5137255, b: 0.16078432, a: 1}
@@ -686,6 +707,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 12a19fedc954f1b4ab40785b384a2f15, type: 2}
     icon: {fileID: 21300000, guid: 7caa423ad1da5f54cbf319de8882d9ee, type: 3}
     color: {r: 0, g: 0.70980394, b: 0.9490197, a: 1}
@@ -711,6 +733,12 @@ MonoBehaviour:
       multipleJump: 1
       extraJumps: 1
       slowFall: 0
+    abilities:
+    - script: {fileID: 11500000, guid: c927f4db6fa689641a20012c99e29bd6, type: 3}
+      parameters:
+      - {fileID: -7543244775257321191, guid: dacf76956edc62748a5137a6400bb27e, type: 2}
+      parameterTypes: []
+      dummyObjects: []
     material: {fileID: 2100000, guid: b480fc4445162454d87d3bee4182861c, type: 2}
     icon: {fileID: 21300000, guid: 0244e65e4e5bf8744971da4266de3afd, type: 3}
     color: {r: 0.9215687, g: 0.91372555, b: 0.854902, a: 1}
@@ -748,6 +776,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 987d6e0bfe7ecf342a51e15f8aea6d96, type: 2}
     icon: {fileID: 21300000, guid: aaff09115715a054ba820052952b1708, type: 3}
     color: {r: 0.23529413, g: 0.23137257, b: 0.48235297, a: 1}
@@ -773,6 +802,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 000b8eefc55f97643a5682256ca26760, type: 2}
     icon: {fileID: 21300000, guid: b2855f9f8a65fb742923fa3a6c5bc2a0, type: 3}
     color: {r: 0.5803922, g: 0.49411768, b: 0, a: 1}
@@ -798,6 +828,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 35303ee2c48ed724694e417029b75111, type: 2}
     icon: {fileID: 21300000, guid: a009b08bd50fd2b45827467e512f25ed, type: 3}
     color: {r: 0.76470596, g: 0.1764706, b: 0.14901961, a: 1}
@@ -823,6 +854,12 @@ MonoBehaviour:
       multipleJump: 1
       extraJumps: 2
       slowFall: 0
+    abilities:
+    - script: {fileID: 11500000, guid: c927f4db6fa689641a20012c99e29bd6, type: 3}
+      parameters:
+      - {fileID: -6390588164826426381, guid: dacf76956edc62748a5137a6400bb27e, type: 2}
+      parameterTypes: []
+      dummyObjects: []
     material: {fileID: 2100000, guid: 0ff4aa24285fcc54f98731b8b7307b28, type: 2}
     icon: {fileID: 21300000, guid: 0681678397d7cb74a8cdb9abc2fab8e3, type: 3}
     color: {r: 0.9490197, g: 0.64705884, b: 0.6666667, a: 1}
@@ -848,6 +885,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: e1d392e72b163074796a7f92a684616b, type: 2}
     icon: {fileID: 21300000, guid: a8b9f0cd482f842438a8b1ba247fc9f9, type: 3}
     color: {r: 0.882353, g: 0.37647063, b: 0.18039216, a: 1}
@@ -873,6 +911,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: a3926f33970a94b4db77c0e3fef14814, type: 2}
     icon: {fileID: 21300000, guid: 740414eb914d7f24d93284c462e5e841, type: 3}
     color: {r: 0.797, g: 0, b: 1, a: 1}
@@ -898,6 +937,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: 291ebd7c54c0f5a4198b76a68bd390c7, type: 2}
     icon: {fileID: 21300000, guid: 1d0b80b285fbe4f4ea0ade97b0bcdd4e, type: 3}
     color: {r: 0.20392159, g: 0.31764707, b: 0.54901963, a: 1}
@@ -923,6 +963,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: a4326b2aa97d35c4ba3092cfb84853bf, type: 2}
     icon: {fileID: 21300000, guid: 0bde4e7d4d9df114dadf786b70d31f7e, type: 3}
     color: {r: 0.94509804, g: 0.39607844, b: 0.19607843, a: 1}
@@ -948,6 +989,7 @@ MonoBehaviour:
       multipleJump: 0
       extraJumps: 0
       slowFall: 0
+    abilities: []
     material: {fileID: 2100000, guid: ae828f25aa7242845823b83f788b7324, type: 2}
     icon: {fileID: 21300000, guid: acda04aa0ccda2e4596176fd7fa5b213, type: 3}
     color: {r: 0.3803922, g: 0.3019608, b: 0.32941177, a: 1}

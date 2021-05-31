@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+using System.Reflection;
 using Sanicball.Data;
 using Sanicball.UI;
 using Sanicball.Logic;
@@ -109,7 +111,7 @@ namespace Sanicball.Gameplay
 		[System.NonSerialized]
         public bool canMove = true;
         private BallControlInput input;
-        private bool grounded = false;
+        public bool grounded = false;
         private float groundedTimer = 0;
         private float upResetTimer = 0;
         private DriftySmoke smoke;
@@ -176,10 +178,14 @@ namespace Sanicball.Gameplay
 		[System.NonSerialized]
 		public string characterName;
 
-        public void Jump(bool hold)
+        public void Jump(bool hold, bool ignoreAbilities = false)
         {
+            if(GetComponents<IAbilityJumpOverride>().Length > 0 && !ignoreAbilities) {
+                GetComponents<IAbilityJumpOverride>().ToList().ForEach(c => c.Jump(this, hold));
+                return;
+            }
             if(canMove) { //possible movement section
-                if ((grounded || jumpsRemaining > 0) && !hold) {
+                if (grounded && !hold) {
                     float scalar = Vector3.Dot((-gravDir).normalized, rb.velocity.normalized);
                     if (scalar < 0)
                         rb.velocity -= (-gravDir) * scalar * rb.velocity.magnitude;
@@ -188,7 +194,7 @@ namespace Sanicball.Gameplay
 
                     //if (grounded)
                     //else
-                    //            jumpDir = new Vector3(Up.x * (-gravDir.normalized.x), Up.y * (-gravDir.normalized.y), Up.z * (-gravDir.normalized.z));
+                    //            jumpDir = newgr Vector3(Up.x * (-gravDir.normalized.x), Up.y * (-gravDir.normalized.y), Up.z * (-gravDir.normalized.z));
 
 
                     //rb.AddForce((grounded ? Up : -gravDir.normalized) * characterStats.jumpHeight, ForceMode.Impulse);
@@ -196,9 +202,6 @@ namespace Sanicball.Gameplay
                     if (sounds.Jump != null)
                     {
                         sounds.Jump.Play();
-                    }
-                    if(!grounded){
-                        jumpsRemaining--;
                     }
                     grounded = false;
                 }
@@ -458,10 +461,33 @@ namespace Sanicball.Gameplay
                     }
                 }
             }
+
+            foreach (CharacterAbility ability in c.abilities) {
+                string scriptName = ability.script.name;
+
+                Type t = Assembly.GetExecutingAssembly().GetType(scriptName);
+                Type[] primitiveTypes = new Type[] { typeof(int), typeof(long), typeof(float), typeof(double), typeof(bool), typeof(string) };
+                if (t != null && t.GetInterfaces().ToList().Any(i => i == typeof(IAbility) || i.GetInterface("IAbility") != null)) {
+                    var component = gameObject.AddComponent(t);
+                    int fieldIndex = 0;
+                    t.GetFields().Where(f => f.GetCustomAttribute<ExposeToCharacterAttribute>() != null).ToList().ForEach(f => {
+                        string paramValue = ability.parameters[fieldIndex].name;
+                        if(primitiveTypes.Contains(f.FieldType)) paramValue = ((PrimitiveParamValue)ability.parameters[fieldIndex]).paramValue;
+                        var value = typeof(string).GetExtensionMethod("As").MakeGenericMethod(f.FieldType).Invoke(null, new object[] { paramValue });
+                        //          ^ get type of  ^ get "As" mehod         ^ Generalize it for            ^ Invoke it for the current parameter string
+                        //            string                                  the type "t"
+                        f.SetValue(component, value);
+                        fieldIndex++;
+                    });
+                }
+            }
         }
 
         private void FixedUpdate()
         {
+            if (GetComponents<IAbilityUpdate>().Length > 0) {
+                GetComponents<IAbilityUpdate>().ToList().ForEach(c => c.FixedUpdate(this));
+            }
             if(cycleMaterialColors) {
                 if (materialCycleTimer <= 0) {
                     GetComponent<Renderer>().material.color = materialColors[materialColorIndex];
@@ -543,6 +569,9 @@ namespace Sanicball.Gameplay
 
         private void Update()
         {
+            if (GetComponents<IAbilityUpdate>().Length > 0) {
+                GetComponents<IAbilityUpdate>().ToList().ForEach(c => c.Update(this));
+            }
             //Rolling sounds
             if (grounded)
             {
@@ -683,8 +712,10 @@ namespace Sanicball.Gameplay
             //Enable grounded and reset timer
             grounded = true;
             groundedTimer = 0;
-			jumpsRemaining = extraJumps;
             Up = c.contacts[0].normal;
+            if (GetComponents<IAbilityJumpOverride>().Length > 0) {
+                GetComponents<IAbilityJumpOverride>().ToList().ForEach(c => c.TouchGround(this));
+            }
         }
 
         private void OnCollisionExit(Collision c)

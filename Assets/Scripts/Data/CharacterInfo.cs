@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+
+using UnityEngine;
 using SanicballCore;
 
 namespace Sanicball.Data
@@ -9,6 +11,7 @@ namespace Sanicball.Data
         public string name;
         public string artBy;
         public BallStats stats;
+        public CharacterAbility[] abilities;
         public Material material;
         public Sprite icon;
         public Color color = Color.white;
@@ -24,5 +27,13 @@ namespace Sanicball.Data
         public Mesh collisionMesh = null;
 		public CharacterTier tier = CharacterTier.Normal;
         public bool hidden = false;
+    }
+
+    [System.Serializable]
+    public class CharacterAbility {
+        public UnityEngine.Object script;
+        public UnityEngine.Object[] parameters;
+        public string[] parameterTypes;
+        public UnityEngine.Object[] dummyObjects;
     }
 }
