@@ -18,6 +18,7 @@ public class CreditsManager : MonoBehaviour {
     public GenesisFade fader;
     bool countLoops = false;
     int transitionIndex = 0;
+    public AudioSource music;
 
     void Start() {
         StartCoroutine(StartDelayed());
@@ -33,6 +34,22 @@ public class CreditsManager : MonoBehaviour {
         yield return new WaitForSeconds(endDelaySeconds);
         countLoops = false;
         yield return SceneManager.LoadSceneAsync(menuScene);
+    }
+
+    IEnumerator UserEnded() {
+        countLoops = false;
+        yield return fader.Fade();
+        for (float i = 1; i >= 0; i -= 0.05f) {
+            music.volume = i;
+            yield return new WaitForSeconds(0.025f);
+        }
+        SceneManager.LoadScene(menuScene);
+    }
+
+    void Update() {
+        if(Input.GetKeyDown(KeyCode.Escape)) {
+            StartCoroutine(UserEnded());
+        }
     }
 
     void FixedUpdate() {

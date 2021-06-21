@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 138764, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_Name
-      value: Join by IP adress button
+      value: ButtonControlSingleText_Sonic1
       objectReference: {fileID: 0}
     - target: {fileID: 9588452, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_Controller
@@ -41,12 +41,20 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: 3613f8bdf4dae0f4eb3c2d55c6a50803,
         type: 3}
     - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451262, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11478396, guid: e5d237d0846d27944a3a24718ef6c22f, type: 3}
       propertyPath: m_Transition

@@ -2061,6 +2061,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1080419556}
     stayTime: 300
   fader: {fileID: 9321866}
+  music: {fileID: 0}
 --- !u!4 &1040547369
 Transform:
   m_ObjectHideFlags: 0
@@ -2930,6 +2931,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360316284}
   m_CullTransparentMesh: 1
+--- !u!82 &1378271763 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8287262, guid: 2d986dc6adff9184a8b6f493d24b850a,
+    type: 3}
+  m_PrefabInstance: {fileID: 720993399}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1436661608
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,10 +4653,6 @@ MonoBehaviour:
     stayTime: 230
   - gameObject: {fileID: 1069523897}
     stayTime: 130
-  - gameObject: {fileID: 1702403922}
-    stayTime: 230
-  - gameObject: {fileID: 604024793}
-    stayTime: 130
   - gameObject: {fileID: 676170543}
     stayTime: 350
   - gameObject: {fileID: 868775694}
@@ -4663,10 +4666,11 @@ MonoBehaviour:
   - gameObject: {fileID: 940813420}
     stayTime: 420
   - gameObject: {fileID: 1274330722}
-    stayTime: 420
+    stayTime: 600
   - gameObject: {fileID: 1080419556}
-    stayTime: 420
+    stayTime: 600
   fader: {fileID: 9321866}
+  music: {fileID: 1378271763}
 --- !u!4 &2134552303
 Transform:
   m_ObjectHideFlags: 0

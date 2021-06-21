@@ -4,6 +4,7 @@ using System.IO;
 using Newtonsoft.Json;
 using SanicballCore;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Sanicball.Data
 {
@@ -135,6 +136,13 @@ namespace Sanicball.Data
             {
                 Destroy(gameObject);
             }
+            SceneManager.sceneLoaded += (Scene scene, LoadSceneMode mode) => {
+                if (scene.buildIndex == 1) { // Menu scene
+                    if (DateTime.Now.Month == 6 && DateTime.Now.Day >= 21 && DateTime.Now.Day <= 25) {
+                        SceneManager.LoadScene("Menu_Sonic1");
+                    }
+                }
+            };
         }
 
         private void OnEnable()

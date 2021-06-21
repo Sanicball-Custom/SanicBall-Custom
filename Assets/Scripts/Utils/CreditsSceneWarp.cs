@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CreditsSceneWarp : MonoBehaviour {
-    public GenesisFade fader;
+    public GenesisFadePostProcessing fader;
     
     public void GoToCreditsScene(string sceneName) {
         StartCoroutine(Warp(sceneName));
