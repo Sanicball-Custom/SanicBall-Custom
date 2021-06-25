@@ -138,7 +138,7 @@ namespace Sanicball.Data
             }
             SceneManager.sceneLoaded += (Scene scene, LoadSceneMode mode) => {
                 if (scene.buildIndex == 1) { // Menu scene
-                    if (DateTime.Now.Month == 6 && DateTime.Now.Day >= 21 && DateTime.Now.Day <= 25) {
+                    if (DateTime.Now.Month >= 6 && DateTime.Now.Month <= 7) {
                         SceneManager.LoadScene("Menu_Sonic1");
                     }
                 }

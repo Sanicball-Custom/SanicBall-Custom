@@ -391,7 +391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &74872301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,7 +595,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 74872303}
+  m_Camera: {fileID: 1738282032}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2060,7 +2060,7 @@ MonoBehaviour:
     stayTime: 300
   - gameObject: {fileID: 1080419556}
     stayTime: 300
-  fader: {fileID: 9321866}
+  fader: {fileID: 0}
   music: {fileID: 0}
 --- !u!4 &1040547369
 Transform:
@@ -2367,7 +2367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1166405285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4089,6 +4089,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcbc2f216b4791343a35665ee26ac6b8, type: 3}
+--- !u!20 &1738282032 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2017312, guid: ceb67d3ed990bc34bbbac27fe9ceb383,
+    type: 3}
+  m_PrefabInstance: {fileID: 2113940626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1779782433
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,6 +4500,69 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1 &2081664338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081664341}
+  - component: {fileID: 2081664340}
+  - component: {fileID: 2081664339}
+  m_Layer: 0
+  m_Name: FadeVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2081664339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081664338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec836397fdb8234a84c442296ebdebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 25
+  unfadeOnStart: 0
+--- !u!114 &2081664340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081664338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 5c6d41c13342dd748b58859f3e52e273, type: 2}
+--- !u!4 &2081664341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081664338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2113940626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4556,6 +4625,11 @@ PrefabInstance:
     - target: {fileID: 11449854, guid: ceb67d3ed990bc34bbbac27fe9ceb383, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130209498875338973, guid: ceb67d3ed990bc34bbbac27fe9ceb383,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceb67d3ed990bc34bbbac27fe9ceb383, type: 3}
@@ -4669,7 +4743,7 @@ MonoBehaviour:
     stayTime: 600
   - gameObject: {fileID: 1080419556}
     stayTime: 600
-  fader: {fileID: 9321866}
+  fader: {fileID: 2081664339}
   music: {fileID: 1378271763}
 --- !u!4 &2134552303
 Transform:

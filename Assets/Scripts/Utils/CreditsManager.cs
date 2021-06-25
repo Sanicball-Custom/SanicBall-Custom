@@ -15,7 +15,7 @@ public class CreditsManager : MonoBehaviour {
     public string menuScene = "Menu_Sonic1";
     int fixedUpdateLoops = 0;
     public Transition[] transitionElements;
-    public GenesisFade fader;
+    public GenesisFadePostProcessing fader;
     bool countLoops = false;
     int transitionIndex = 0;
     public AudioSource music;
