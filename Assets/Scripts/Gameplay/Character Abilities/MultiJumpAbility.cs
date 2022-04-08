@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TripleJumpAbility : MonoBehaviour, IAbilityJumpOverride {
+public class MultiJumpAbility : MonoBehaviour, IAbilityJumpOverride {
     [ExposeToCharacter]
     public int extraJumps = 2;
     private int remainingJumps = 2;

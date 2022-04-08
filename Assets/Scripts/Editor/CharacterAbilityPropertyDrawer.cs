@@ -89,12 +89,14 @@ public class CharacterAbilityPropertyDrawer : PropertyDrawer {
             //Debug.Log(subAssetPath);
 
             AssetDatabase.LoadAllAssetRepresentationsAtPath(subAssetPath).ToList().ForEach(el => {
-                if(el != null) AssetDatabase.RemoveObjectFromAsset(el);
-                AssetDatabase.ImportAsset(AssetDatabase.GetAssetPath(el));
+                if (el.name.StartsWith("ch" + characterIndex)) {
+                    if (el != null) AssetDatabase.RemoveObjectFromAsset(el);
+                    AssetDatabase.ImportAsset(AssetDatabase.GetAssetPath(el), ImportAssetOptions.ForceUpdate);
+                }
             });
             AssetDatabase.SaveAssets();
 
-            AssetDatabase.ImportAsset(subAssetPath);
+            AssetDatabase.ImportAsset(subAssetPath, ImportAssetOptions.ForceUpdate);
 
             paramsProperty.ClearArray();// = new object[0];
             typesProperty.ClearArray();// = new Type[0];

@@ -736,7 +736,7 @@ MonoBehaviour:
     abilities:
     - script: {fileID: 11500000, guid: c927f4db6fa689641a20012c99e29bd6, type: 3}
       parameters:
-      - {fileID: -7543244775257321191, guid: dacf76956edc62748a5137a6400bb27e, type: 2}
+      - {fileID: 6195041301990077856, guid: dacf76956edc62748a5137a6400bb27e, type: 2}
       parameterTypes: []
       dummyObjects: []
     material: {fileID: 2100000, guid: b480fc4445162454d87d3bee4182861c, type: 2}
@@ -857,7 +857,7 @@ MonoBehaviour:
     abilities:
     - script: {fileID: 11500000, guid: c927f4db6fa689641a20012c99e29bd6, type: 3}
       parameters:
-      - {fileID: -6390588164826426381, guid: dacf76956edc62748a5137a6400bb27e, type: 2}
+      - {fileID: -8741926058280066689, guid: dacf76956edc62748a5137a6400bb27e, type: 2}
       parameterTypes: []
       dummyObjects: []
     material: {fileID: 2100000, guid: 0ff4aa24285fcc54f98731b8b7307b28, type: 2}
@@ -980,6 +980,32 @@ MonoBehaviour:
     tier: 0
     hidden: 0
   - name: Beeg Chungus
+    artBy: Uhh... Warner Bros?
+    stats:
+      rollSpeed: 400
+      airSpeed: 100
+      jumpHeight: 14
+      grip: 0
+      multipleJump: 0
+      extraJumps: 0
+      slowFall: 0
+    abilities: []
+    material: {fileID: 2100000, guid: ae828f25aa7242845823b83f788b7324, type: 2}
+    icon: {fileID: 21300000, guid: acda04aa0ccda2e4596176fd7fa5b213, type: 3}
+    color: {r: 0.3803922, g: 0.3019608, b: 0.32941177, a: 1}
+    minimapIcon: {fileID: 21300000, guid: d88caae551204084b99b2faf6ba05ee7, type: 3}
+    trail: {fileID: 2100000, guid: 923a8a476938f6a468f1eb05c81515a4, type: 2}
+    ballSize: 3
+    ballProportions: {x: 1, y: 1, z: 1}
+    ballRotation: {x: 0, y: 0, z: 0, w: 1}
+    cycleColors: 0
+    colorsToCycle: []
+    colorsPerSecond: 1
+    alternativeMesh: {fileID: 0}
+    collisionMesh: {fileID: 0}
+    tier: 1
+    hidden: 0
+  - name: AAAA
     artBy: Uhh... Warner Bros?
     stats:
       rollSpeed: 400

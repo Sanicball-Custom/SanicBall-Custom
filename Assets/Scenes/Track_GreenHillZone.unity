@@ -22437,7 +22437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11410174, guid: 15c7ed3ff76289b4680e4b9f1f52fb22, type: 3}
       propertyPath: characterId
-      value: 26
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15c7ed3ff76289b4680e4b9f1f52fb22, type: 3}
@@ -42858,10 +42858,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ActiveData
       objectReference: {fileID: 0}
-    - target: {fileID: 153034, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 449212, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -42905,15 +42901,6 @@ PrefabInstance:
     - target: {fileID: 449212, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
-      propertyPath: characters.Array.data[31].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: acda04aa0ccda2e4596176fd7fa5b213,
-        type: 3}
-    - target: {fileID: 11452216, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
-      propertyPath: characters.Array.data[31].tier
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1320b5449ace84db564be1a1ddd206, type: 3}
