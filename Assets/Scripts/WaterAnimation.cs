@@ -18,7 +18,7 @@ namespace Sanicball
             {
                 offset += new Vector2(0, -1);
             }
-            GetComponent<Renderer>().material.SetTextureOffset("_MainTex", offset);
+            GetComponent<Renderer>().material.SetTextureOffset("_BaseMap", offset);
         }
     }
 }
