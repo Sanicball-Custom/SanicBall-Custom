@@ -1,9 +1,11 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using SanicballCore;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 
 namespace Sanicball.Data
@@ -89,8 +91,10 @@ namespace Sanicball.Data
         //public static Song[] ShrekMusic {get{return instance.shrekMusic;}}
         //public static Song[] KirbyMusic {get{return instance.kirbyMusic;} }
         //public static Song[] WahndewsMusic { get { return instance.windowsMusic; } }
-        //public static Song[] KhumKhumMusic { get { return instance.khumkhumMusic; } }
+        //public static Song[] KhumKhumMusic { get { return instance.khumkhumMusic; } },
         //public static Song[] MattMusic { get { return instance.mattMusic; } }
+
+        public static List<Song> songs = new List<Song>();
         public static CharacterDependantPlaylists CharacterSpecificMusic { get { return instance.characterSpecificMusic; } }
 
         public static bool ESportsFullyReady {
@@ -125,6 +129,7 @@ namespace Sanicball.Data
         #region Unity functions
 
         //Make sure there is never more than one GameData object
+        [Obsolete]
         private void Awake()
         {
             if (instance == null)
@@ -136,6 +141,20 @@ namespace Sanicball.Data
             {
                 Destroy(gameObject);
             }
+
+            string path = Path.Join(Application.dataPath, "Music");
+            print(path); //here
+            if (!Directory.Exists(path))
+                Directory.CreateDirectory(path);
+
+            foreach (string filename in Directory.GetFiles(path))
+            {
+                print(filename); //here
+                if (!filename.EndsWith(".meta"))
+                    StartCoroutine(AddAudioToPlaylist(filename));
+            }
+
+
             SceneManager.sceneLoaded += (Scene scene, LoadSceneMode mode) => {
                 if (scene.buildIndex == 1) { // Menu scene
                     if (DateTime.Now.Month >= 6 && DateTime.Now.Month <= 7) {
@@ -144,6 +163,31 @@ namespace Sanicball.Data
                 }
             };
         }
+
+        [Obsolete]
+        private IEnumerator AddAudioToPlaylist(string filename)
+        {
+            WWW request = GetAudioFromFile(filename);
+            yield return request;
+
+            AudioClip audioClip = request.GetAudioClip();
+            audioClip.name = "song";
+
+            Song song = new Song();
+            song.name = "song";
+            song.clip = audioClip;
+
+            songs.Add(song);
+        }
+
+        [Obsolete]
+        private WWW GetAudioFromFile(string filepath)
+        {
+            WWW request = new WWW(filepath);
+            return request;
+        }
+
+       
 
         private void OnEnable()
         {

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Sanicball.UI;
 using Sanicball.Logic;
+using System.IO;
 
 namespace Sanicball
 {
@@ -46,6 +47,8 @@ namespace Sanicball
         private AudioSource aSource;
         private Sanicball.Logic.RaceManager raceManager;
 
+        //private string path;
+
         public void Play()
         {
             Play(playlist[currentSongID].name);
@@ -70,8 +73,22 @@ namespace Sanicball
             isPlaying = false;
         }
 
+        /*private void Awake() gonna do it on start of game
+        {
+            path = Path.Join(Application.dataPath, "Music");
+            
+            if (!Directory.Exists(path))
+                Directory.CreateDirectory(path); //add no music warning later
+
+            foreach (string filename in Directory.GetFiles(path))
+            {
+                AudioClip clip = AudioClip.Create(filename);
+            }
+        }*/
+
         private void Start()
         {
+            playlist = ActiveData.songs.ToArray();
             originalPlaylist = playlist;
             playerCanvas = Instantiate(playerCanvasPrefab);
             Instantiate(achievementPrefab);
