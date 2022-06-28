@@ -140,8 +140,10 @@ namespace Sanicball.Data
             else
             {
                 Destroy(gameObject);
+                return; // dont initialize anything
             }
 
+            // Initialize playlist
             string path = Path.Join(Application.dataPath, "Music");
             print(path); //here
             if (!Directory.Exists(path))
@@ -170,11 +172,22 @@ namespace Sanicball.Data
             WWW request = GetAudioFromFile(filename);
             yield return request;
 
+            
+            string name = Path.GetFileNameWithoutExtension(filename);
+            var tagfile = TagLib.File.Create(filename);
+
+            if (tagfile.Tag.Title != null) {
+                name = tagfile.Tag.Title;
+
+                if (tagfile.Tag.Performers.Length > 0)
+                    name = tagfile.Tag.JoinedPerformers + " - " + name;
+            }
+
             AudioClip audioClip = request.GetAudioClip();
-            audioClip.name = "song";
+            audioClip.name = name;
 
             Song song = new Song();
-            song.name = "song";
+            song.name = name;
             song.clip = audioClip;
 
             songs.Add(song);
