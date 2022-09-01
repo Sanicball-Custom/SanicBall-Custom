@@ -114,11 +114,17 @@ namespace Sanicball
                     playlist = p.ToArray();
                 }
             }
-            
 
-            aSource.clip = playlist[0].clip;
-            currentSongID = 0;
-            isPlaying = aSource.isPlaying;
+
+            if (playlist.Length == 0) {
+                gameObject.SetActive(false);
+                return;
+            } else {
+                aSource.clip = playlist[0].clip;
+                currentSongID = 0;
+                isPlaying = aSource.isPlaying;
+            }
+
             if (startPlaying && ActiveData.GameSettings.music)
             {
                 Play();
