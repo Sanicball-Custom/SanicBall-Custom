@@ -2,6 +2,7 @@
 using System.Collections;
 using Sanicball.Data;
 using SanicballCore;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace Sanicball.Gameplay
@@ -128,9 +129,25 @@ namespace Sanicball.Gameplay
             Vector3 lookDir = new Vector3(0, xtargetRotation, ytargetRotation);
 
             //transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(-gravityAngleZ, gravityAngleX, -gravityAngleY) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, gravityAngleY) * Quaternion.Euler(gravityAngleZ, 0, 0) * Quaternion.Euler(0, gravityAngleX, 0) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
+            //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, gravityAngleY) * Quaternion.Euler(gravityAngleZ, 0, 0) * Quaternion.Euler(0, gravityAngleX, 0) * Quaternion.Euler(lookDir) /** Quaternion.Euler(0, xtargetRotation, ytargetRotation)*/, Time.deltaTime * 10 / smoothing);
             ///*if(!Target.useGravity || Target.GetComponent<Ball>().gravDir != Vector3.down)*/ transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(0, xtargetRotation, ytargetRotation) * gravityRot, Time.deltaTime * 2.5f / smoothing);
             //transform.localRotation = Quaternion.Lerp(transform.localRotation, transform.localRotation * , Time.deltaTime * 10 / smoothing);
+
+
+            var cross = Vector3.Cross(Target.GetComponent<Ball>().gravDir, // no clue, just works
+                Vector3.down);
+
+            //var f = cross == Vector3.zero ? AttachedCamera.transform.forward : cross;
+            
+            var newRot = Quaternion.LookRotation(cross, -Target.GetComponent<Ball>().gravDir);
+            
+            
+            var newRotMat = Matrix4x4.Rotate(newRot);
+            var lastRotMat = newRotMat * Matrix4x4.Rotate(Quaternion.Euler(0, xtargetRotation, ytargetRotation));
+            var lastRotQuat = lastRotMat.rotation;
+            // Rotates "vanilla rotation"(lastrotmat right operator) to change the plane of rotation
+            transform.localRotation = Quaternion.Slerp(transform.localRotation, lastRotQuat, Time.deltaTime * 10 / smoothing);
+            //TODO: fix weird rotation jump after entering a trigger
         }
 
         private void LateUpdate()
